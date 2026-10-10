@@ -1,0 +1,34 @@
+{
+  "name": "wonderlab",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w shared && npm run build -w backend && npm run build -w frontend",
+    "typecheck": "npm run build -w shared && npm run typecheck --workspaces",
+    "lint": "eslint .",
+    "test": "npm run build -w shared && vitest run",
+    "db:migrate": "npm run db:migrate -w backend",
+    "db:seed": "npm run build -w shared && npm run db:seed -w backend",
+    "check": "npm run typecheck && npm run lint && npm test",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.56.0",
+    "@types/node": "^22.18.0",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
+    "prettier": "^3.9.9",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.46.0",
+    "vitest": "^5.0.3"
+  },
+  "type": "module"
+}

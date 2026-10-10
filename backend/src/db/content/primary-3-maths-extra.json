@@ -1,0 +1,506 @@
+[
+  {
+    "key": "p3-extra-four-digit-align",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Museum Four Digit Explorer",
+    "focus": "Align thousands, hundreds, tens and ones to add four-digit numbers without regrouping.",
+    "missions": [
+      {
+        "left": 1234,
+        "right": 2143
+      },
+      {
+        "left": 2312,
+        "right": 1425
+      },
+      {
+        "left": 3421,
+        "right": 1256
+      },
+      {
+        "left": 4132,
+        "right": 2365
+      }
+    ],
+    "quiz": [
+      {
+        "left": 1523,
+        "right": 2234,
+        "context": "At a museum learning event in Kuala Lumpur, Aina has 1523 visitor stickers and receives 2234 more. How many visitor stickers does Aina have altogether?"
+      },
+      {
+        "left": 3142,
+        "right": 1625,
+        "context": "At a museum learning event in Kuala Lumpur, Wei Jie has 3142 visitor stickers and receives 1625 more. How many visitor stickers does Wei Jie have altogether?"
+      },
+      {
+        "left": 4213,
+        "right": 2574,
+        "context": "At a museum learning event in Kuala Lumpur, Arun has 4213 visitor stickers and receives 2574 more. How many visitor stickers does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-linked-carries",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "City Lights Regrouping Run",
+    "focus": "Regroup in consecutive columns when adding four-digit numbers with totals below 10000.",
+    "missions": [
+      {
+        "left": 1768,
+        "right": 2487
+      },
+      {
+        "left": 2879,
+        "right": 1356
+      },
+      {
+        "left": 3586,
+        "right": 2267
+      },
+      {
+        "left": 4697,
+        "right": 3188
+      }
+    ],
+    "quiz": [
+      {
+        "left": 1578,
+        "right": 2267,
+        "context": "At a lantern craft event in Penang, Aina has 1578 paper shapes and receives 2267 more. How many paper shapes does Aina have altogether?"
+      },
+      {
+        "left": 2689,
+        "right": 3156,
+        "context": "At a lantern craft event in Penang, Wei Jie has 2689 paper shapes and receives 3156 more. How many paper shapes does Wei Jie have altogether?"
+      },
+      {
+        "left": 3768,
+        "right": 2179,
+        "context": "At a lantern craft event in Penang, Arun has 3768 paper shapes and receives 2179 more. How many paper shapes does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-thousand-crossing",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "River Crossing Thousands",
+    "focus": "Cross the next thousand by adding hundreds and tens to a three- or four-digit number.",
+    "missions": [
+      {
+        "left": 950,
+        "right": 180
+      },
+      {
+        "left": 1860,
+        "right": 270
+      },
+      {
+        "left": 2780,
+        "right": 350
+      },
+      {
+        "left": 3690,
+        "right": 440
+      }
+    ],
+    "quiz": [
+      {
+        "left": 970,
+        "right": 160,
+        "context": "At a river clean-up activity in Pahang, Aina has 970 collection tags and receives 160 more. How many collection tags does Aina have altogether?"
+      },
+      {
+        "left": 1880,
+        "right": 250,
+        "context": "At a river clean-up activity in Pahang, Wei Jie has 1880 collection tags and receives 250 more. How many collection tags does Wei Jie have altogether?"
+      },
+      {
+        "left": 2790,
+        "right": 340,
+        "context": "At a river clean-up activity in Pahang, Arun has 2790 collection tags and receives 340 more. How many collection tags does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-friendly-thousands",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Friendly Number Forest Route",
+    "focus": "Round a number close to a whole thousand up, add, then subtract the small adjustment.",
+    "missions": [
+      {
+        "left": 1999,
+        "right": 124
+      },
+      {
+        "left": 2998,
+        "right": 235
+      },
+      {
+        "left": 3997,
+        "right": 346
+      },
+      {
+        "left": 4996,
+        "right": 457
+      }
+    ],
+    "quiz": [
+      {
+        "left": 1998,
+        "right": 236,
+        "context": "At a school reading campaign in Selangor, Aina has 1998 reading points and receives 236 more. How many reading points does Aina have altogether?"
+      },
+      {
+        "left": 2999,
+        "right": 347,
+        "context": "At a school reading campaign in Selangor, Wei Jie has 2999 reading points and receives 347 more. How many reading points does Wei Jie have altogether?"
+      },
+      {
+        "left": 3996,
+        "right": 458,
+        "context": "At a school reading campaign in Selangor, Arun has 3996 reading points and receives 458 more. How many reading points does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-double-thousands",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Double Treasure Delivery",
+    "focus": "Double four-digit quantities using place value, with totals below 10000.",
+    "missions": [
+      {
+        "left": 1125,
+        "right": 1125
+      },
+      {
+        "left": 2215,
+        "right": 2215
+      },
+      {
+        "left": 3325,
+        "right": 3325
+      },
+      {
+        "left": 4445,
+        "right": 4445
+      }
+    ],
+    "quiz": [
+      {
+        "left": 1235,
+        "right": 1235,
+        "context": "At a community learning event in Kuching, Aina has 1235 reward tokens and receives 1235 more. How many reward tokens does Aina have altogether?"
+      },
+      {
+        "left": 2345,
+        "right": 2345,
+        "context": "At a community learning event in Kuching, Wei Jie has 2345 reward tokens and receives 2345 more. How many reward tokens does Wei Jie have altogether?"
+      },
+      {
+        "left": 3455,
+        "right": 3455,
+        "context": "At a community learning event in Kuching, Arun has 3455 reward tokens and receives 3455 more. How many reward tokens does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-four-digit-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Heritage Trail Place Values",
+    "focus": "Subtract four-digit numbers without exchanging and check with addition.",
+    "missions": [
+      {
+        "left": 4567,
+        "right": 1234
+      },
+      {
+        "left": 5789,
+        "right": 2345
+      },
+      {
+        "left": 6898,
+        "right": 3521
+      },
+      {
+        "left": 7986,
+        "right": 4563
+      }
+    ],
+    "quiz": [
+      {
+        "left": 5678,
+        "right": 2345,
+        "context": "At a heritage-themed school event in Melaka, Aina has 5678 trail stickers and gives away 2345. How many trail stickers are left?"
+      },
+      {
+        "left": 6789,
+        "right": 2456,
+        "context": "At a heritage-themed school event in Melaka, Wei Jie has 6789 trail stickers and gives away 2456. How many trail stickers are left?"
+      },
+      {
+        "left": 8967,
+        "right": 3524,
+        "context": "At a heritage-themed school event in Melaka, Arun has 8967 trail stickers and gives away 3524. How many trail stickers are left?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-linked-exchanges",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Mountain Trail Exchange Steps",
+    "focus": "Exchange across consecutive place-value columns in four-digit subtraction.",
+    "missions": [
+      {
+        "left": 4321,
+        "right": 1567
+      },
+      {
+        "left": 5432,
+        "right": 2187
+      },
+      {
+        "left": 6543,
+        "right": 3268
+      },
+      {
+        "left": 7654,
+        "right": 4389
+      }
+    ],
+    "quiz": [
+      {
+        "left": 4312,
+        "right": 2156,
+        "context": "At an outdoor learning fair in Sabah, Aina has 4312 activity tokens and gives away 2156. How many activity tokens are left?"
+      },
+      {
+        "left": 5623,
+        "right": 3278,
+        "context": "At an outdoor learning fair in Sabah, Wei Jie has 5623 activity tokens and gives away 3278. How many activity tokens are left?"
+      },
+      {
+        "left": 7834,
+        "right": 4289,
+        "context": "At an outdoor learning fair in Sabah, Arun has 7834 activity tokens and gives away 4289. How many activity tokens are left?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-zero-bridges",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Three Zeroes Bridge Rescue",
+    "focus": "Exchange through zero hundreds, tens and ones when subtracting from a whole thousand.",
+    "missions": [
+      {
+        "left": 4000,
+        "right": 1256
+      },
+      {
+        "left": 5000,
+        "right": 2367
+      },
+      {
+        "left": 6000,
+        "right": 3478
+      },
+      {
+        "left": 7000,
+        "right": 4589
+      }
+    ],
+    "quiz": [
+      {
+        "left": 3000,
+        "right": 1289,
+        "context": "At a recycling campaign in Johor, Aina has 3000 collection stickers and gives away 1289. How many collection stickers are left?"
+      },
+      {
+        "left": 8000,
+        "right": 4567,
+        "context": "At a recycling campaign in Johor, Wei Jie has 8000 collection stickers and gives away 4567. How many collection stickers are left?"
+      },
+      {
+        "left": 9000,
+        "right": 5678,
+        "context": "At a recycling campaign in Johor, Arun has 9000 collection stickers and gives away 5678. How many collection stickers are left?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-near-thousands",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Near Thousands Detective",
+    "focus": "Count up across a thousand to find the difference between nearby numbers.",
+    "missions": [
+      {
+        "left": 3002,
+        "right": 2998
+      },
+      {
+        "left": 4005,
+        "right": 3998
+      },
+      {
+        "left": 5009,
+        "right": 4999
+      },
+      {
+        "left": 6012,
+        "right": 5999
+      }
+    ],
+    "quiz": [
+      {
+        "left": 2004,
+        "right": 1999,
+        "context": "At a school science fair in Terengganu, Aina has 2004 experiment tickets and gives away 1999. How many experiment tickets are left?"
+      },
+      {
+        "left": 5007,
+        "right": 4998,
+        "context": "At a school science fair in Terengganu, Wei Jie has 5007 experiment tickets and gives away 4998. How many experiment tickets are left?"
+      },
+      {
+        "left": 8010,
+        "right": 7999,
+        "context": "At a school science fair in Terengganu, Arun has 8010 experiment tickets and gives away 7999. How many experiment tickets are left?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-supply-balance",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "School Supply Balance Quest",
+    "focus": "Subtract three-digit quantities from four-digit stocks, exchanging where needed.",
+    "missions": [
+      {
+        "left": 1500,
+        "right": 275
+      },
+      {
+        "left": 2400,
+        "right": 486
+      },
+      {
+        "left": 3600,
+        "right": 758
+      },
+      {
+        "left": 4800,
+        "right": 969
+      }
+    ],
+    "quiz": [
+      {
+        "left": 2200,
+        "right": 375,
+        "context": "At a school supply drive in Negeri Sembilan, Aina has 2200 pencil boxes and gives away 375. How many pencil boxes are left?"
+      },
+      {
+        "left": 3400,
+        "right": 628,
+        "context": "At a school supply drive in Negeri Sembilan, Wei Jie has 3400 pencil boxes and gives away 628. How many pencil boxes are left?"
+      },
+      {
+        "left": 4600,
+        "right": 859,
+        "context": "At a school supply drive in Negeri Sembilan, Arun has 4600 pencil boxes and gives away 859. How many pencil boxes are left?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-six-eight-groups",
+    "grade": 3,
+    "operation": "MULTIPLY",
+    "title": "Rainforest Packs Six and Eight",
+    "focus": "Use the six and eight times tables to count equal groups and check by repeated addition.",
+    "missions": [
+      {
+        "left": 7,
+        "right": 6
+      },
+      {
+        "left": 8,
+        "right": 6
+      },
+      {
+        "left": 7,
+        "right": 8
+      },
+      {
+        "left": 9,
+        "right": 8
+      }
+    ],
+    "quiz": [
+      {
+        "left": 9,
+        "right": 6,
+        "context": "At a nature learning camp in Perak, Aina prepares 9 bags with 6 leaf cards in each bag. How many leaf cards are there altogether?"
+      },
+      {
+        "left": 6,
+        "right": 8,
+        "context": "At a nature learning camp in Perak, Wei Jie prepares 6 bags with 8 leaf cards in each bag. How many leaf cards are there altogether?"
+      },
+      {
+        "left": 8,
+        "right": 8,
+        "context": "At a nature learning camp in Perak, Arun prepares 8 bags with 8 leaf cards in each bag. How many leaf cards are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-extra-seven-eight-sharing",
+    "grade": 3,
+    "operation": "DIVIDE",
+    "title": "Seven and Eight Team Supplies",
+    "focus": "Divide exact amounts by seven or eight using known multiplication facts and place value.",
+    "missions": [
+      {
+        "left": 84,
+        "right": 7
+      },
+      {
+        "left": 104,
+        "right": 8
+      },
+      {
+        "left": 98,
+        "right": 7
+      },
+      {
+        "left": 120,
+        "right": 8
+      }
+    ],
+    "quiz": [
+      {
+        "left": 112,
+        "right": 8,
+        "context": "At a school team challenge in Sarawak, Aina shares 112 supply tokens equally among 8 bags. How many supply tokens go in each bag?"
+      },
+      {
+        "left": 105,
+        "right": 7,
+        "context": "At a school team challenge in Sarawak, Wei Jie shares 105 supply tokens equally among 7 bags. How many supply tokens go in each bag?"
+      },
+      {
+        "left": 128,
+        "right": 8,
+        "context": "At a school team challenge in Sarawak, Arun shares 128 supply tokens equally among 8 bags. How many supply tokens go in each bag?"
+      }
+    ]
+  }
+]

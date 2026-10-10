@@ -1,0 +1,181 @@
+.app-shell .localized-pair {
+  display: inline-flex;
+  flex-direction: column;
+  vertical-align: middle;
+  gap: 0.16em;
+  max-width: 100%;
+  min-width: 0;
+  line-height: 1.3;
+}
+.app-shell .localized-zh {
+  font-size: 0.82em;
+  font-weight: 600;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.app-shell[data-ui-language='zh'],
+.app-shell[data-ui-language='en-zh'] {
+  font-family: 'Nunito', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+.app-shell .language-control {
+  position: relative;
+  flex-shrink: 0;
+}
+.app-shell .language-select {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 9px;
+  border: 2px solid var(--portal-line, var(--line));
+  border-radius: 13px;
+  background: #fff;
+  color: var(--ink);
+}
+.app-shell .language-select select {
+  font: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  border: 0;
+  padding: 3px 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  max-width: 110px;
+  min-width: 40px;
+}
+.app-shell .language-select select:focus-visible {
+  outline: 2px solid var(--purple);
+  outline-offset: 3px;
+}
+.app-shell .language-error {
+  position: absolute;
+  z-index: 60;
+  right: 0;
+  top: calc(100% + 8px);
+  width: min(300px, 80vw);
+  background: #fff;
+  color: var(--ink);
+  border: 2px solid #e99797;
+  box-shadow: 0 8px 20px #24324f22;
+  border-radius: 14px;
+  padding: 12px;
+  font-size: 13px;
+}
+.app-shell .language-error button {
+  display: block;
+  margin-top: 8px;
+  font-weight: 800;
+  color: var(--purple);
+}
+.app-shell[data-ui-language='en-zh'] .nav-item {
+  min-height: 54px;
+  height: auto;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.app-shell[data-ui-language='en-zh'] .subject-nav a {
+  align-items: center;
+  min-height: 48px;
+}
+.app-shell[data-ui-language='en-zh'] .button {
+  min-height: 56px;
+  height: auto;
+  white-space: normal;
+}
+.app-shell[data-ui-language='en-zh'] .kids-hero {
+  min-height: 405px;
+  height: auto;
+}
+.app-shell[data-ui-language='en-zh'] .hero-copy h2 {
+  font-size: clamp(30px, 3.4vw, 45px);
+}
+.app-shell[data-ui-language='en-zh'] .subject-world {
+  min-height: 182px;
+  height: auto;
+}
+.app-shell[data-ui-language='en-zh'] .topbar {
+  min-height: 90px;
+  height: auto;
+}
+.app-shell[data-ui-language='en-zh'] .lesson-thumbnail .thumbnail-format {
+  max-width: calc(100% - 40px);
+  height: auto;
+  white-space: normal;
+}
+.app-shell[data-ui-language='en-zh'] .stat-card {
+  min-height: 115px;
+}
+.app-shell[data-ui-language='en-zh'] .input-modes button {
+  white-space: normal;
+  min-height: 75px;
+  height: auto;
+}
+.app-shell[data-ui-language='en-zh'] .card-footer {
+  align-items: center;
+  gap: 8px;
+}
+.app-shell[data-ui-language='en-zh'] .timeline-track button {
+  min-width: 100px;
+}
+.app-shell .localized-pair span {
+  overflow-wrap: anywhere;
+}
+.app-shell .topbar-actions {
+  flex-wrap: wrap;
+}
+@media (max-width: 1250px) {
+  .app-shell[data-ui-language='en-zh'] .top-search {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .topbar {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .app-shell .topbar-actions {
+    margin-left: auto;
+    gap: 8px;
+  }
+  .app-shell .language-select {
+    padding: 5px 7px;
+  }
+  .app-shell[data-ui-language='en-zh'] .kids-hero {
+    min-height: 630px;
+  }
+
+  .app-shell[data-ui-language='en-zh'] .subject-world {
+    min-height: 195px;
+  }
+  .app-shell[data-ui-language='en-zh'] .create-form-footer {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+  }
+  .app-shell[data-ui-language='en-zh'] .player-controls {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 450px) {
+  .app-shell .topbar-actions .top-stat.xp {
+    display: none;
+  }
+  .app-shell[data-ui-language='en-zh'] .page-heading h1 {
+    font-size: 28px;
+  }
+  .app-shell[data-ui-language='en-zh'] .hero-copy h2 {
+    font-size: 31px;
+  }
+  .app-shell[data-ui-language='en-zh'] .hero-copy > p {
+    font-size: 15px;
+  }
+  .app-shell[data-ui-language='en-zh'] .hero-cta-row {
+    flex-wrap: wrap;
+  }
+  .app-shell .language-select select {
+    max-width: 100px;
+  }
+}

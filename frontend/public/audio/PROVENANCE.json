@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-10-08",
+  "generator": "Local ComfyUI audio pipeline / ACE-Step",
+  "externalLibraryDownloads": false,
+  "tracks": [
+    {
+      "id": "curiosity-garden",
+      "file": "curiosity-garden.mp3",
+      "referenceNumber": "WL-kids-curiosity-garden-20261008-v1",
+      "model": "ace-step-v1.5-turbo",
+      "modelLicenceReportedByGenerator": "apache-2.0",
+      "request": {
+        "referenceNumber": "WL-kids-curiosity-garden-20261008-v1",
+        "prompt": "Gentle warm felt piano and soft marimba instrumental background for a colourful children learning game. Calm curious friendly playful mood, spacious simple major-key melody, mellow rounded notes, delicate acoustic ukulele plucks, warm soft sustained harmony, sparse light brushed percussion, steady relaxed tempo, understated consistent soft dynamics, a seamless repeating background instrumental.",
+        "seconds": 72,
+        "bpm": 80,
+        "seed": 10801,
+        "loop": true,
+        "timesignature": "4",
+        "keyscale": "C major",
+        "lyrics": "[instrumental]",
+        "steps": 16,
+        "sampleRate": 48000,
+        "mp3": true,
+        "peakDb": -6
+      },
+      "durationSeconds": 72.0,
+      "bars": 24,
+      "loopSeamDb": -9.2,
+      "postprocessing": {
+        "constantGainDb": -5.94,
+        "codec": "MP3",
+        "bitrateKbps": 160,
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "measuredIntegratedLufs": -24.45,
+      "measuredTruePeakDb": -11.05,
+      "sha256": "4589df7ce58d1ad5e30048bd5446942dbcaea09fb04e875d96d32848c4ed3332"
+    },
+    {
+      "id": "little-explorer",
+      "file": "little-explorer.mp3",
+      "referenceNumber": "WL-kids-little-explorer-20261008-v1",
+      "model": "ace-step-v1.5-turbo",
+      "modelLicenceReportedByGenerator": "apache-2.0",
+      "request": {
+        "referenceNumber": "WL-kids-little-explorer-20261008-v1",
+        "prompt": "Soft whimsical acoustic instrumental for young children exploring a friendly educational adventure. Gentle ukulele fingerpicking, mellow piano and light wooden marimba melody, warm cosy major harmonies, simple memorable tune, spacious arrangement, delicate brushed rhythmic pulse, steady gentle playful feel, smooth restrained dynamics, seamless repeating background instrumental.",
+        "seconds": 65.454545,
+        "bpm": 88,
+        "seed": 10802,
+        "loop": true,
+        "timesignature": "4",
+        "keyscale": "G major",
+        "lyrics": "[instrumental]",
+        "steps": 16,
+        "sampleRate": 48000,
+        "mp3": true,
+        "peakDb": -6
+      },
+      "durationSeconds": 65.455,
+      "bars": 24,
+      "loopSeamDb": -59.8,
+      "postprocessing": {
+        "constantGainDb": -3.55,
+        "codec": "MP3",
+        "bitrateKbps": 160,
+        "sampleRate": 48000,
+        "channels": 2
+      },
+      "measuredIntegratedLufs": -24.44,
+      "measuredTruePeakDb": -9.98,
+      "sha256": "5365fbb7f3d39451c8020ea2f4152fd67ca8171b28f805eb9389596cf6305d45"
+    }
+  ]
+}

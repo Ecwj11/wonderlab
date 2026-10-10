@@ -1,0 +1,11 @@
+node_modules
+**/.next
+**/dist
+.git
+.local
+**/.env
+**/.env.local
+backend/storage
+.playwright-mcp
+playwright-report
+test-results

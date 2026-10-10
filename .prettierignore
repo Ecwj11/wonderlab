@@ -1,0 +1,8 @@
+node_modules
+.next
+dist
+.local
+backend/storage
+package-lock.json
+frontend/AGENTS.md
+frontend/CLAUDE.md

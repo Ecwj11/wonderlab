@@ -1,0 +1,602 @@
+[
+  {
+    "key": "p3-library-place-value-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Ipoh Library Shelf Quest",
+    "focus": "Add each place-value column without regrouping to connect thousands, hundreds, tens, and ones.",
+    "missions": [
+      { "left": 1243, "right": 2304 },
+      { "left": 3521, "right": 1426 },
+      { "left": 2135, "right": 3242 },
+      { "left": 4312, "right": 2153 }
+    ],
+    "quiz": [
+      {
+        "left": 1432,
+        "right": 2156,
+        "context": "An Ipoh library has 1432 storybooks and receives 2156 more storybooks; how many storybooks does it have altogether?"
+      },
+      {
+        "left": 3214,
+        "right": 1523,
+        "context": "A reading team sorts 3214 books on Monday and 1523 books on Tuesday; how many books does it sort altogether?"
+      },
+      {
+        "left": 2053,
+        "right": 1324,
+        "context": "One library room holds 2053 books and another holds 1324 books; how many books do both rooms hold altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-park-ones-regroup-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Penang Park Seed Trail",
+    "focus": "Regroup ten ones as one ten when the ones column reaches ten or more.",
+    "missions": [
+      { "left": 1268, "right": 1427 },
+      { "left": 2346, "right": 1538 },
+      { "left": 3129, "right": 2216 },
+      { "left": 4517, "right": 1328 }
+    ],
+    "quiz": [
+      {
+        "left": 1456,
+        "right": 1327,
+        "context": "Park volunteers collect 1456 seeds in one area and 1327 seeds in another area; how many seeds do they collect altogether?"
+      },
+      {
+        "left": 2318,
+        "right": 1546,
+        "context": "A Penang nursery has 2318 seedlings and receives 1546 more seedlings; how many seedlings does it have altogether?"
+      },
+      {
+        "left": 3427,
+        "right": 2158,
+        "context": "Children record 3427 steps on one park trail and 2158 steps on the next trail; how many steps do they record altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-recycling-tens-regroup-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Klang Recycling Depot",
+    "focus": "Regroup ten tens as one hundred while adding four-digit collection totals.",
+    "missions": [
+      { "left": 1674, "right": 1852 },
+      { "left": 2783, "right": 1634 },
+      { "left": 3562, "right": 2785 },
+      { "left": 4841, "right": 1376 }
+    ],
+    "quiz": [
+      {
+        "left": 1762,
+        "right": 1845,
+        "context": "A Klang recycling team collects 1762 cans in the morning and 1845 cans in the afternoon; how many cans does it collect altogether?"
+      },
+      {
+        "left": 2654,
+        "right": 1783,
+        "context": "Two schools deliver 2654 bottles and 1783 bottles to a recycling depot; how many bottles do they deliver altogether?"
+      },
+      {
+        "left": 3871,
+        "right": 1566,
+        "context": "A depot sorts 3871 paper sheets from one collection and 1566 paper sheets from another; how many paper sheets does it sort altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-stadium-chain-regroup-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Johor Stadium Crowd Counter",
+    "focus": "Carry regrouped values through several columns when combining totals within ten thousand.",
+    "missions": [
+      { "left": 4582, "right": 3769 },
+      { "left": 2678, "right": 4856 },
+      { "left": 3897, "right": 2485 },
+      { "left": 5768, "right": 2897 }
+    ],
+    "quiz": [
+      {
+        "left": 3687,
+        "right": 2548,
+        "context": "A Johor stadium welcomes 3687 spectators through one gate and 2548 spectators through another gate; how many spectators enter altogether?"
+      },
+      {
+        "left": 4876,
+        "right": 2987,
+        "context": "A sports festival gives out 4876 flags on Saturday and 2987 flags on Sunday; how many flags does it give out altogether?"
+      },
+      {
+        "left": 2598,
+        "right": 4767,
+        "context": "A stadium team checks 2598 tickets before lunch and 4767 tickets after lunch; how many tickets does it check altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-transport-bridge-hundred-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Kuala Lumpur Bus Map",
+    "focus": "Split the second number to reach the next hundred first and then add the remaining part.",
+    "missions": [
+      { "left": 289, "right": 111 },
+      { "left": 475, "right": 138 },
+      { "left": 683, "right": 129 },
+      { "left": 1258, "right": 164 }
+    ],
+    "quiz": [
+      {
+        "left": 378,
+        "right": 145,
+        "context": "A Kuala Lumpur bus route carries 378 passengers in the morning and 145 passengers in the afternoon; how many passengers does it carry altogether?"
+      },
+      {
+        "left": 567,
+        "right": 126,
+        "context": "A transport team prints 567 route maps and then prints 126 more route maps; how many route maps does it print altogether?"
+      },
+      {
+        "left": 1486,
+        "right": 137,
+        "context": "A station has 1486 travel leaflets and receives 137 more travel leaflets; how many travel leaflets does it have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-badges-near-thousand-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "School Badge Workshop",
+    "focus": "Round an addend near a thousand up to the thousand and subtract the extra amount afterwards.",
+    "missions": [
+      { "left": 1998, "right": 2345 },
+      { "left": 2997, "right": 1436 },
+      { "left": 3999, "right": 2218 },
+      { "left": 4996, "right": 1357 }
+    ],
+    "quiz": [
+      {
+        "left": 1999,
+        "right": 1546,
+        "context": "A school workshop makes 1999 reading badges and 1546 sports badges; how many badges does it make altogether?"
+      },
+      {
+        "left": 2998,
+        "right": 2317,
+        "context": "A district has 2998 volunteer badges and orders 2317 more volunteer badges; how many volunteer badges will it have altogether?"
+      },
+      {
+        "left": 3997,
+        "right": 1428,
+        "context": "A badge team packs 3997 badges in the morning and 1428 badges in the afternoon; how many badges does it pack altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-community-round-totals-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "Community Tree Challenge",
+    "focus": "Add multiples of hundreds and thousands by combining the nonzero place values.",
+    "missions": [
+      { "left": 2400, "right": 1300 },
+      { "left": 3200, "right": 2500 },
+      { "left": 4600, "right": 2100 },
+      { "left": 5300, "right": 3400 }
+    ],
+    "quiz": [
+      {
+        "left": 1800,
+        "right": 2600,
+        "context": "Two community nurseries grow 1800 saplings and 2600 saplings; how many saplings do they grow altogether?"
+      },
+      {
+        "left": 3500,
+        "right": 2200,
+        "context": "A tree challenge earns 3500 points in one week and 2200 points in the next week; how many points does it earn altogether?"
+      },
+      {
+        "left": 4100,
+        "right": 3000,
+        "context": "Volunteers prepare 4100 plant labels and then prepare 3000 more plant labels; how many plant labels do they prepare altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-school-partition-add",
+    "grade": 3,
+    "operation": "ADD",
+    "title": "School Festival Scoreboard",
+    "focus": "Partition the second addend into thousands, hundreds, tens, and ones and add each part mentally.",
+    "missions": [
+      { "left": 2345, "right": 1234 },
+      { "left": 3168, "right": 2145 },
+      { "left": 4276, "right": 1328 },
+      { "left": 1529, "right": 3216 }
+    ],
+    "quiz": [
+      {
+        "left": 2467,
+        "right": 1325,
+        "context": "A school festival team earns 2467 points from games and 1325 points from quizzes; how many points does it earn altogether?"
+      },
+      {
+        "left": 3582,
+        "right": 2416,
+        "context": "Pupils fold 3582 paper decorations before the festival and 2416 more decorations during club time; how many decorations do they fold altogether?"
+      },
+      {
+        "left": 1738,
+        "right": 3124,
+        "context": "A festival displays 1738 drawings in the hall and 3124 drawings in classrooms; how many drawings does it display altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-library-place-value-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Melaka Library Returns",
+    "focus": "Subtract matching place-value columns without exchanging when every top digit is large enough.",
+    "missions": [
+      { "left": 8647, "right": 2315 },
+      { "left": 9758, "right": 3425 },
+      { "left": 7869, "right": 1534 },
+      { "left": 6598, "right": 2176 }
+    ],
+    "quiz": [
+      {
+        "left": 8765,
+        "right": 2432,
+        "context": "A Melaka library has 8765 books and lends out 2432 books; how many books remain in the library?"
+      },
+      {
+        "left": 7689,
+        "right": 1256,
+        "context": "A reading challenge has 7689 bookmarks and gives away 1256 bookmarks; how many bookmarks remain?"
+      },
+      {
+        "left": 9548,
+        "right": 3217,
+        "context": "A library stores 9548 reading cards and sends 3217 reading cards to schools; how many reading cards remain?"
+      }
+    ]
+  },
+  {
+    "key": "p3-park-exchange-ten-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Nature Park Label Rescue",
+    "focus": "Exchange one ten for ten ones when the ones digit cannot cover the subtraction.",
+    "missions": [
+      { "left": 7432, "right": 2117 },
+      { "left": 8653, "right": 3428 },
+      { "left": 9564, "right": 4239 },
+      { "left": 6741, "right": 1526 }
+    ],
+    "quiz": [
+      {
+        "left": 6542,
+        "right": 2317,
+        "context": "A nature park prints 6542 trail labels and uses 2317 trail labels; how many trail labels remain?"
+      },
+      {
+        "left": 7863,
+        "right": 2548,
+        "context": "Park volunteers prepare 7863 seed packets and distribute 2548 seed packets; how many seed packets remain?"
+      },
+      {
+        "left": 8974,
+        "right": 3629,
+        "context": "A park has 8974 visitor stickers and hands out 3629 visitor stickers; how many visitor stickers remain?"
+      }
+    ]
+  },
+  {
+    "key": "p3-recycling-exchange-hundred-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Recycling Bundle Balance",
+    "focus": "Exchange one hundred for ten tens when the tens digit is too small to subtract.",
+    "missions": [
+      { "left": 7534, "right": 2681 },
+      { "left": 8647, "right": 3762 },
+      { "left": 6428, "right": 1853 },
+      { "left": 9316, "right": 2474 }
+    ],
+    "quiz": [
+      {
+        "left": 7526,
+        "right": 1683,
+        "context": "A recycling centre stores 7526 cans and sends 1683 cans for processing; how many cans remain?"
+      },
+      {
+        "left": 8638,
+        "right": 2754,
+        "context": "Volunteers collect 8638 bottles and sort 2754 bottles into crates; how many bottles still need sorting?"
+      },
+      {
+        "left": 6419,
+        "right": 1876,
+        "context": "A depot has 6419 paper bundles and loads 1876 paper bundles onto a lorry; how many paper bundles remain at the depot?"
+      }
+    ]
+  },
+  {
+    "key": "p3-stadium-exchange-thousand-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Stadium Seat Planner",
+    "focus": "Exchange one thousand for ten hundreds when subtracting a larger hundreds digit.",
+    "missions": [
+      { "left": 6324, "right": 2811 },
+      { "left": 7456, "right": 3923 },
+      { "left": 8547, "right": 4632 },
+      { "left": 9238, "right": 5814 }
+    ],
+    "quiz": [
+      {
+        "left": 6438,
+        "right": 2924,
+        "context": "A stadium has 6438 seats and 2924 seats are occupied; how many seats are empty?"
+      },
+      {
+        "left": 7549,
+        "right": 3826,
+        "context": "Organisers print 7549 sports tickets and sell 3826 sports tickets; how many tickets remain unsold?"
+      },
+      {
+        "left": 8657,
+        "right": 4732,
+        "context": "A sports hall prepares 8657 flags and gives spectators 4732 flags; how many flags remain?"
+      }
+    ]
+  },
+  {
+    "key": "p3-transport-zero-exchanges-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Rail Station Map Store",
+    "focus": "Exchange across zero columns carefully before subtracting each place value.",
+    "missions": [
+      { "left": 5004, "right": 2368 },
+      { "left": 7002, "right": 3485 },
+      { "left": 6000, "right": 2756 },
+      { "left": 8005, "right": 4627 }
+    ],
+    "quiz": [
+      {
+        "left": 4003,
+        "right": 1786,
+        "context": "A rail station has 4003 maps and passengers take 1786 maps; how many maps remain?"
+      },
+      {
+        "left": 9000,
+        "right": 4567,
+        "context": "A transport office prints 9000 travel leaflets and distributes 4567 travel leaflets; how many travel leaflets remain?"
+      },
+      {
+        "left": 6004,
+        "right": 2879,
+        "context": "A station prepares 6004 route cards and gives out 2879 route cards; how many route cards remain?"
+      }
+    ]
+  },
+  {
+    "key": "p3-badges-count-up-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Badge Target Tracker",
+    "focus": "Count up from the smaller total to the larger total to find a small difference efficiently.",
+    "missions": [
+      { "left": 3002, "right": 2987 },
+      { "left": 5006, "right": 4978 },
+      { "left": 7010, "right": 6974 },
+      { "left": 9003, "right": 8956 }
+    ],
+    "quiz": [
+      {
+        "left": 4005,
+        "right": 3988,
+        "context": "A district badge target is 4005 badges and pupils have earned 3988 badges; how many more badges are needed to reach the target?"
+      },
+      {
+        "left": 6004,
+        "right": 5975,
+        "context": "A school challenge needs 6004 points and pupils have earned 5975 points; how many more points are needed?"
+      },
+      {
+        "left": 8002,
+        "right": 7964,
+        "context": "A reading campaign aims to award 8002 badges and has awarded 7964 badges; how many more badges must it award to meet its aim?"
+      }
+    ]
+  },
+  {
+    "key": "p3-community-round-totals-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "Community Garden Supply Shed",
+    "focus": "Subtract multiples of hundreds and thousands by working with their nonzero place values.",
+    "missions": [
+      { "left": 7800, "right": 2400 },
+      { "left": 9600, "right": 3200 },
+      { "left": 8500, "right": 4100 },
+      { "left": 6900, "right": 2700 }
+    ],
+    "quiz": [
+      {
+        "left": 7400,
+        "right": 2300,
+        "context": "A community garden has 7400 seed packets and shares 2300 seed packets with schools; how many seed packets remain?"
+      },
+      {
+        "left": 8800,
+        "right": 3500,
+        "context": "Volunteers prepare 8800 plant labels and use 3500 plant labels; how many plant labels remain?"
+      },
+      {
+        "left": 6500,
+        "right": 3000,
+        "context": "A nursery grows 6500 saplings and plants 3000 saplings in community spaces; how many saplings remain in the nursery?"
+      }
+    ]
+  },
+  {
+    "key": "p3-school-compensate-subtract",
+    "grade": 3,
+    "operation": "SUBTRACT",
+    "title": "School Craft Stockkeeper",
+    "focus": "Subtract a nearby round thousand first and add back the amount subtracted in excess.",
+    "missions": [
+      { "left": 6543, "right": 1999 },
+      { "left": 8765, "right": 2998 },
+      { "left": 7432, "right": 3997 },
+      { "left": 9321, "right": 4996 }
+    ],
+    "quiz": [
+      {
+        "left": 5678,
+        "right": 1998,
+        "context": "A school has 5678 craft sheets and uses 1998 craft sheets for a festival; how many craft sheets remain?"
+      },
+      {
+        "left": 7891,
+        "right": 2999,
+        "context": "A craft club stores 7891 beads and uses 2999 beads for bracelets; how many beads remain?"
+      },
+      {
+        "left": 8642,
+        "right": 3996,
+        "context": "Pupils prepare 8642 paper shapes and use 3996 paper shapes for decorations; how many paper shapes remain?"
+      }
+    ]
+  },
+  {
+    "key": "p3-museum-three-four-groups-multiply",
+    "grade": 3,
+    "operation": "MULTIPLY",
+    "title": "Museum Display Builder",
+    "focus": "Use known three-times and four-times facts to count equal groups in displays.",
+    "missions": [
+      { "left": 3, "right": 7 },
+      { "left": 4, "right": 9 },
+      { "left": 3, "right": 8 },
+      { "left": 4, "right": 7 }
+    ],
+    "quiz": [
+      {
+        "left": 3,
+        "right": 9,
+        "context": "A Malaysian museum sets up 3 display trays with 9 model boats in each tray; how many model boats are displayed altogether?"
+      },
+      {
+        "left": 4,
+        "right": 8,
+        "context": "Children make 4 rows of paper kites with 8 kites in each row; how many paper kites are there altogether?"
+      },
+      {
+        "left": 3,
+        "right": 6,
+        "context": "A museum activity has 3 tables with 6 craft packs on each table; how many craft packs are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-sports-six-eight-groups-multiply",
+    "grade": 3,
+    "operation": "MULTIPLY",
+    "title": "School Sports Kit Builder",
+    "focus": "Use six-times and eight-times facts, supported by doubling three-times and four-times facts.",
+    "missions": [
+      { "left": 6, "right": 7 },
+      { "left": 8, "right": 9 },
+      { "left": 6, "right": 8 },
+      { "left": 8, "right": 8 }
+    ],
+    "quiz": [
+      {
+        "left": 6,
+        "right": 9,
+        "context": "A school sports team packs 6 bags with 9 beanbags in each bag; how many beanbags does it pack altogether?"
+      },
+      {
+        "left": 8,
+        "right": 7,
+        "context": "A sports festival has 8 teams with 7 pupils in each team; how many pupils are on the teams altogether?"
+      },
+      {
+        "left": 6,
+        "right": 6,
+        "context": "Volunteers set out 6 baskets with 6 practice balls in each basket; how many practice balls are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p3-reading-three-four-share-divide",
+    "grade": 3,
+    "operation": "DIVIDE",
+    "title": "Reading Club Fair Share",
+    "focus": "Partition the total into easy multiples of three or four, then add the equal shares to divide with no remainder.",
+    "missions": [
+      { "left": 84, "right": 3 },
+      { "left": 96, "right": 4 },
+      { "left": 75, "right": 3 },
+      { "left": 88, "right": 4 }
+    ],
+    "quiz": [
+      {
+        "left": 72,
+        "right": 3,
+        "context": "A reading club shares 72 bookmarks equally among 3 groups; how many bookmarks does each group receive?"
+      },
+      {
+        "left": 92,
+        "right": 4,
+        "context": "A library shares 92 reading cards equally among 4 classes; how many reading cards does each class receive?"
+      },
+      {
+        "left": 81,
+        "right": 3,
+        "context": "Pupils place 81 story cards equally into 3 boxes; how many story cards go into each box?"
+      }
+    ]
+  },
+  {
+    "key": "p3-trail-six-eight-ten-packs-divide",
+    "grade": 3,
+    "operation": "DIVIDE",
+    "title": "Nature Trail Supply Packs",
+    "focus": "Find the number of equal packs by dividing exactly by six, eight, or ten.",
+    "missions": [
+      { "left": 144, "right": 6 },
+      { "left": 216, "right": 8 },
+      { "left": 350, "right": 10 },
+      { "left": 288, "right": 8 }
+    ],
+    "quiz": [
+      {
+        "left": 156,
+        "right": 6,
+        "context": "Nature trail volunteers pack 156 pencils into packs of 6 pencils; how many complete packs do they make?"
+      },
+      {
+        "left": 248,
+        "right": 8,
+        "context": "A park team packs 248 trail cards into packs of 8 trail cards; how many complete packs does it make?"
+      },
+      {
+        "left": 420,
+        "right": 10,
+        "context": "A school packs 420 plant labels into packs of 10 plant labels; how many complete packs does it make?"
+      }
+    ]
+  }
+]

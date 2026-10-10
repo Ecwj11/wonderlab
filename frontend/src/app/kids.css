@@ -1,0 +1,1677 @@
+/* The student playground has its own tokens; admin keeps its existing SaaS theme. */
+:is(.app-shell, .login-page) {
+  --ink: #24324f;
+  --muted: #526881;
+  --purple: #7153dd;
+  --line: #dce8f0;
+  --lavender: #eae0ff;
+  --mint: #d6f7e8;
+  --coral: #ffe0d4;
+  --peach: #fff0bf;
+  --blue: #d8f2ff;
+  --sunshine: #ffd447;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  color: var(--ink);
+}
+.app-shell .main-shell {
+  margin-left: 228px;
+  background: #f4fbff;
+}
+.app-shell .sidebar {
+  width: 228px;
+  border-right: 2px solid #e0edf4;
+  padding: 24px 15px 18px;
+}
+.app-shell .sidebar .brand {
+  margin: 0 6px 28px;
+  font-size: 27px;
+  letter-spacing: -1.3px;
+}
+.app-shell .brand-symbol {
+  background: #16a5d3;
+  border-radius: 13px;
+  box-shadow: 0 4px #087fba;
+}
+.app-shell .workspace-label {
+  font-size: 12px;
+  font-weight: 800;
+  color: #61788e;
+}
+.app-shell .sidebar nav {
+  gap: 7px;
+}
+.app-shell .nav-item {
+  min-height: 48px;
+  border-radius: 15px;
+  padding: 10px 12px;
+  gap: 12px;
+  font-size: 16px;
+  font-weight: 800;
+  color: #4b6077;
+}
+.app-shell .nav-item > svg {
+  width: 24px;
+  height: 24px;
+  color: #66869f;
+}
+.app-shell nav .nav-item:nth-child(2) > svg {
+  color: #e97944;
+}
+.app-shell nav .nav-item:nth-child(3) > svg {
+  color: #11a97c;
+}
+.app-shell nav .nav-item:nth-child(4) > svg {
+  color: #178cc9;
+}
+.app-shell nav .nav-item:nth-child(5) > svg {
+  color: #dc6690;
+}
+.app-shell nav .nav-item:nth-child(6) > svg {
+  color: #8260d8;
+}
+.app-shell nav .nav-item:nth-child(7) > svg {
+  color: #c78a16;
+}
+.app-shell .nav-item.active {
+  background: #def3ff;
+  color: #126898;
+  box-shadow: inset 0 -3px #b6e4fa;
+}
+.app-shell .nav-item:hover {
+  background: #edf8fe;
+}
+.app-shell .nav-item.active > svg {
+  color: #078fc1;
+}
+.app-shell .nav-new {
+  background: #ffe584;
+  color: #7a5017;
+  font-size: 10px;
+  border-radius: 7px;
+}
+.app-shell .subject-nav a {
+  color: #516e85;
+  font-size: 14px;
+  min-height: 36px;
+}
+.app-shell .subject-dot {
+  width: 10px;
+  height: 10px;
+}
+.app-shell .subject-dot.coral {
+  background: #ff865b;
+}
+.app-shell .subject-dot.mint {
+  background: #22ba87;
+}
+.app-shell .subject-dot.peach {
+  background: #f4b82c;
+}
+.app-shell .subject-dot.blue {
+  background: #35addd;
+}
+.app-shell .curiosity-card {
+  background: #fff1c8;
+  border: 2px solid #ffdfa0;
+  border-radius: 20px;
+  padding: 18px 12px 18px 68px;
+}
+.app-shell .curiosity-card strong {
+  color: #77541c;
+  font-size: 13px;
+}
+.app-shell .curiosity-card a {
+  color: #7154ba;
+  font-size: 13px;
+  font-weight: 800;
+}
+.app-shell .curiosity-card > svg {
+  width: 60px;
+  left: 4px;
+  bottom: 24px;
+}
+.app-shell .sidebar-bottom > .nav-item {
+  font-size: 14px;
+}
+.app-shell .profile-mini strong {
+  font-size: 14px;
+}
+.app-shell .profile-mini > div > span {
+  font-size: 11px;
+  color: #6a7890;
+}
+.app-shell .avatar {
+  background: #ffe7a9;
+  color: #805222;
+  font-size: 13px;
+  font-weight: 900;
+}
+.app-shell .topbar {
+  padding: 0 32px;
+  height: 82px;
+  border-bottom: 2px solid #e0edf4;
+}
+.app-shell .breadcrumb {
+  font-size: 13px;
+  color: #7b8da0;
+}
+.app-shell .breadcrumb strong {
+  color: #46627b;
+  font-weight: 800;
+}
+.app-shell .topbar-actions {
+  gap: 14px;
+}
+.app-shell .top-search {
+  background: #f1f8fc;
+  border: 2px solid #e0edf4;
+  border-radius: 13px;
+}
+.app-shell .top-search input {
+  font-size: 13px;
+  width: 128px;
+  color: #385b75;
+}
+.app-shell .top-stat {
+  min-height: 38px;
+  padding: 6px 11px;
+  border-radius: 12px;
+  font-size: 15px;
+}
+.app-shell .top-stat.streak {
+  background: #fff0e0;
+  color: #b95019;
+}
+.app-shell .top-stat.xp {
+  background: #fff2bd;
+  color: #865a0f;
+}
+.app-shell .top-stat small {
+  font-size: 10px;
+}
+.app-shell .top-avatar {
+  width: 39px;
+  height: 39px;
+}
+.app-shell .notification-button {
+  color: #577b94;
+  border: 0;
+}
+.app-shell .page-content {
+  padding: 30px 32px;
+  max-width: 1560px;
+}
+.app-shell .page-heading {
+  margin-bottom: 24px;
+}
+.app-shell .page-heading h1 {
+  font-size: clamp(29px, 2.7vw, 38px);
+  letter-spacing: -1.2px;
+  font-weight: 900;
+}
+.app-shell .page-heading p {
+  color: #577088;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.app-shell .greeting {
+  color: #71859a;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.app-shell h2 {
+  font-weight: 900;
+}
+.app-shell h3 {
+  font-weight: 800;
+}
+.app-shell .button {
+  min-height: 49px;
+  border-radius: 15px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 900;
+  border: 2px solid transparent;
+  gap: 9px;
+}
+.app-shell .button.primary {
+  background: #7153dd;
+  border-color: #5e42c7;
+  box-shadow: 0 4px #5236b9;
+}
+.app-shell .button.primary:hover {
+  background: #6547d1;
+}
+.app-shell .button.secondary {
+  color: #4f6380;
+  background: white;
+  border-color: #d8e5ee;
+  box-shadow: 0 4px #d8e5ee;
+}
+.app-shell .button:active:not(:disabled) {
+  transform: translateY(3px);
+  box-shadow: 0 1px #c5d5df;
+}
+.app-shell .button:disabled {
+  opacity: 0.5;
+}
+.app-shell :is(button, a, input, textarea, select):focus-visible {
+  outline: 3px solid #087fbd;
+  outline-offset: 4px;
+}
+.app-shell .text-button {
+  font-size: 14px;
+  font-weight: 800;
+  color: #6852ae;
+  min-height: 38px;
+}
+.app-shell .section-heading {
+  margin-bottom: 16px;
+}
+.app-shell .section-heading h2 {
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: -0.5px;
+}
+.app-shell .section-heading p {
+  font-size: 14px;
+  color: #6c8197;
+  margin-top: 3px;
+}
+.app-shell .section-heading a {
+  font-size: 14px;
+  color: #5d57a5;
+  font-weight: 800;
+}
+/* One memorable learning island, with a clear action beside it. */
+.app-shell .kids-hero {
+  min-height: 336px;
+  border: 2px solid #bce7fa;
+  border-radius: 28px;
+  background: #dff5ff;
+  padding: 33px 37px;
+  box-shadow: 0 6px #c8eaf8;
+}
+.app-shell .kids-hero .hero-copy {
+  max-width: 54%;
+}
+.app-shell .club-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: white;
+  color: #287a9b;
+  border-radius: 20px;
+  padding: 7px 12px;
+  font-size: 13px;
+  font-weight: 800;
+}
+.app-shell .kids-hero h2 {
+  margin-top: 17px;
+  font-size: clamp(38px, 3.7vw, 54px);
+  line-height: 1.05;
+  color: #18466c;
+  font-weight: 900;
+  letter-spacing: -1.7px;
+}
+.app-shell .kids-hero .hero-copy p {
+  color: #396584;
+  font-size: 17px;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+.app-shell .hero-cta-row {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 23px;
+}
+.app-shell .kids-hero .hero-button {
+  margin: 0;
+  color: #5c3d16;
+  background: #ffd447;
+  border: 2px solid #e8b525;
+  box-shadow: 0 5px #d5a31b;
+  font-size: 17px;
+}
+.app-shell .kids-hero .hero-button:hover {
+  background: #ffdf65;
+}
+.app-shell .hero-library-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: #325f7d;
+  font-size: 14px;
+  font-weight: 800;
+}
+.app-shell .hero-footnote {
+  font-size: 12px;
+  font-weight: 700;
+  color: #4b7693;
+  margin-top: 19px;
+}
+.app-shell .playground-picture {
+  width: 43%;
+  position: absolute;
+  right: 8px;
+  top: 2px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.app-shell .playground-art {
+  width: 100%;
+  height: 100%;
+  max-height: 354px;
+}
+.app-shell .mascot-speech {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-3deg);
+  white-space: nowrap;
+  background: white;
+  border: 2px solid #e4dcff;
+  border-radius: 13px;
+  box-shadow: 0 3px #d4c6f2;
+  padding: 8px 12px;
+  color: #6549a6;
+  font-size: 13px;
+  font-weight: 900;
+}
+.app-shell .stats-row {
+  gap: 14px;
+  margin-top: 25px;
+}
+.app-shell .stat-card {
+  border: 2px solid #e0e8f2;
+  border-radius: 19px;
+  padding: 16px;
+  align-items: center;
+  gap: 13px;
+  background: white;
+}
+.app-shell .stat-card:nth-child(1) {
+  background: #efe9ff;
+  border-color: #ddd0fa;
+}
+.app-shell .stat-card:nth-child(2) {
+  background: #fff0e3;
+  border-color: #f9d9bd;
+}
+.app-shell .stat-card:nth-child(3) {
+  background: #e1f7ec;
+  border-color: #bce8d0;
+}
+.app-shell .stat-card:nth-child(4) {
+  background: #e3f3ff;
+  border-color: #c2e4f7;
+}
+.app-shell .stat-icon {
+  width: 43px;
+  height: 48px;
+  background: white;
+  border-radius: 14px;
+}
+.app-shell .stat-icon svg {
+  width: 25px;
+  height: 25px;
+}
+.app-shell .stat-label {
+  font-size: 12px;
+  color: #556477;
+  font-weight: 800;
+}
+.app-shell .stat-value {
+  font-size: 28px;
+  margin-top: 2px;
+  line-height: 1.2;
+}
+.app-shell .stat-value small {
+  font-size: 12px;
+  color: #66778b;
+  font-weight: 800;
+}
+.app-shell .stat-note {
+  display: none;
+}
+.app-shell .worlds-section {
+  margin-top: 33px;
+}
+.app-shell .worlds-note {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 800;
+  color: #967116;
+}
+.app-shell .subject-worlds {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 14px;
+}
+.app-shell .subject-world {
+  position: relative;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 18px 16px;
+  border: 2px solid var(--world-line);
+  border-radius: 20px;
+  background: var(--world-bg);
+  box-shadow: 0 5px var(--world-line);
+  color: var(--world-ink);
+}
+.app-shell .subject-world.coral {
+  --world-bg: #ffecdf;
+  --world-line: #f6c3a4;
+  --world-ink: #9a481d;
+  --world-icon: #ffac72;
+}
+.app-shell .subject-world.mint {
+  --world-bg: #dcf8ea;
+  --world-line: #a6dfc0;
+  --world-ink: #176e51;
+  --world-icon: #74dba7;
+}
+.app-shell .subject-world.peach {
+  --world-bg: #fff3cb;
+  --world-line: #eed688;
+  --world-ink: #80611d;
+  --world-icon: #ffdc70;
+}
+.app-shell .subject-world.blue {
+  --world-bg: #e0f3ff;
+  --world-line: #b3dff1;
+  --world-ink: #246a90;
+  --world-icon: #82d2ef;
+}
+.app-shell .subject-world.lavender {
+  --world-bg: #eee5ff;
+  --world-line: #d8c2f5;
+  --world-ink: #664591;
+  --world-icon: #c3a6f0;
+}
+.app-shell .world-icon {
+  display: grid;
+  place-items: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 18px;
+  background: var(--world-icon);
+  margin-bottom: 12px;
+}
+.app-shell .subject-world strong {
+  font-size: 19px;
+  font-weight: 900;
+}
+.app-shell .subject-world small {
+  font-size: 12px;
+  margin-top: 3px;
+  line-height: 1.4;
+}
+.app-shell .world-arrow {
+  position: absolute;
+  right: 14px;
+  top: 19px;
+}
+.app-shell .subject-world:hover {
+  transform: translateY(-2px);
+}
+.app-shell .subject-world:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px var(--world-line);
+}
+.app-shell .dashboard-middle {
+  gap: 23px;
+  margin-top: 36px;
+  grid-template-columns: 1.45fr 1fr;
+}
+.app-shell .continue-card {
+  background: #e4f8ec;
+  border: 2px solid #bae4cc;
+  border-radius: 24px;
+  box-shadow: 0 5px #d1ebdc;
+  min-height: 238px;
+}
+.app-shell .continue-art {
+  filter: saturate(1.35);
+}
+.app-shell .continue-copy h3 {
+  font-size: 21px;
+  color: #234f3b;
+  line-height: 1.3;
+}
+.app-shell .continue-copy p {
+  font-size: 14px;
+  color: #48705a;
+  line-height: 1.6;
+}
+.app-shell .continue-button {
+  background: #248263;
+  border-color: #1c6d52;
+  color: white;
+  box-shadow: 0 4px #18634a;
+  font-size: 15px;
+}
+.app-shell .continue-progress > span {
+  font-size: 13px;
+  color: #357359;
+  font-weight: 800;
+}
+.app-shell .daily-card {
+  min-height: 238px;
+  padding: 22px;
+  background: #fff6d9;
+  border: 2px solid #eed898;
+  border-radius: 24px;
+  box-shadow: 0 5px #f0e4b9;
+}
+.app-shell .daily-flame {
+  background: #ffdf87;
+  color: #bd651c;
+  width: 49px;
+  height: 49px;
+  border-radius: 16px;
+}
+.app-shell .daily-top h3 {
+  font-size: 18px;
+  color: #6e5525;
+}
+.app-shell .daily-top p {
+  font-size: 12px;
+  color: #856d44;
+}
+.app-shell .week-days > div > span:first-child {
+  font-size: 12px;
+  color: #826c44;
+}
+.app-shell .day-circle {
+  width: 30px;
+  height: 30px;
+  background: #f3e8c5;
+}
+.app-shell .day-circle.done {
+  background: #29946e;
+  color: white;
+}
+.app-shell .daily-footer,
+.app-shell .daily-encouragement {
+  font-size: 13px;
+  color: #82652b;
+}
+.app-shell .progress-track {
+  height: 9px;
+  border-radius: 12px;
+  background: #e4e5f4;
+}
+.app-shell .progress-track > div {
+  background: #8367e7;
+  border-radius: 12px;
+}
+.app-shell .progress-track.sunshine > div {
+  background: #e9b22d;
+}
+.app-shell .subject-tag {
+  font-size: 12px;
+  font-weight: 900;
+  padding: 5px 9px;
+  border-radius: 9px;
+}
+.app-shell .subject-tag.mint {
+  background: #c4edda;
+  color: #236a4f;
+}
+.app-shell .subject-tag.coral {
+  background: #ffe1ce;
+  color: #96431c;
+}
+.app-shell .subject-tag.peach {
+  background: #ffedb4;
+  color: #7c5a13;
+}
+.app-shell .subject-tag.blue {
+  background: #cfedff;
+  color: #21658c;
+}
+.app-shell .subject-tag.lavender {
+  background: #e9ddff;
+  color: #614095;
+}
+.app-shell .recommended-section {
+  margin-top: 35px;
+}
+.app-shell .lesson-grid {
+  gap: 18px;
+}
+.app-shell .lesson-card {
+  border: 2px solid #dbe8f1;
+  border-radius: 23px;
+  box-shadow: 0 5px #e0ebf1;
+}
+.app-shell .lesson-thumbnail {
+  height: 171px;
+  border-bottom: 2px solid #ffffffaa;
+}
+.app-shell .lesson-thumbnail.coral {
+  background: #ffe3d0;
+}
+.app-shell .lesson-thumbnail.mint {
+  background: #d5f5e5;
+}
+.app-shell .lesson-thumbnail.peach {
+  background: #fff0c5;
+}
+.app-shell .lesson-thumbnail.blue {
+  background: #d6efff;
+}
+.app-shell .lesson-thumbnail > svg {
+  filter: saturate(1.55);
+}
+.app-shell .thumbnail-format {
+  font-size: 10px;
+  color: #526377;
+  background: #ffffffeb;
+  border-radius: 7px;
+  font-weight: 800;
+}
+.app-shell .lesson-card-body {
+  padding: 17px 16px 14px;
+}
+.app-shell .lesson-card h3 {
+  font-size: 18px;
+  line-height: 1.35;
+  margin-top: 12px;
+  color: #2f405c;
+}
+.app-shell .lesson-language {
+  font-size: 11px;
+  color: #637287;
+  background: #f2f3fa;
+  padding: 4px 6px;
+  border-radius: 6px;
+}
+.app-shell .lesson-meta {
+  color: #6b7c91;
+  font-size: 12px;
+}
+.app-shell .card-footer > span {
+  font-size: 12px;
+  color: #6b7e92;
+}
+.app-shell .round-button {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  background: #7456dd;
+  color: white;
+  box-shadow: 0 3px #5639b8;
+}
+.app-shell .card-menu-button {
+  width: 35px;
+  height: 35px;
+  color: #4b6080;
+}
+.app-shell .card-menu {
+  font-size: 14px;
+}
+.app-shell .dashboard-subject-grid .panel {
+  border-radius: 18px;
+  border: 2px solid #dce9f1;
+}
+.app-shell .dashboard-subject-grid strong {
+  font-size: 15px;
+}
+.app-shell .dashboard-subject-grid span,
+.app-shell .dashboard-subject-grid small {
+  font-size: 12px;
+  color: #5c7389;
+}
+.app-shell .dashboard-bottom-note {
+  background: #fff5d9;
+  border: 2px dashed #ecd392;
+  color: #826027;
+  border-radius: 17px;
+  font-size: 14px;
+}
+.app-shell .dashboard-bottom-note a {
+  color: #7451a9;
+  font-size: 14px;
+}
+.app-shell .demo-note {
+  color: #72829a;
+  font-size: 12px;
+}
+.app-shell .app-footer {
+  color: #798d9f;
+  font-size: 12px;
+}
+/* Creating, exploring and checking answers share the same tactile language. */
+.app-shell :is(.panel, .create-form, .try-example, .generation-card, .player-main) {
+  border: 2px solid #dce8f1;
+  border-radius: 23px;
+}
+.app-shell .create-grid {
+  grid-template-columns: minmax(0, 1fr) 280px;
+  gap: 25px;
+}
+.app-shell .input-modes {
+  padding: 13px;
+  background: #edf7ff;
+  gap: 8px;
+}
+.app-shell .input-modes button {
+  min-height: 64px;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 13px;
+  color: #55758c;
+}
+.app-shell .input-modes button.active {
+  background: white;
+  color: #206c9f;
+  box-shadow: 0 3px #bddfeb;
+}
+.app-shell .input-modes button:nth-child(2) svg {
+  color: #e57841;
+}
+.app-shell .input-modes button:nth-child(3) svg {
+  color: #25a47c;
+}
+.app-shell .input-modes button:nth-child(4) svg {
+  color: #a679d5;
+}
+.app-shell .create-fields {
+  padding: 28px;
+}
+.app-shell :is(.create-fields, .profile-form) label {
+  font-size: 15px;
+  font-weight: 800;
+  color: #435c74;
+}
+.app-shell :is(input, textarea, select) {
+  border-color: #d9e6ef;
+  border-radius: 13px;
+  font-size: 15px;
+  color: #3b5370;
+}
+.app-shell .create-fields :is(input, textarea, select) {
+  border-width: 2px;
+  background: #fbfdff;
+  padding: 13px 14px;
+}
+.app-shell .create-fields textarea {
+  font-size: 16px;
+  line-height: 1.7;
+}
+.app-shell .field-caption {
+  font-size: 12px;
+  font-weight: 600;
+  color: #6f8196;
+}
+.app-shell .create-form-footer > span {
+  font-size: 12px;
+  color: #5f7b6c;
+}
+.app-shell .create-form-footer .button {
+  font-size: 15px;
+}
+.app-shell .create-wonder-note {
+  background: #eee4ff;
+  border: 2px solid #dac9f8;
+  border-radius: 24px;
+  text-align: center;
+  padding: 23px;
+}
+.app-shell .create-wonder-note > svg {
+  width: 108px;
+  height: 108px;
+}
+.app-shell .create-wonder-note h3 {
+  font-size: 24px;
+  color: #654997;
+}
+.app-shell .create-wonder-note > p {
+  font-size: 14px;
+  color: #786096;
+}
+.app-shell .creation-feature {
+  font-size: 13px;
+  color: #695389;
+  text-align: left;
+}
+.app-shell .try-example {
+  background: #fffaed;
+}
+.app-shell .try-example h3 {
+  font-size: 18px;
+}
+.app-shell .try-example p,
+.app-shell .try-example button {
+  font-size: 13px;
+}
+.app-shell .try-example button {
+  min-height: 64px;
+}
+.app-shell .example-dot {
+  width: 39px;
+  height: 39px;
+  border-radius: 12px;
+  font-size: 21px;
+}
+.app-shell .upload-zone {
+  background: #effaff;
+  border-color: #97d4ee;
+  border-width: 2px;
+  min-height: 200px;
+}
+.app-shell .upload-zone strong {
+  color: #2d7595;
+  font-size: 18px;
+}
+.app-shell .upload-zone > span {
+  font-size: 13px;
+}
+.app-shell .generation-page h1 {
+  font-size: 36px;
+  font-weight: 900;
+  color: #435887;
+}
+.app-shell .generation-page > p {
+  font-size: 16px;
+}
+.app-shell .generation-steps {
+  font-size: 14px;
+}
+.app-shell .player-heading h1 {
+  font-size: 33px;
+  font-weight: 900;
+}
+.app-shell .player-xp {
+  color: #86651b;
+  background: #fff1bf;
+  font-size: 13px;
+  border-radius: 14px;
+}
+.app-shell .player-progress > span {
+  color: #6e7895;
+  font-size: 13px;
+  font-weight: 800;
+}
+.app-shell .player-scene-nav > button {
+  border: 2px solid #e0d6f7;
+  border-radius: 14px;
+  padding: 11px 13px;
+  color: #78639c;
+  font-size: 13px;
+}
+.app-shell .player-scene-nav .active {
+  background: #eee2ff;
+  color: #644198;
+}
+.app-shell .player-scene-nav .active > span {
+  background: #8862ce;
+  color: white;
+}
+.app-shell .stage-toolbar {
+  background: #edf7ff;
+  color: #3b7598;
+  font-size: 14px;
+  padding: 16px 19px;
+}
+.app-shell .player-modes {
+  background: #d9ecf7;
+  border-radius: 13px;
+}
+.app-shell .player-modes button {
+  font-size: 13px;
+  padding: 8px 10px;
+  color: #416c88;
+}
+.app-shell .player-modes button.active {
+  color: #306988;
+  border-radius: 9px;
+}
+.app-shell .interactive-stage.pizza-stage {
+  background: #fff6dc;
+}
+.app-shell .interactive-stage.history-stage {
+  background: #f0f9ed;
+}
+.app-shell .stage-step {
+  font-size: 13px;
+  color: #856322;
+  background: #ffecb2;
+  border-radius: 8px;
+  font-weight: 800;
+}
+.app-shell .stage-prompt {
+  font-size: 16px;
+  color: #6f622f;
+  line-height: 1.6;
+}
+.app-shell .pizza-svg {
+  filter: saturate(1.45);
+}
+.app-shell .fraction-number strong {
+  color: #7452bd;
+  font-size: 58px;
+  font-weight: 900;
+}
+.app-shell .fraction-number i {
+  background: #9e7dd5;
+}
+.app-shell .fraction-result > span:first-child,
+.app-shell .fraction-result > p,
+.app-shell .fraction-target,
+.app-shell .pizza-click-note {
+  font-size: 14px;
+  color: #84632d;
+}
+.app-shell .pizza-parts-controls > span {
+  font-size: 15px;
+  font-weight: 800;
+  color: #836527;
+}
+.app-shell .pizza-parts-controls button {
+  border: 2px solid #e7d4a6;
+  border-radius: 13px;
+  min-height: 48px;
+  font-size: 20px;
+  color: #826326;
+}
+.app-shell .pizza-parts-controls button small {
+  font-size: 12px;
+}
+.app-shell .pizza-parts-controls button.active {
+  background: #eee3ff;
+  border-color: #bda0e4;
+  color: #71519d;
+  box-shadow: 0 3px #d1b7e8;
+}
+.app-shell .activity-success {
+  font-size: 14px;
+  color: #206b48;
+  background: #def5e5;
+  border: 1px solid #afdbbb;
+  border-radius: 12px;
+  font-weight: 800;
+}
+.app-shell .stage-bottom {
+  background: #fcfdff;
+}
+.app-shell :is(.stage-ready, .stage-waiting) {
+  font-size: 12px;
+}
+.app-shell .panel-kicker {
+  font-size: 14px;
+  color: #8057b5;
+  font-weight: 900;
+}
+.app-shell .explanation-panel h3 {
+  font-size: 20px;
+  color: #5b4186;
+}
+.app-shell .explanation-panel > p,
+.app-shell .instruction-note p,
+.app-shell .objectives-panel p {
+  font-size: 15px;
+  color: #5e5879;
+  line-height: 1.65;
+}
+.app-shell .instruction-note {
+  background: #f0eaff;
+  border-radius: 14px;
+}
+.app-shell .instruction-note strong {
+  font-size: 14px;
+  color: #73539f;
+}
+.app-shell .player-mascot-note > svg {
+  width: 80px;
+  height: 80px;
+}
+.app-shell .player-mascot-note > p {
+  font-size: 13px;
+  color: #7a649e;
+}
+.app-shell .player-controls .button {
+  font-size: 15px;
+}
+.app-shell .player-controls > span {
+  font-size: 13px;
+  color: #7a7897;
+}
+.app-shell .flashcard {
+  border: 2px solid #c7def3;
+  background: #ecf6ff;
+  color: #335b83;
+  border-radius: 20px;
+  box-shadow: 0 5px #d3e6f5;
+}
+.app-shell .flashcard.flipped {
+  background: #ddf6e8;
+  border-color: #9ed5b9;
+  color: #346f51;
+}
+.app-shell .flashcard strong {
+  font-size: 21px;
+}
+.app-shell .flip-hint {
+  font-size: 13px;
+}
+.app-shell .quiz-scene h3 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #3e476c;
+}
+.app-shell .quiz-options button {
+  border: 2px solid #dcdff1;
+  border-radius: 16px;
+  font-size: 17px;
+  min-height: 64px;
+  box-shadow: 0 4px #e3e5f0;
+  color: #49516d;
+}
+.app-shell .option-letter {
+  width: 34px;
+  height: 34px;
+  border-radius: 11px;
+  background: #eee8fb;
+  font-size: 16px;
+  color: #7756ab;
+}
+.app-shell .quiz-options .correct {
+  border-color: #57b68b;
+  background: #e0f7e9;
+  color: #26754c;
+  box-shadow: 0 4px #b6dfc7;
+}
+.app-shell .quiz-options .incorrect {
+  border-color: #ebad98;
+  background: #fff0e9;
+  color: #9f4c36;
+}
+.app-shell .quiz-feedback {
+  background: #e4f8ed;
+  border: 2px solid #b7dec7;
+  border-radius: 16px;
+}
+.app-shell .quiz-feedback strong {
+  font-size: 17px;
+}
+.app-shell .quiz-feedback p {
+  font-size: 15px;
+}
+.app-shell .quiz-feedback.incorrect {
+  background: #fff3df;
+  border-color: #e9d2a5;
+}
+.app-shell .timeline-track strong {
+  font-size: 20px;
+  color: #607950;
+}
+.app-shell .timeline-track small {
+  font-size: 12px;
+  color: #66805d;
+}
+.app-shell .timeline-story h3 {
+  font-size: 25px;
+}
+.app-shell .timeline-story > p {
+  font-size: 16px;
+  color: #536747;
+}
+.app-shell .diagram-part-tabs button {
+  font-size: 14px;
+}
+.app-shell .diagram-description h3 {
+  font-size: 22px;
+}
+.app-shell .diagram-description p {
+  font-size: 15px;
+}
+.app-shell .lesson-completion h1 {
+  font-size: 43px;
+  color: #624497;
+  font-weight: 900;
+}
+.app-shell .lesson-completion > p {
+  font-size: 17px;
+}
+.app-shell .completion-rewards > div {
+  border: 2px solid #e2d7f7;
+  border-radius: 21px;
+  background: #f0eaff;
+}
+.app-shell .completion-rewards span {
+  font-size: 14px;
+}
+.app-shell .filter-tabs button {
+  min-height: 43px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 800;
+}
+.app-shell .collection-banner {
+  background: #e5f5ff;
+  border: 2px solid #c9e7f8;
+  border-radius: 24px;
+}
+.app-shell .collection-banner h2 {
+  font-size: 29px;
+}
+.app-shell .collection-banner p {
+  font-size: 15px;
+}
+.app-shell .collection-grid .lesson-card h3 {
+  font-size: 18px;
+}
+.app-shell .badge-card {
+  border-radius: 23px;
+}
+.app-shell .badge-card.earned {
+  border: 2px solid #eed178;
+  background: #fffae9;
+}
+.app-shell .challenge-card {
+  border: 2px solid #dacbf3;
+  border-radius: 24px;
+  background: #f1eaff;
+}
+.app-shell .notification-popover {
+  border: 2px solid #d6e9f2;
+  border-radius: 19px;
+}
+.app-shell .notification-popover p,
+.app-shell .notification-popover a {
+  font-size: 14px;
+}
+.app-shell .modal {
+  border: 2px solid #d7e4ed;
+  border-radius: 24px;
+}
+.app-shell .modal h2 {
+  font-size: 24px;
+}
+.app-shell .modal p {
+  font-size: 16px;
+}
+/* Sign-in is the entrance to the same playground. */
+.login-page .login-world {
+  background: #dff4ff;
+}
+.login-page .login-world-copy h1 {
+  color: #255a7b;
+  font-weight: 900;
+}
+.login-page .login-world-copy p {
+  color: #4c7d97;
+  font-size: 18px;
+}
+.login-page .login-art {
+  filter: saturate(1.5);
+}
+.login-page .login-form-wrap h2 {
+  font-size: 34px;
+  font-weight: 900;
+}
+.login-page .login-form-wrap > p {
+  font-size: 16px;
+  color: #6b7f94;
+}
+.login-page .login-form-wrap label {
+  font-size: 15px;
+  font-weight: 800;
+}
+.login-page .login-form-wrap input {
+  font-size: 16px;
+  min-height: 52px;
+  border-radius: 13px;
+  border: 2px solid #dce7f0;
+}
+.login-page .login-submit {
+  font-size: 17px;
+  font-weight: 900;
+  border-radius: 14px;
+  box-shadow: 0 5px #593cbf;
+}
+@media (max-width: 1250px) {
+  .app-shell .kids-hero {
+    padding: 27px;
+  }
+  .app-shell .kids-hero .hero-copy {
+    max-width: 58%;
+  }
+  .app-shell .playground-picture {
+    width: 39%;
+    right: 0;
+  }
+  .app-shell .hero-cta-row {
+    gap: 13px;
+  }
+  .app-shell .hero-library-link {
+    font-size: 13px;
+  }
+  .app-shell .subject-world {
+    padding: 16px 12px;
+  }
+  .app-shell .subject-world strong {
+    font-size: 17px;
+  }
+  .app-shell .subject-world small {
+    font-size: 11px;
+  }
+  .app-shell .stat-card {
+    padding: 14px 11px;
+    gap: 9px;
+  }
+  .app-shell .stat-icon {
+    width: 34px;
+  }
+  .app-shell .create-grid {
+    grid-template-columns: minmax(0, 1fr) 250px;
+    gap: 18px;
+  }
+  .app-shell .create-form-footer {
+    flex-direction: column-reverse;
+    align-items: stretch;
+  }
+}
+@media (max-width: 1000px) {
+  .app-shell .sidebar {
+    width: 212px;
+  }
+  .app-shell .main-shell {
+    margin-left: 212px;
+  }
+  .app-shell .topbar {
+    padding: 0 24px;
+  }
+  .app-shell .breadcrumb > span:not(.breadcrumb-slash) {
+    display: none;
+  }
+  .app-shell .breadcrumb-slash {
+    display: none;
+  }
+  .app-shell .page-content {
+    padding: 26px 24px;
+  }
+  .app-shell .subject-worlds {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .app-shell .subject-world small {
+    font-size: 12px;
+  }
+  .app-shell .worlds-note {
+    display: none;
+  }
+  .app-shell .dashboard-middle {
+    grid-template-columns: 1fr;
+  }
+  .app-shell .create-grid {
+    grid-template-columns: 1fr;
+  }
+  .app-shell .create-side {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .app-shell .player-layout {
+    grid-template-columns: 1fr;
+  }
+  .app-shell .player-aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .app-shell .player-mascot-note {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .app-shell .sidebar {
+    width: 228px;
+  }
+  .app-shell .main-shell {
+    margin-left: 0;
+  }
+  .app-shell .topbar {
+    height: 72px;
+  }
+  .app-shell .top-search {
+    display: none;
+  }
+  .app-shell .top-stat {
+    padding: 5px 8px;
+  }
+  .app-shell .kids-hero {
+    min-height: 350px;
+  }
+  .app-shell .kids-hero .hero-copy {
+    max-width: 56%;
+  }
+  .app-shell .kids-hero h2 {
+    font-size: 44px;
+  }
+  .app-shell .playground-picture {
+    width: 42%;
+  }
+  .app-shell .stats-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 600px) {
+  .app-shell .page-content {
+    padding: 22px 16px;
+  }
+  .app-shell .topbar {
+    padding: 0 16px;
+  }
+  .app-shell .topbar-actions {
+    gap: 7px;
+  }
+  .app-shell .top-stat {
+    font-size: 13px;
+  }
+  .app-shell .notification-wrap {
+    display: none;
+  }
+  .app-shell .top-avatar {
+    width: 33px;
+    height: 33px;
+  }
+  .app-shell .page-heading {
+    align-items: flex-start;
+  }
+  .app-shell .page-heading h1 {
+    font-size: 29px;
+  }
+  .app-shell .page-heading p {
+    font-size: 14px;
+  }
+  .app-shell .page-heading > .button {
+    font-size: 13px;
+    min-height: 44px;
+    padding: 9px 12px;
+  }
+  .app-shell .page-heading > .button > svg {
+    display: none;
+  }
+  .app-shell .kids-hero {
+    padding: 25px 23px 225px;
+    display: block;
+    min-height: 550px;
+    border-radius: 24px;
+  }
+  .app-shell .kids-hero .hero-copy {
+    max-width: 100%;
+  }
+  .app-shell .kids-hero h2 {
+    font-size: 42px;
+  }
+  .app-shell .kids-hero .hero-copy p {
+    font-size: 16px;
+  }
+  .app-shell .hero-cta-row {
+    gap: 15px;
+  }
+  .app-shell .hero-button {
+    width: 100%;
+  }
+  .app-shell .hero-library-link {
+    font-size: 14px;
+  }
+  .app-shell .hero-footnote {
+    display: none;
+  }
+  .app-shell .playground-picture {
+    width: 100%;
+    height: 238px;
+    top: auto;
+    bottom: 0;
+    right: 0;
+  }
+  .app-shell .mascot-speech {
+    bottom: 13px;
+    font-size: 12px;
+  }
+  .app-shell .club-badge {
+    font-size: 11px;
+  }
+  .app-shell .stat-card {
+    padding: 13px 10px;
+    gap: 10px;
+  }
+  .app-shell .stat-label {
+    font-size: 11px;
+  }
+  .app-shell .stat-value {
+    font-size: 24px;
+  }
+  .app-shell .section-heading h2 {
+    font-size: 21px;
+  }
+  .app-shell .section-heading a {
+    font-size: 12px;
+  }
+  .app-shell .section-heading p {
+    font-size: 13px;
+  }
+  .app-shell .subject-worlds {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+  }
+  .app-shell .subject-world:last-child {
+    grid-column: 1/-1;
+    flex-direction: row;
+    align-items: center;
+    gap: 13px;
+    min-height: 84px;
+  }
+  .app-shell .subject-world:last-child .world-icon {
+    margin: 0;
+    width: 47px;
+    height: 47px;
+  }
+  .app-shell .subject-world:last-child small {
+    display: none;
+  }
+  .app-shell .subject-world strong {
+    font-size: 18px;
+  }
+  .app-shell .continue-card {
+    padding: 18px;
+  }
+  .app-shell .continue-art {
+    width: 32%;
+    flex-basis: 32%;
+  }
+  .app-shell .continue-copy {
+    width: 68%;
+  }
+  .app-shell .continue-copy h3 {
+    font-size: 19px;
+  }
+  .app-shell .continue-copy p {
+    font-size: 13px;
+  }
+  .app-shell .continue-button {
+    font-size: 13px;
+    padding: 10px 13px;
+  }
+  .app-shell .lesson-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .app-shell .lesson-thumbnail {
+    height: 190px;
+  }
+  .app-shell .lesson-card h3,
+  .app-shell .collection-grid .lesson-card h3 {
+    font-size: 20px;
+  }
+  .app-shell .card-footer > span,
+  .app-shell .lesson-meta {
+    font-size: 13px;
+  }
+  .app-shell .dashboard-subject-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .app-shell .dashboard-bottom-note {
+    font-size: 13px;
+    padding: 15px;
+  }
+  .app-shell .create-fields {
+    padding: 20px;
+  }
+  .app-shell .input-modes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .app-shell .input-modes button {
+    font-size: 14px;
+    min-height: 52px;
+  }
+  .app-shell .form-row {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+  .app-shell .create-side {
+    display: flex;
+  }
+  .app-shell .create-form-footer .button {
+    font-size: 14px;
+    padding: 12px 9px;
+    white-space: normal;
+  }
+  .app-shell .player-heading h1 {
+    font-size: 27px;
+  }
+  .app-shell .player-scene-nav {
+    gap: 7px;
+  }
+  .app-shell .player-scene-nav > button {
+    font-size: 12px;
+    padding: 10px;
+    flex-shrink: 0;
+  }
+  .app-shell .player-layout {
+    gap: 20px;
+  }
+  .app-shell .player-aside {
+    display: flex;
+  }
+  .app-shell .stage-toolbar {
+    font-size: 12px;
+    padding: 13px;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .app-shell .stage-prompt {
+    font-size: 15px;
+  }
+  .app-shell .fraction-interaction {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .app-shell .pizza-world {
+    width: 100%;
+  }
+  .app-shell .pizza-svg {
+    max-height: 275px;
+  }
+  .app-shell .fraction-result {
+    flex-basis: auto;
+    width: 100%;
+  }
+  .app-shell .fraction-number {
+    margin: 10px auto;
+  }
+  .app-shell .fraction-number strong {
+    font-size: 38px;
+  }
+  .app-shell .pizza-parts-controls {
+    margin-top: 23px;
+  }
+  .app-shell .pizza-parts-controls button {
+    min-width: 57px;
+    padding: 9px;
+  }
+  .app-shell .pizza-parts-controls > div {
+    gap: 8px;
+  }
+  .app-shell .player-controls .button {
+    font-size: 13px;
+    padding: 11px 13px;
+    min-width: 0;
+  }
+  .app-shell .quiz-scene h3 {
+    font-size: 25px;
+  }
+  .app-shell .quiz-options button {
+    font-size: 16px;
+    padding: 13px;
+  }
+  .app-shell .quiz-feedback p {
+    font-size: 14px;
+  }
+  .app-shell .timeline-track small {
+    font-size: 10px;
+  }
+  .app-shell .timeline-track strong {
+    font-size: 18px;
+  }
+  .app-shell .timeline-story > p {
+    font-size: 15px;
+  }
+  .app-shell .timeline-event {
+    grid-template-columns: 1fr;
+  }
+  .app-shell .timeline-art {
+    max-height: 155px;
+  }
+  .app-shell .lesson-completion h1 {
+    font-size: 32px;
+  }
+  .app-shell .lesson-completion > p {
+    font-size: 16px;
+  }
+  .app-shell .completion-rewards {
+    gap: 8px;
+  }
+  .app-shell .completion-rewards span {
+    font-size: 12px;
+  }
+  .app-shell .generation-page h1 {
+    font-size: 29px;
+  }
+  .app-shell .app-footer {
+    font-size: 10px;
+    padding: 20px 16px;
+  }
+  .login-page .login-form-wrap h2 {
+    font-size: 28px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell :is(.subject-world, .lesson-card, .button):hover {
+    transform: none;
+  }
+  .app-shell .button:active:not(:disabled) {
+    transform: none;
+  }
+}
+
+/* Keep supporting form copy legible for younger readers. */
+.app-shell :is(input, textarea)::placeholder,
+.login-page input::placeholder {
+  color: #75869b;
+  opacity: 1;
+  font-size: 14px;
+}

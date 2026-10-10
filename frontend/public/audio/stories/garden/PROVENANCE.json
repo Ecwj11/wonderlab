@@ -1,0 +1,437 @@
+{
+  "revision": 2,
+  "storyTitle": "小雨的种子：3D有声故事",
+  "sourceContent": "backend/src/db/content/chinese-garden-story.json",
+  "storyOrigin": "Original project story; no textbook reproduction or curriculum coverage claim.",
+  "generatedAt": "2026-10-09T07:47:23.346693+00:00",
+  "engine": "Microsoft Edge neural TTS via edge-tts",
+  "edgeTtsVersion": "7.2.8",
+  "language": "zh-CN",
+  "synthetic": true,
+  "profiles": {
+    "narrator": {
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-8%",
+      "pitch": "+0Hz"
+    },
+    "xiaoyu": {
+      "voice": "zh-CN-XiaoyiNeural",
+      "rate": "-4%",
+      "pitch": "+0Hz"
+    },
+    "amin": {
+      "voice": "zh-CN-YunxiNeural",
+      "rate": "-4%",
+      "pitch": "+0Hz"
+    },
+    "teacher": {
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-12%",
+      "pitch": "-2Hz"
+    },
+    "task": {
+      "voice": "zh-CN-XiaoxiaoNeural",
+      "rate": "-10%",
+      "pitch": "+0Hz"
+    }
+  },
+  "generationCommand": "python3 scripts/generate-story-neural-audio.py",
+  "transcriptPolicy": "All original page text and task prompts; explicit character attribution and short pauses between dialogue segments.",
+  "processing": "Mono 44.1kHz MP3 128kbps. Constant attenuation only; no post-generation pitch shifting or tempo manipulation.",
+  "signalPolicy": "Every MP3 decodes with finite nonzero signal and peak at or below -3 dBFS.",
+  "providerDocumentation": "https://github.com/rany2/edge-tts",
+  "entries": [
+    {
+      "id": "meet-xiaoyu",
+      "narrationSrc": "/audio/stories/garden/meet-xiaoyu.mp3",
+      "transcript": "早晨，学校花园暖暖的。小雨站在教室门前，向你挥挥手。她说：“今天，我们种一颗种子吧！等它长大，就能给花园添一点绿色。”你想听听她的计划。\n\n请点一下小雨，和她打招呼。",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "早晨，学校花园暖暖的。小雨站在教室门前，向你挥挥手。她说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "xiaoyu",
+          "text": "今天，我们种一颗种子吧！等它长大，就能给花园添一点绿色。",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-XiaoyiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "你想听听她的计划。",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "请点一下小雨，和她打招呼。",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 21.960068,
+      "bytes": 352382,
+      "sha256": "ec33d94efc968aa04c1324bf99f21564ff4370cb286f15ea654daf4273019eb4",
+      "gainDb": -0.7000000000000002,
+      "peakDb": -4.5,
+      "meanDb": -22.0
+    },
+    {
+      "id": "walk-to-garden",
+      "narrationSrc": "/audio/stories/garden/walk-to-garden.mp3",
+      "transcript": "小雨指着花坛说：“那里的泥土松松的，最适合种种子。”池塘边有小鱼，教室里有书，可今天的目的地是花坛。你沿着小路，和小雨慢慢走过去。\n\n我们要去哪里种种子？请走到那个地方。",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "小雨指着花坛说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "xiaoyu",
+          "text": "那里的泥土松松的，最适合种种子。",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-XiaoyiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "池塘边有小鱼，教室里有书，可今天的目的地是花坛。你沿着小路，和小雨慢慢走过去。",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "我们要去哪里种种子？请走到那个地方。",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 21.576032,
+      "bytes": 346113,
+      "sha256": "15d72c0c7168cdedc596772bb02bb886869e40f951c31a106b48449dd04eda8c",
+      "gainDb": -0.2999999999999998,
+      "peakDb": -4.6,
+      "meanDb": -21.3
+    },
+    {
+      "id": "find-seeds",
+      "narrationSrc": "/audio/stories/garden/find-seeds.mp3",
+      "transcript": "花坛旁放着一本书、一个球，还有一袋种子。种子装在黄色的小袋子里。小雨说：“请帮我找到种子。”你找到袋子，和她把一颗种子轻轻放进土里，再盖上薄薄的泥土。\n\n请找出黄色袋子里的种子。",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "花坛旁放着一本书、一个球，还有一袋种子。种子装在黄色的小袋子里。小雨说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "xiaoyu",
+          "text": "请帮我找到种子。",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-XiaoyiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "你找到袋子，和她把一颗种子轻轻放进土里，再盖上薄薄的泥土。",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "请找出黄色袋子里的种子。",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 22.920045,
+      "bytes": 367847,
+      "sha256": "53dabc307ff824a77b25b2232b09e51fe18364755d17c5d143a50a12c2eff5c6",
+      "gainDb": -0.7000000000000002,
+      "peakDb": -4.4,
+      "meanDb": -21.9
+    },
+    {
+      "id": "find-watering-can",
+      "narrationSrc": "/audio/stories/garden/find-watering-can.mp3",
+      "transcript": "种子住进了泥土里。小雨说：“现在，给它喝一点水吧。”旁边有书、铲子和装着水的浇水壶。你拿起浇水壶，轻轻地浇水，让泥土湿润，不让水流把种子冲走。\n\n哪件工具可以浇水？请找出来。",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "种子住进了泥土里。小雨说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "xiaoyu",
+          "text": "现在，给它喝一点水吧。",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-XiaoyiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "旁边有书、铲子和装着水的浇水壶。你拿起浇水壶，轻轻地浇水，让泥土湿润，不让水流把种子冲走。",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "哪件工具可以浇水？请找出来。",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 23.592041,
+      "bytes": 378714,
+      "sha256": "d4911d10cfd775f438ba6a809c5e3195ddf4b21bea259471d6c295f9a85cff6b",
+      "gainDb": -1.0,
+      "peakDb": -4.4,
+      "meanDb": -21.9
+    },
+    {
+      "id": "seedling-needs-sun",
+      "narrationSrc": "/audio/stories/garden/seedling-needs-sun.mp3",
+      "transcript": "老师走来，看看你们的花坛。她说：“种子发芽以后，小苗除了水，也需要阳光，才能慢慢长大。”小雨抬头看看明亮的天空，把这句话记在心里。你也记住了吗？\n\n小苗除了水，还需要什么才能长大？",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "老师走来，看看你们的花坛。她说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "teacher",
+          "text": "种子发芽以后，小苗除了水，也需要阳光，才能慢慢长大。",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-12%",
+          "pitch": "-2Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "小雨抬头看看明亮的天空，把这句话记在心里。你也记住了吗？",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "小苗除了水，还需要什么才能长大？",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 22.96805,
+      "bytes": 368683,
+      "sha256": "c536350dc66cc76c9f300fc62920f1932db5762cc4d51490cec7b56da0702df8",
+      "gainDb": -0.5,
+      "peakDb": -4.4,
+      "meanDb": -21.1
+    },
+    {
+      "id": "help-amin",
+      "narrationSrc": "/audio/stories/garden/help-amin.mp3",
+      "transcript": "这时，阿明提着另一壶水走来了。水壶有点重，他停下来，说：“谁能帮帮我？”小雨向他招招手。你走过去，和阿明一起把水壶放好。阿明笑着说：“谢谢你！”\n\n谁需要帮忙？请走近他，和他说话。",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "这时，阿明提着另一壶水走来了。水壶有点重，他停下来，说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "amin",
+          "text": "谁能帮帮我？",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-YunxiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "小雨向他招招手。你走过去，和阿明一起把水壶放好。阿明笑着说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "amin",
+          "text": "谢谢你！",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-YunxiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "谁需要帮忙？请走近他，和他说话。",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 25.356054,
+      "bytes": 406717,
+      "sha256": "98442befa770785c5ee4c54c841c551f09845250fe64cd2a367df2d8fba722f3",
+      "gainDb": -2.0,
+      "peakDb": -4.4,
+      "meanDb": -23.3
+    },
+    {
+      "id": "meaning-together",
+      "narrationSrc": "/audio/stories/garden/meaning-together.mp3",
+      "transcript": "小雨对阿明说：“明天，我们一同来看看种子吧！”阿明点点头：“好！我们一起浇水，一起看小苗长大。”你听出来了，小雨说的“一同”，就是大家一起做一件事。\n\n故事里的“一同”是什么意思？",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "小雨对阿明说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "xiaoyu",
+          "text": "明天，我们一同来看看种子吧！",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-XiaoyiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "阿明点点头：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "amin",
+          "text": "好！我们一起浇水，一起看小苗长大。",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-YunxiNeural",
+          "rate": "-4%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "你听出来了，小雨说的",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "一同",
+          "pauseAfterSeconds": 0.22,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "narrator",
+          "text": "，就是大家一起做一件事。",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "故事里的“一同”是什么意思？",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 25.160113,
+      "bytes": 403791,
+      "sha256": "bf5fb0012c043c88ecb8774cfaf8cd2f1f03629e981d382be51f1a3e1c98920d",
+      "gainDb": -1.7000000000000002,
+      "peakDb": -4.5,
+      "meanDb": -23.8
+    },
+    {
+      "id": "remember-first-step",
+      "narrationSrc": "/audio/stories/garden/remember-first-step.mp3",
+      "transcript": "几天后，小小的嫩芽钻出了泥土。小雨和阿明开心地笑了。他们先种下种子，再轻轻浇水，后来每天来照顾。老师说：“小苗慢慢长大，你们的耐心和友爱也在长大。”\n\n回想故事，他们最先做的是哪一件事？",
+      "segments": [
+        {
+          "speaker": "narrator",
+          "text": "几天后，小小的嫩芽钻出了泥土。小雨和阿明开心地笑了。他们先种下种子，再轻轻浇水，后来每天来照顾。老师说：",
+          "pauseAfterSeconds": 0.18,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-8%",
+          "pitch": "+0Hz"
+        },
+        {
+          "speaker": "teacher",
+          "text": "小苗慢慢长大，你们的耐心和友爱也在长大。",
+          "pauseAfterSeconds": 0.65,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-12%",
+          "pitch": "-2Hz"
+        },
+        {
+          "speaker": "task",
+          "text": "回想故事，他们最先做的是哪一件事？",
+          "pauseAfterSeconds": 0.15,
+          "voice": "zh-CN-XiaoxiaoNeural",
+          "rate": "-10%",
+          "pitch": "+0Hz"
+        }
+      ],
+      "durationSeconds": 24.356032,
+      "bytes": 390834,
+      "sha256": "9a2f3f82d9549c4f0fc79d001f389c969349d1f05b90a6e9d5095046e670a04a",
+      "gainDb": -1.1,
+      "peakDb": -4.5,
+      "meanDb": -21.8
+    }
+  ]
+}

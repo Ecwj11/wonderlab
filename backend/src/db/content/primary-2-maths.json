@@ -1,0 +1,842 @@
+[
+  {
+    "key": "p2-library-shelf-builders",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Library Shelf Builders",
+    "focus": "Add hundreds, tens, and ones separately when no regrouping is needed.",
+    "missions": [
+      {
+        "left": 123,
+        "right": 214
+      },
+      {
+        "left": 241,
+        "right": 132
+      },
+      {
+        "left": 312,
+        "right": 145
+      },
+      {
+        "left": 421,
+        "right": 256
+      }
+    ],
+    "quiz": [
+      {
+        "left": 142,
+        "right": 215,
+        "context": "The school library has 142 storybooks and receives 215 more storybooks; how many storybooks does it have altogether?"
+      },
+      {
+        "left": 231,
+        "right": 146,
+        "context": "A librarian puts 231 books on one shelf and 146 books on another shelf; how many books are on the two shelves altogether?"
+      },
+      {
+        "left": 314,
+        "right": 253,
+        "context": "Pupils collect 314 Malay books and 253 English books; how many books do they collect altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-canteen-cup-crew",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Canteen Cup Crew",
+    "focus": "Regroup ten ones as one ten when adding two numbers.",
+    "missions": [
+      {
+        "left": 27,
+        "right": 16
+      },
+      {
+        "left": 35,
+        "right": 28
+      },
+      {
+        "left": 46,
+        "right": 37
+      },
+      {
+        "left": 68,
+        "right": 25
+      }
+    ],
+    "quiz": [
+      {
+        "left": 26,
+        "right": 17,
+        "context": "The canteen has 26 cups on a tray and adds 17 more cups; how many cups are on the tray now?"
+      },
+      {
+        "left": 38,
+        "right": 24,
+        "context": "A canteen helper washes 38 cups before recess and 24 cups after recess; how many cups does the helper wash altogether?"
+      },
+      {
+        "left": 47,
+        "right": 35,
+        "context": "There are 47 clean cups in a cupboard and 35 clean cups on a trolley; how many clean cups are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-batik-colour-warehouse",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Batik Colour Warehouse",
+    "focus": "Regroup ten tens as one hundred when the tens column reaches ten or more.",
+    "missions": [
+      {
+        "left": 160,
+        "right": 270
+      },
+      {
+        "left": 240,
+        "right": 380
+      },
+      {
+        "left": 350,
+        "right": 460
+      },
+      {
+        "left": 470,
+        "right": 250
+      }
+    ],
+    "quiz": [
+      {
+        "left": 150,
+        "right": 280,
+        "context": "A batik workshop has 150 blue beads and 280 red beads; how many beads does it have altogether?"
+      },
+      {
+        "left": 260,
+        "right": 370,
+        "context": "Pupils print 260 leaf shapes and 370 flower shapes on batik cloth; how many shapes do they print altogether?"
+      },
+      {
+        "left": 360,
+        "right": 450,
+        "context": "A workshop packs 360 wooden stamps in the morning and 450 wooden stamps in the afternoon; how many stamps does it pack altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-festival-flag-factory",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Festival Flag Factory",
+    "focus": "Regroup from ones to tens and from tens to hundreds in the same addition.",
+    "missions": [
+      {
+        "left": 178,
+        "right": 246
+      },
+      {
+        "left": 267,
+        "right": 358
+      },
+      {
+        "left": 386,
+        "right": 427
+      },
+      {
+        "left": 459,
+        "right": 284
+      }
+    ],
+    "quiz": [
+      {
+        "left": 186,
+        "right": 247,
+        "context": "Pupils make 186 flags on Monday and 247 flags on Tuesday; how many flags do they make altogether?"
+      },
+      {
+        "left": 278,
+        "right": 356,
+        "context": "A school hangs 278 flags in the hall and 356 flags along the corridor; how many flags does it hang altogether?"
+      },
+      {
+        "left": 367,
+        "right": 458,
+        "context": "A club prepares 367 small flags and 458 large flags; how many flags does it prepare altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-bus-ticket-trail",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Bus Ticket Trail",
+    "focus": "Count forward in tens while keeping the ones digit unchanged.",
+    "missions": [
+      {
+        "left": 134,
+        "right": 20
+      },
+      {
+        "left": 265,
+        "right": 30
+      },
+      {
+        "left": 387,
+        "right": 40
+      },
+      {
+        "left": 448,
+        "right": 50
+      }
+    ],
+    "quiz": [
+      {
+        "left": 126,
+        "right": 30,
+        "context": "A bus station sells 126 tickets in the morning and 30 more tickets at noon; how many tickets does it sell altogether?"
+      },
+      {
+        "left": 253,
+        "right": 40,
+        "context": "A ticket box holds 253 tickets and a worker adds 40 tickets; how many tickets are in the box now?"
+      },
+      {
+        "left": 378,
+        "right": 50,
+        "context": "A bus company prints 378 tickets and then prints 50 more tickets; how many tickets does it print altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-recycling-hundred-hunt",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Recycling Hundred Hunt",
+    "focus": "Add whole hundreds by changing the hundreds digit and keeping tens and ones unchanged.",
+    "missions": [
+      {
+        "left": 125,
+        "right": 200
+      },
+      {
+        "left": 246,
+        "right": 300
+      },
+      {
+        "left": 358,
+        "right": 400
+      },
+      {
+        "left": 472,
+        "right": 100
+      }
+    ],
+    "quiz": [
+      {
+        "left": 137,
+        "right": 200,
+        "context": "A class collects 137 bottles and another class collects 200 bottles; how many bottles do the classes collect altogether?"
+      },
+      {
+        "left": 264,
+        "right": 300,
+        "context": "A recycling centre has 264 cans and receives 300 more cans; how many cans does it have now?"
+      },
+      {
+        "left": 381,
+        "right": 400,
+        "context": "Pupils collect 381 sheets of paper in one week and 400 sheets in the next week; how many sheets do they collect altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-kuih-tray-shortcuts",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Kuih Tray Shortcuts",
+    "focus": "Add a nearby multiple of ten and then adjust for the extra amount added.",
+    "missions": [
+      {
+        "left": 46,
+        "right": 19
+      },
+      {
+        "left": 73,
+        "right": 29
+      },
+      {
+        "left": 128,
+        "right": 39
+      },
+      {
+        "left": 245,
+        "right": 49
+      }
+    ],
+    "quiz": [
+      {
+        "left": 34,
+        "right": 19,
+        "context": "A kuih stall has 34 pieces of kuih and adds 19 freshly made pieces; how many pieces of kuih does it have now?"
+      },
+      {
+        "left": 57,
+        "right": 29,
+        "context": "A baker makes 57 pieces of kuih in the morning and 29 pieces in the afternoon; how many pieces does the baker make altogether?"
+      },
+      {
+        "left": 126,
+        "right": 39,
+        "context": "A school fair sells 126 pieces of kuih before noon and 39 pieces after noon; how many pieces does it sell altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-school-garden-stepping-stones",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "School Garden Stepping Stones",
+    "focus": "Split the second addend to reach the next hundred before adding the remaining amount.",
+    "missions": [
+      {
+        "left": 86,
+        "right": 27
+      },
+      {
+        "left": 175,
+        "right": 48
+      },
+      {
+        "left": 268,
+        "right": 56
+      },
+      {
+        "left": 457,
+        "right": 65
+      }
+    ],
+    "quiz": [
+      {
+        "left": 87,
+        "right": 26,
+        "context": "Pupils plant 87 seedlings on Monday and 26 seedlings on Tuesday; how many seedlings do they plant altogether?"
+      },
+      {
+        "left": 178,
+        "right": 45,
+        "context": "The school garden has 178 flowers and pupils plant 45 more flowers; how many flowers are in the garden now?"
+      },
+      {
+        "left": 269,
+        "right": 54,
+        "context": "A gardening club collects 269 seeds and finds 54 more seeds; how many seeds does it collect altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-bookshop-stock-check",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Bookshop Stock Check",
+    "focus": "Subtract hundreds, tens, and ones separately when no regrouping is needed.",
+    "missions": [
+      {
+        "left": 487,
+        "right": 235
+      },
+      {
+        "left": 675,
+        "right": 342
+      },
+      {
+        "left": 896,
+        "right": 453
+      },
+      {
+        "left": 764,
+        "right": 521
+      }
+    ],
+    "quiz": [
+      {
+        "left": 476,
+        "right": 234,
+        "context": "A bookshop has 476 exercise books and sells 234 of them; how many exercise books remain?"
+      },
+      {
+        "left": 685,
+        "right": 352,
+        "context": "A school receives 685 pencils and gives 352 pencils to pupils; how many pencils remain?"
+      },
+      {
+        "left": 897,
+        "right": 465,
+        "context": "A bookshop has 897 bookmarks and sells 465 of them; how many bookmarks remain?"
+      }
+    ]
+  },
+  {
+    "key": "p2-canteen-spoon-rescue",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Canteen Spoon Rescue",
+    "focus": "Exchange one ten for ten ones when there are too few ones to subtract.",
+    "missions": [
+      {
+        "left": 52,
+        "right": 27
+      },
+      {
+        "left": 74,
+        "right": 38
+      },
+      {
+        "left": 93,
+        "right": 46
+      },
+      {
+        "left": 85,
+        "right": 29
+      }
+    ],
+    "quiz": [
+      {
+        "left": 63,
+        "right": 28,
+        "context": "The canteen has 63 spoons and pupils take 28 spoons; how many spoons remain?"
+      },
+      {
+        "left": 82,
+        "right": 37,
+        "context": "A helper places 82 forks on a trolley and takes 37 forks to the tables; how many forks remain on the trolley?"
+      },
+      {
+        "left": 95,
+        "right": 48,
+        "context": "There are 95 plates in the canteen and 48 plates are used for lunch; how many plates remain unused?"
+      }
+    ]
+  },
+  {
+    "key": "p2-batik-roll-store",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Batik Roll Store",
+    "focus": "Exchange one hundred for ten tens when there are too few tens to subtract.",
+    "missions": [
+      {
+        "left": 342,
+        "right": 170
+      },
+      {
+        "left": 463,
+        "right": 280
+      },
+      {
+        "left": 581,
+        "right": 390
+      },
+      {
+        "left": 724,
+        "right": 460
+      }
+    ],
+    "quiz": [
+      {
+        "left": 352,
+        "right": 180,
+        "context": "A batik shop has 352 metres of ribbon and uses 180 metres; how many metres of ribbon remain?"
+      },
+      {
+        "left": 475,
+        "right": 290,
+        "context": "A workshop has 475 wooden beads and uses 290 beads; how many beads remain?"
+      },
+      {
+        "left": 684,
+        "right": 390,
+        "context": "Pupils draw 684 batik shapes and colour 390 of them; how many shapes remain to be coloured?"
+      }
+    ]
+  },
+  {
+    "key": "p2-zero-bridge-station",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Zero Bridge Station",
+    "focus": "Regroup through a zero in the tens column to subtract ones.",
+    "missions": [
+      {
+        "left": 302,
+        "right": 147
+      },
+      {
+        "left": 405,
+        "right": 168
+      },
+      {
+        "left": 600,
+        "right": 274
+      },
+      {
+        "left": 701,
+        "right": 356
+      }
+    ],
+    "quiz": [
+      {
+        "left": 304,
+        "right": 156,
+        "context": "A bus station has 304 tickets and sells 156 of them; how many tickets remain?"
+      },
+      {
+        "left": 502,
+        "right": 187,
+        "context": "A school has 502 stickers and gives away 187 stickers; how many stickers remain?"
+      },
+      {
+        "left": 700,
+        "right": 268,
+        "context": "A library has 700 lending cards and uses 268 of them; how many lending cards remain unused?"
+      }
+    ]
+  },
+  {
+    "key": "p2-bus-ticket-countdown",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Bus Ticket Countdown",
+    "focus": "Count backward in tens while keeping the ones digit unchanged.",
+    "missions": [
+      {
+        "left": 256,
+        "right": 30
+      },
+      {
+        "left": 387,
+        "right": 40
+      },
+      {
+        "left": 468,
+        "right": 50
+      },
+      {
+        "left": 579,
+        "right": 60
+      }
+    ],
+    "quiz": [
+      {
+        "left": 245,
+        "right": 30,
+        "context": "A bus station has 245 tickets and sells 30 tickets; how many tickets remain?"
+      },
+      {
+        "left": 376,
+        "right": 40,
+        "context": "A ticket machine holds 376 tickets and prints out 40 tickets; how many tickets remain inside?"
+      },
+      {
+        "left": 487,
+        "right": 50,
+        "context": "A bus company prepares 487 tickets and uses 50 tickets for a school trip; how many tickets remain?"
+      }
+    ]
+  },
+  {
+    "key": "p2-recycling-bale-drop",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Recycling Bale Drop",
+    "focus": "Subtract whole hundreds by changing the hundreds digit and keeping tens and ones unchanged.",
+    "missions": [
+      {
+        "left": 725,
+        "right": 200
+      },
+      {
+        "left": 846,
+        "right": 300
+      },
+      {
+        "left": 958,
+        "right": 400
+      },
+      {
+        "left": 672,
+        "right": 100
+      }
+    ],
+    "quiz": [
+      {
+        "left": 737,
+        "right": 200,
+        "context": "A recycling centre has 737 cans and sends 200 cans away; how many cans remain?"
+      },
+      {
+        "left": 864,
+        "right": 300,
+        "context": "Pupils collect 864 bottles and deliver 300 bottles to a recycling centre; how many bottles remain to be delivered?"
+      },
+      {
+        "left": 981,
+        "right": 400,
+        "context": "A club collects 981 sheets of paper and uses 400 sheets for crafts; how many sheets remain?"
+      }
+    ]
+  },
+  {
+    "key": "p2-pocket-money-shortcuts",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Pocket Money Shortcuts",
+    "focus": "Subtract a nearby multiple of ten and then add back the extra amount subtracted.",
+    "missions": [
+      {
+        "left": 45,
+        "right": 19
+      },
+      {
+        "left": 72,
+        "right": 29
+      },
+      {
+        "left": 126,
+        "right": 39
+      },
+      {
+        "left": 253,
+        "right": 49
+      }
+    ],
+    "quiz": [
+      {
+        "left": 43,
+        "right": 19,
+        "context": "Aina saves RM43 and spends RM19 on a storybook; how many ringgit does she have left?"
+      },
+      {
+        "left": 65,
+        "right": 29,
+        "context": "Ravi has RM65 and spends RM29 on art supplies; how many ringgit does he have left?"
+      },
+      {
+        "left": 84,
+        "right": 39,
+        "context": "Mei has RM84 and spends RM39 on a school bag; how many ringgit does she have left?"
+      }
+    ]
+  },
+  {
+    "key": "p2-reading-goal-ladder",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Reading Goal Ladder",
+    "focus": "Find the difference by counting up from the smaller number to the larger number.",
+    "missions": [
+      {
+        "left": 100,
+        "right": 87
+      },
+      {
+        "left": 200,
+        "right": 176
+      },
+      {
+        "left": 300,
+        "right": 265
+      },
+      {
+        "left": 500,
+        "right": 454
+      }
+    ],
+    "quiz": [
+      {
+        "left": 100,
+        "right": 86,
+        "context": "A reading challenge has a target of 100 pages and Sara has read 86 pages; how many more pages must she read to reach the target?"
+      },
+      {
+        "left": 200,
+        "right": 175,
+        "context": "A school wants to collect 200 books and has collected 175 books; how many more books does it need?"
+      },
+      {
+        "left": 300,
+        "right": 267,
+        "context": "A club wants to make 300 bookmarks and has made 267 bookmarks; how many more bookmarks must it make?"
+      }
+    ]
+  },
+  {
+    "key": "p2-paired-petal-workshop",
+    "grade": 2,
+    "operation": "MULTIPLY",
+    "title": "Paired Petal Workshop",
+    "focus": "Use repeated addition to find totals in equal groups of two or three.",
+    "missions": [
+      {
+        "left": 2,
+        "right": 4
+      },
+      {
+        "left": 3,
+        "right": 5
+      },
+      {
+        "left": 2,
+        "right": 9
+      },
+      {
+        "left": 3,
+        "right": 8
+      }
+    ],
+    "quiz": [
+      {
+        "left": 2,
+        "right": 6,
+        "context": "Each paper flower needs 2 leaves and pupils make 6 flowers; how many leaves do they need altogether?"
+      },
+      {
+        "left": 3,
+        "right": 4,
+        "context": "Each batik motif has 3 petals and pupils draw 4 motifs; how many petals do they draw altogether?"
+      },
+      {
+        "left": 3,
+        "right": 7,
+        "context": "Each craft kit has 3 coloured pencils and a teacher prepares 7 kits; how many coloured pencils are needed altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-kuih-box-skip-count",
+    "grade": 2,
+    "operation": "MULTIPLY",
+    "title": "Kuih Box Skip Count",
+    "focus": "Skip-count in fives and tens to find the total in equal groups.",
+    "missions": [
+      {
+        "left": 5,
+        "right": 3
+      },
+      {
+        "left": 10,
+        "right": 4
+      },
+      {
+        "left": 5,
+        "right": 9
+      },
+      {
+        "left": 10,
+        "right": 7
+      }
+    ],
+    "quiz": [
+      {
+        "left": 5,
+        "right": 4,
+        "context": "Each box holds 5 pieces of kuih and a baker fills 4 boxes; how many pieces of kuih are in the boxes altogether?"
+      },
+      {
+        "left": 10,
+        "right": 6,
+        "context": "Each packet holds 10 stickers and a teacher buys 6 packets; how many stickers does the teacher buy altogether?"
+      },
+      {
+        "left": 5,
+        "right": 7,
+        "context": "Each tray holds 5 cups and a helper fills 7 trays; how many cups are on the trays altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-kuih-sharing-circle",
+    "grade": 2,
+    "operation": "DIVIDE",
+    "title": "Kuih Sharing Circle",
+    "focus": "Share a total equally among two or five groups to find the amount in each group.",
+    "missions": [
+      {
+        "left": 18,
+        "right": 2
+      },
+      {
+        "left": 25,
+        "right": 5
+      },
+      {
+        "left": 12,
+        "right": 2
+      },
+      {
+        "left": 55,
+        "right": 5
+      }
+    ],
+    "quiz": [
+      {
+        "left": 20,
+        "right": 2,
+        "context": "A baker shares 20 pieces of kuih equally between 2 plates; how many pieces are on each plate?"
+      },
+      {
+        "left": 35,
+        "right": 5,
+        "context": "A teacher shares 35 pencils equally among 5 pupils; how many pencils does each pupil receive?"
+      },
+      {
+        "left": 16,
+        "right": 2,
+        "context": "Pupils share 16 bookmarks equally between 2 reading groups; how many bookmarks does each group receive?"
+      }
+    ]
+  },
+  {
+    "key": "p2-ten-ticket-bundles",
+    "grade": 2,
+    "operation": "DIVIDE",
+    "title": "Ten Ticket Bundles",
+    "focus": "Make groups of ten and count the groups to solve exact division.",
+    "missions": [
+      {
+        "left": 30,
+        "right": 10
+      },
+      {
+        "left": 60,
+        "right": 10
+      },
+      {
+        "left": 90,
+        "right": 10
+      },
+      {
+        "left": 120,
+        "right": 10
+      }
+    ],
+    "quiz": [
+      {
+        "left": 40,
+        "right": 10,
+        "context": "A bus station ties 40 tickets into bundles of 10 tickets; how many bundles does it make?"
+      },
+      {
+        "left": 70,
+        "right": 10,
+        "context": "A librarian packs 70 bookmarks into packets of 10 bookmarks; how many packets does the librarian make?"
+      },
+      {
+        "left": 110,
+        "right": 10,
+        "context": "A batik workshop packs 110 beads into bags of 10 beads; how many bags does it fill?"
+      }
+    ]
+  }
+]

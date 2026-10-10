@@ -1,0 +1,901 @@
+.app-shell .interactive-stage:has(.game-stage, .game-welcome, .game-victory) {
+  padding: 0;
+  overflow: hidden;
+  background: #f8fbff;
+}
+.app-shell .game-stage,
+.app-shell .game-welcome,
+.app-shell .game-victory {
+  position: relative;
+  min-width: 0;
+  color: #273452;
+}
+.app-shell .game-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-weight: 900;
+  font-size: 13px;
+  color: #7050c8;
+}
+.app-shell .game-welcome {
+  min-height: 500px;
+  text-align: center;
+  padding: 32px 36px 40px;
+  background:
+    radial-gradient(ellipse at 50% 25%, #fff1b3 0%, transparent 46%),
+    linear-gradient(160deg, #e4f7ff, #f8f1ff);
+}
+.app-shell .game-welcome.matching {
+  background:
+    radial-gradient(ellipse at 50% 25%, #ead7ff 0%, transparent 48%),
+    linear-gradient(160deg, #e6fff2, #eef1ff);
+}
+.app-shell .game-welcome-art {
+  position: relative;
+  width: 200px;
+  height: 175px;
+  margin: 0 auto 10px;
+}
+.app-shell .game-welcome-art > svg {
+  height: 150px;
+  width: 150px;
+  margin-top: 12px;
+  transform: rotate(-5deg);
+}
+.app-shell .game-orbit-star {
+  position: absolute;
+  font-size: 40px;
+  color: #ffb939;
+}
+.app-shell .game-orbit-star.one {
+  left: 3px;
+  top: 24px;
+  transform: rotate(-15deg);
+}
+.app-shell .game-orbit-star.two {
+  right: 0;
+  top: 0;
+  color: #af80ef;
+}
+.app-shell .game-welcome-gem {
+  position: absolute;
+  right: 7px;
+  bottom: 4px;
+  width: 53px;
+  height: 53px;
+  border-radius: 17px;
+  background: #ffd852;
+  color: #a76510;
+  display: grid;
+  place-items: center;
+  border: 3px solid #fff4b2;
+  box-shadow: 0 5px #e6b63d;
+  transform: rotate(12deg);
+}
+.app-shell .game-welcome h3,
+.app-shell .game-victory h3 {
+  font-size: clamp(25px, 3vw, 34px);
+  line-height: 1.2;
+  font-weight: 900;
+  margin: 13px auto 12px;
+  max-width: 580px;
+}
+.app-shell .game-welcome > p,
+.app-shell .game-victory > p {
+  font-size: 16px;
+  max-width: 580px;
+  line-height: 1.65;
+  margin: 0 auto 20px;
+}
+.app-shell .game-rules {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14px 22px;
+  margin: 22px 0 25px;
+}
+.app-shell .game-rules > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-weight: 800;
+  font-size: 13px;
+  color: #526381;
+}
+.app-shell .game-rules svg {
+  color: #8f62cd;
+}
+.app-shell .game-start {
+  min-width: 200px;
+  justify-content: center;
+}
+.app-shell .game-hud {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 19px 25px 14px;
+  background: #fff;
+  border-bottom: 2px solid #e1ebfa;
+}
+.app-shell .game-hud > div {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.app-shell .game-coins {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff0b5;
+  border: 2px solid #f7d55b;
+  color: #8b5717;
+  border-radius: 12px;
+  padding: 5px 10px;
+  font-weight: 900;
+  font-size: 17px;
+}
+.app-shell .game-combo,
+.app-shell .game-moves {
+  display: inline-flex;
+  gap: 5px;
+  align-items: center;
+  color: #6e5b99;
+  font-size: 12px;
+  font-weight: 800;
+}
+.app-shell .game-mission-map {
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+  padding: 15px;
+  background: #eaf6ff;
+}
+.app-shell .game-mission-map > span {
+  position: relative;
+  width: 31px;
+  height: 31px;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  border: 2px solid #bbd5ed;
+  color: #7598b3;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 12px;
+}
+.app-shell .game-mission-map > span:not(:last-child)::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  left: 29px;
+  width: 20px;
+  border-top: 3px dotted #a8cee8;
+}
+.app-shell .game-mission-map .current {
+  background: #8e65df;
+  color: #fff;
+  border-color: #7050b8;
+  box-shadow: 0 3px #cbb8f1;
+}
+.app-shell .game-mission-map .done {
+  color: #248657;
+  background: #c8f4d8;
+  border-color: #78c896;
+}
+.app-shell .number-quest-world {
+  position: relative;
+  padding: 16px 26px 0;
+  background: linear-gradient(#eaf6ff 0%, #f4f9ff 55%, #e4f5d9 100%);
+  overflow: hidden;
+}
+.app-shell .quest-cloud {
+  position: absolute;
+  height: 25px;
+  width: 92px;
+  border-radius: 40px;
+  background: #fff;
+  opacity: 0.78;
+  pointer-events: none;
+}
+.app-shell .quest-cloud::before {
+  content: '';
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 50%;
+  bottom: 4px;
+  left: 15px;
+}
+.app-shell .quest-cloud.one {
+  left: 5%;
+  top: 37px;
+}
+.app-shell .quest-cloud.two {
+  right: 9%;
+  top: 66px;
+  width: 71px;
+}
+.app-shell .quest-hills {
+  pointer-events: none;
+  position: absolute;
+  height: 120px;
+  width: 130%;
+  left: -20%;
+  bottom: -24px;
+  border-radius: 50% 60% 0 0;
+  background: #c8eab0;
+  transform: rotate(-5deg);
+}
+.app-shell .quest-hills::after {
+  content: '';
+  position: absolute;
+  width: 70%;
+  height: 140px;
+  right: -15%;
+  bottom: -10px;
+  border-radius: 60% 50% 0 0;
+  background: #b6dfad;
+}
+.app-shell .quest-mascot {
+  position: absolute;
+  width: 67px;
+  height: 67px;
+  right: 24px;
+  top: 110px;
+  transform: rotate(8deg);
+  pointer-events: none;
+}
+.app-shell .number-equation {
+  position: relative;
+  display: flex;
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+  font-size: 34px;
+  font-weight: 900;
+}
+.app-shell .number-equation > strong {
+  width: 57px;
+  height: 62px;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  border: 2px solid #cfdeee;
+  border-radius: 15px;
+  box-shadow: 0 4px #bcd7ec;
+}
+.app-shell .number-equation .unknown {
+  background: #fff2b7;
+  border-color: #f0cd4d;
+  color: #9c6a1c;
+  box-shadow: 0 4px #e4bc39;
+}
+.app-shell .number-equation .solved {
+  background: #c9f2d7;
+  color: #247f4c;
+  border-color: #75c28d;
+  box-shadow: 0 4px #78bf87;
+}
+.app-shell .game-instruction {
+  position: relative;
+  text-align: center;
+  font-size: 13px;
+  font-weight: 700;
+  color: #486782;
+  margin: 18px 0 17px;
+  line-height: 1.5;
+}
+.app-shell .number-crates {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 25px minmax(0, 1fr);
+  gap: 12px;
+  max-width: 620px;
+  margin: auto;
+}
+.app-shell .number-crate {
+  padding: 14px;
+  min-height: 180px;
+  border-radius: 20px;
+  background: #fff;
+  border: 3px solid #92caec;
+  box-shadow: 0 5px #c0ddef;
+}
+.app-shell .number-crate.pink {
+  border-color: #d1adf0;
+  box-shadow: 0 5px #ddc9f2;
+}
+.app-shell .number-crate.peach {
+  border-color: #f0b090;
+  box-shadow: 0 5px #f4d1b9;
+}
+.app-shell .crate-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-weight: 900;
+  font-size: 12px;
+  color: #426888;
+}
+.app-shell .crate-heading > strong {
+  padding: 3px 6px;
+  background: #e7f3ff;
+  border-radius: 7px;
+  font-size: 13px;
+}
+.app-shell .number-crate.pink .crate-heading {
+  color: #8b62ad;
+}
+.app-shell .number-crate.pink .crate-heading > strong {
+  background: #f2e8ff;
+}
+.app-shell .number-crate.peach .crate-heading {
+  color: #b27146;
+}
+.app-shell .number-crate.peach .crate-heading > strong {
+  background: #fff0df;
+}
+.app-shell .crate-operation {
+  align-self: center;
+  justify-self: center;
+  font-size: 28px;
+  font-weight: 900;
+  color: #60869d;
+}
+.app-shell .crate-blocks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  align-items: center;
+  align-content: center;
+  min-height: 111px;
+  padding: 12px 0;
+}
+.app-shell .number-block {
+  display: grid;
+  place-items: center;
+  width: 43px;
+  height: 43px;
+  border-radius: 11px;
+  background: #5cb4ee;
+  color: #fff;
+  border: 2px solid #238cca;
+  box-shadow: 0 3px #2b8ec0;
+  cursor: pointer;
+}
+.app-shell .number-block.pink {
+  background: #b886ec;
+  border-color: #9661ca;
+  box-shadow: 0 3px #9164b4;
+}
+.app-shell .number-block.peach {
+  background: #eda883;
+  border-color: #d7885d;
+  box-shadow: 0 3px #c98964;
+}
+.app-shell .number-block.taken {
+  background: #f0f5fb;
+  color: #b8c9d6;
+  border: 2px dashed #aabfce;
+  box-shadow: none;
+}
+.app-shell .number-block:not(:disabled):hover {
+  filter: brightness(1.08);
+}
+.app-shell .number-block:focus-visible,
+.app-shell .crate-add:focus-visible,
+.app-shell .answer-gate:focus-visible,
+.app-shell .memory-card:focus-visible {
+  outline: 3px solid #885bcb;
+  outline-offset: 4px;
+}
+.app-shell .crate-empty {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 18px 0;
+  color: #7997aa;
+  font-size: 12px;
+  line-height: 1.5;
+}
+.app-shell .crate-add {
+  display: block;
+  width: 100%;
+  border: 2px dashed #a5cce2;
+  border-radius: 11px;
+  padding: 8px 6px;
+  min-height: 43px;
+  color: #4487b3;
+  font-size: 12px;
+  font-weight: 900;
+  background: #eef8ff;
+}
+.app-shell .number-crate.pink .crate-add {
+  background: #f8f0ff;
+  border-color: #d1b6eb;
+  color: #9163b5;
+}
+.app-shell .crate-remaining {
+  display: block;
+  color: #986d50;
+  font-size: 12px;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 10px;
+}
+.app-shell .block-bank {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  max-width: 620px;
+  margin: 17px auto 7px;
+  font-size: 11px;
+  color: #698094;
+}
+.app-shell .bank-block {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background: #ffd961;
+  border: 2px solid #dcaf2e;
+  color: #ae771c;
+  cursor: grab;
+  flex-shrink: 0;
+}
+.app-shell .bank-block:active {
+  cursor: grabbing;
+}
+.app-shell .block-bank > span:nth-child(2) {
+  max-width: 280px;
+}
+.app-shell .block-bank .text-button {
+  font-size: 12px;
+  gap: 5px;
+  white-space: normal;
+}
+.app-shell .answer-gates {
+  position: relative;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  padding: 15px 4px 27px;
+}
+.app-shell .answer-gate {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 106px;
+  min-height: 122px;
+  border: 7px solid #ddb548;
+  border-bottom-width: 10px;
+  border-radius: 49px 49px 8px 8px;
+  background: #fff7dc;
+  box-shadow:
+    0 4px #9abd85,
+    inset 0 0 0 3px #fff0aa;
+  color: #8d651e;
+  cursor: pointer;
+  transition:
+    transform 0.18s,
+    opacity 0.18s;
+}
+.app-shell .answer-gate > span:first-child {
+  color: #c4962c;
+}
+.app-shell .answer-gate strong {
+  font-size: 34px;
+  font-weight: 900;
+  line-height: 1.3;
+}
+.app-shell .answer-gate:disabled {
+  cursor: default;
+  opacity: 0.5;
+}
+.app-shell .answer-gate:not(:disabled):hover {
+  transform: translateY(-5px);
+  background: #fff1ab;
+}
+.app-shell .answer-gate.correct {
+  background: #d0f3ba;
+  border-color: #65a862;
+  color: #36704a;
+  opacity: 1;
+}
+.app-shell .answer-gate.correct > span:first-child {
+  color: #4d974c;
+}
+.app-shell .game-feedback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  min-height: 76px;
+  padding: 17px 24px;
+  background: #fff;
+  border-top: 2px solid #dfebf4;
+  font-size: 13px;
+  font-weight: 800;
+  color: #65829c;
+}
+.app-shell .game-feedback > svg {
+  flex-shrink: 0;
+  color: #ad84dd;
+}
+.app-shell .game-feedback.success {
+  background: #ebfaec;
+  color: #397345;
+}
+.app-shell .game-feedback.success > svg {
+  color: #4b955f;
+}
+.app-shell .game-feedback.retry {
+  background: #fff4e4;
+  color: #966b37;
+}
+.app-shell .game-feedback .button {
+  margin-left: auto;
+  font-size: 13px;
+  min-height: 44px;
+  padding: 9px 14px;
+}
+.app-shell .game-paused {
+  position: absolute;
+  z-index: 5;
+  inset: 0;
+  background: #f7faffdf;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  backdrop-filter: blur(3px);
+  padding: 24px;
+  text-align: center;
+  color: #5d458c;
+  font-size: 18px;
+  font-weight: 900;
+}
+.app-shell .game-victory {
+  text-align: center;
+  padding: 36px 30px 40px;
+  min-height: 500px;
+  background:
+    radial-gradient(ellipse at 50% 20%, #fff0a5, transparent 60%), linear-gradient(#f4f0ff, #f8fbff);
+}
+.app-shell .game-victory-art {
+  position: relative;
+  height: 185px;
+  width: 240px;
+  margin: 0 auto 14px;
+}
+.app-shell .game-victory-art > div {
+  width: 155px;
+  position: absolute;
+  left: 15px;
+  top: 0;
+}
+.app-shell .treasure-chest {
+  display: grid;
+  place-items: center;
+  position: absolute;
+  width: 110px;
+  height: 85px;
+  border: 5px solid #ddb03f;
+  border-radius: 19px 19px 10px 10px;
+  background: #ffe89a;
+  color: #bb841b;
+  right: 4px;
+  bottom: 3px;
+  transform: rotate(-5deg);
+  box-shadow: 0 8px #ead6a8;
+}
+.app-shell .treasure-chest > span {
+  position: absolute;
+  font-size: 31px;
+  top: -26px;
+  right: -14px;
+  color: #f0be40;
+}
+.app-shell .game-final-coins {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 22px auto 15px;
+  max-width: 340px;
+  padding: 15px 20px;
+  border: 2px solid #ebc456;
+  border-radius: 17px;
+  box-shadow: 0 4px #edce70;
+  color: #98661b;
+  background: #fff0b7;
+  font-size: 14px;
+  font-weight: 800;
+}
+.app-shell .game-final-coins strong {
+  font-size: 28px;
+  font-weight: 900;
+}
+.app-shell .game-victory .game-xp-note {
+  font-size: 12px;
+  color: #6e7890;
+  margin-bottom: 22px;
+}
+.app-shell .matching-game {
+  background: linear-gradient(145deg, #f4f0ff, #eafaf4);
+}
+.app-shell .memory-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 14px;
+  padding: 25px;
+  perspective: 1200px;
+}
+.app-shell .memory-card {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  min-height: 156px;
+  width: 100%;
+  min-width: 0;
+  border: 3px solid #8663c5;
+  border-radius: 19px;
+  background: linear-gradient(135deg, #a989e8, #8265c1);
+  box-shadow: 0 5px #70509f;
+  color: #fff;
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+.app-shell .memory-card:nth-child(3n + 2) {
+  background: linear-gradient(135deg, #73c6cb, #53a6b4);
+  border-color: #3e8c9f;
+  box-shadow: 0 5px #498995;
+}
+.app-shell .memory-card.open {
+  background: #fff;
+  color: #3f4262;
+  border-color: #c6b6e2;
+  box-shadow: 0 5px #d6cbea;
+}
+.app-shell .memory-card.matched {
+  background: #e0f7e5;
+  border-color: #8bc49b;
+  color: #356442;
+  box-shadow: 0 5px #b9dabc;
+}
+.app-shell .memory-card:disabled {
+  cursor: default;
+  opacity: 1;
+}
+.app-shell .memory-card-face {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 24px 11px 20px;
+  gap: 13px;
+  overflow-wrap: anywhere;
+}
+.app-shell .memory-card-face > strong {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 1.45;
+}
+.app-shell .memory-card-pattern {
+  position: absolute;
+  top: 9px;
+  left: 11px;
+  font-size: 20px;
+  color: #ffffff66;
+}
+.app-shell .memory-card-number {
+  font-size: 11px;
+  opacity: 0.8;
+  font-weight: 900;
+}
+.app-shell .memory-card-mark {
+  position: absolute;
+  top: 8px;
+  right: 9px;
+  color: #ab8bcd;
+}
+.app-shell .memory-card.matched .memory-card-mark {
+  color: #559e6b;
+}
+.app-shell .memory-spark {
+  position: absolute;
+  bottom: 7px;
+  right: 9px;
+  font-size: 18px;
+  color: #9abc69;
+}
+.app-shell .memory-tip {
+  margin: 0;
+  padding: 14px 20px 23px;
+  text-align: center;
+  color: #7a7594;
+  font-size: 12px;
+}
+.app-shell[data-ui-language='en-zh'] .game-welcome,
+.app-shell[data-ui-language='en-zh'] .game-victory {
+  min-height: 550px;
+}
+.app-shell[data-ui-language='en-zh'] .number-crate {
+  min-height: 211px;
+}
+@media (max-width: 1100px) {
+  .app-shell .memory-grid {
+    gap: 11px;
+    padding: 20px;
+  }
+  .app-shell .memory-card {
+    min-height: 140px;
+  }
+  .app-shell .memory-card-face > strong {
+    font-size: 13px;
+  }
+  .app-shell .quest-mascot {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .app-shell .game-welcome,
+  .app-shell .game-victory {
+    padding: 26px 20px 30px;
+  }
+  .app-shell .game-hud {
+    padding: 15px;
+    gap: 8px;
+  }
+  .app-shell .game-hud > div {
+    gap: 8px;
+  }
+  .app-shell .game-hud .game-label {
+    font-size: 11px;
+  }
+  .app-shell .game-coins {
+    font-size: 15px;
+    padding: 4px 7px;
+  }
+  .app-shell .game-combo,
+  .app-shell .game-moves {
+    font-size: 10px;
+  }
+  .app-shell .number-quest-world {
+    padding: 15px 12px 0;
+  }
+  .app-shell .number-equation {
+    font-size: 29px;
+    gap: 8px;
+  }
+  .app-shell .number-equation > strong {
+    width: 44px;
+    height: 51px;
+    border-radius: 12px;
+  }
+  .app-shell .game-instruction {
+    font-size: 12px;
+  }
+  .app-shell .number-crates {
+    grid-template-columns: minmax(0, 1fr) 14px minmax(0, 1fr);
+    gap: 6px;
+  }
+  .app-shell .number-crate {
+    padding: 9px;
+    border-width: 2px;
+    border-radius: 15px;
+  }
+  .app-shell .number-block {
+    width: 39px;
+    height: 41px;
+    border-radius: 9px;
+  }
+  .app-shell .crate-blocks {
+    gap: 5px;
+    min-height: 114px;
+  }
+  .app-shell .crate-heading {
+    font-size: 11px;
+  }
+  .app-shell .crate-heading > strong {
+    font-size: 11px;
+  }
+  .app-shell .crate-empty {
+    font-size: 11px;
+  }
+  .app-shell .crate-add {
+    font-size: 11px;
+  }
+  .app-shell .crate-operation {
+    font-size: 22px;
+  }
+  .app-shell .block-bank {
+    font-size: 10px;
+    gap: 8px;
+  }
+  .app-shell .block-bank .text-button {
+    font-size: 10px;
+  }
+  .app-shell .answer-gates {
+    gap: 14px;
+    padding-bottom: 22px;
+  }
+  .app-shell .answer-gate {
+    width: 78px;
+    min-height: 102px;
+    border-width: 5px;
+    border-radius: 36px 36px 7px 7px;
+  }
+  .app-shell .answer-gate strong {
+    font-size: 28px;
+  }
+  .app-shell .game-feedback {
+    padding: 15px;
+    font-size: 12px;
+  }
+  .app-shell .game-feedback .button {
+    margin: 7px auto 0;
+  }
+  .app-shell .memory-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 13px;
+    padding: 18px;
+  }
+  .app-shell .memory-card {
+    min-height: 145px;
+  }
+  .app-shell .game-rules {
+    gap: 13px;
+  }
+  .app-shell .game-rules > span {
+    font-size: 12px;
+  }
+  .app-shell .game-mission-map {
+    gap: 12px;
+  }
+  .app-shell .game-mission-map > span:not(:last-child)::after {
+    width: 14px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell .answer-gate {
+    transition: none;
+  }
+  .app-shell .answer-gate:not(:disabled):hover {
+    transform: none;
+  }
+}
+
+.app-shell .quest-unlocked-spark {
+  position: absolute;
+  right: -9px;
+  top: -10px;
+  font-size: 32px;
+  color: #f0b826;
+}
+@media (max-width: 600px) {
+  .app-shell .game-mission-map {
+    flex-wrap: wrap;
+  }
+  .app-shell .answer-gate {
+    flex: 1;
+    max-width: 78px;
+    min-width: 0;
+  }
+}

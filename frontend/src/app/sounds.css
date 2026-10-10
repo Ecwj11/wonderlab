@@ -1,0 +1,61 @@
+.music-pill .sound-trigger {
+  padding: 8px 12px;
+  min-width: 40px;
+  border-radius: 18px;
+}
+.sound-controls .music-popover {
+  left: auto;
+  right: 0;
+}
+.sound-switch,
+.sound-preview {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ded3ed;
+  border-radius: 12px;
+  background: #f4efff;
+  color: #6947b6;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  margin-bottom: 18px;
+}
+.sound-switch[aria-pressed='false'] {
+  background: #f7f6f8;
+  color: #766b83;
+}
+.sound-preview:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.sound-switch:hover,
+.sound-preview:not(:disabled):hover {
+  border-color: #8b5fd8;
+}
+.child-login-music {
+  gap: 10px;
+}
+.admin-topbar .sound-controls {
+  margin-left: auto;
+}
+@media (max-width: 1100px) {
+  .sound-controls .music-label {
+    display: none;
+  }
+}
+@media (max-width: 760px) {
+  .sound-controls .music-popover,
+  .child-login-music .sound-controls .music-popover {
+    left: 16px;
+    right: 16px;
+    width: auto;
+    bottom: 20px;
+    top: auto;
+    transform: none;
+    position: fixed;
+  }
+}

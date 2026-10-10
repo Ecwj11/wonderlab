@@ -1,0 +1,842 @@
+[
+  {
+    "key": "p1-library-counting",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Library Shelf Quest",
+    "focus": "Count both groups of books together to find a total within 10.",
+    "missions": [
+      {
+        "left": 1,
+        "right": 2
+      },
+      {
+        "left": 2,
+        "right": 3
+      },
+      {
+        "left": 4,
+        "right": 2
+      },
+      {
+        "left": 3,
+        "right": 4
+      }
+    ],
+    "quiz": [
+      {
+        "left": 2,
+        "right": 2,
+        "context": "There are 2 books on a shelf, and Aina adds 2 more books; how many books are on the shelf now?"
+      },
+      {
+        "left": 3,
+        "right": 5,
+        "context": "There are 3 books in a basket, and Ravi adds 5 more books; how many books are in the basket now?"
+      },
+      {
+        "left": 4,
+        "right": 5,
+        "context": "There are 4 books on a desk, and Mei adds 5 more books; how many books are on the desk now?"
+      }
+    ]
+  },
+  {
+    "key": "p1-hawker-count-on",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Hawker Stall Basket Trail",
+    "focus": "Start with the larger group and count on to add within 10.",
+    "missions": [
+      {
+        "left": 4,
+        "right": 1
+      },
+      {
+        "left": 5,
+        "right": 2
+      },
+      {
+        "left": 6,
+        "right": 3
+      },
+      {
+        "left": 7,
+        "right": 3
+      }
+    ],
+    "quiz": [
+      {
+        "left": 5,
+        "right": 1,
+        "context": "A hawker places 5 bowls on a counter and then adds 1 more bowl; how many bowls are on the counter now?"
+      },
+      {
+        "left": 6,
+        "right": 2,
+        "context": "A hawker has 6 cups on a tray and puts 2 more cups on it; how many cups are on the tray now?"
+      },
+      {
+        "left": 7,
+        "right": 2,
+        "context": "There are 7 spoons in a holder, and a hawker adds 2 more spoons; how many spoons are in the holder now?"
+      }
+    ]
+  },
+  {
+    "key": "p1-fruit-make-ten",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Fruit Market Ten Frame",
+    "focus": "Split the second group to complete 10 before counting the remaining fruit.",
+    "missions": [
+      {
+        "left": 8,
+        "right": 4
+      },
+      {
+        "left": 9,
+        "right": 5
+      },
+      {
+        "left": 7,
+        "right": 8
+      },
+      {
+        "left": 6,
+        "right": 5
+      }
+    ],
+    "quiz": [
+      {
+        "left": 9,
+        "right": 3,
+        "context": "A fruit seller has 9 oranges in a basket and adds 3 more oranges; how many oranges are in the basket now?"
+      },
+      {
+        "left": 8,
+        "right": 5,
+        "context": "There are 8 mangoes on a tray, and a seller adds 5 more mangoes; how many mangoes are on the tray now?"
+      },
+      {
+        "left": 7,
+        "right": 9,
+        "context": "A seller puts 7 bananas beside another 9 bananas; how many bananas are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-batik-teen-patterns",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Batik Pattern Studio",
+    "focus": "Keep the ten in a teen number and add to its ones without crossing 20.",
+    "missions": [
+      {
+        "left": 11,
+        "right": 2
+      },
+      {
+        "left": 12,
+        "right": 4
+      },
+      {
+        "left": 13,
+        "right": 5
+      },
+      {
+        "left": 15,
+        "right": 4
+      }
+    ],
+    "quiz": [
+      {
+        "left": 12,
+        "right": 3,
+        "context": "A batik pattern has 12 circles, and Siti draws 3 more circles; how many circles are in the pattern now?"
+      },
+      {
+        "left": 14,
+        "right": 2,
+        "context": "A batik pattern has 14 leaves, and Bala adds 2 more leaves; how many leaves are in the pattern now?"
+      },
+      {
+        "left": 16,
+        "right": 3,
+        "context": "A batik pattern has 16 dots, and Hana draws 3 more dots; how many dots are in the pattern now?"
+      }
+    ]
+  },
+  {
+    "key": "p1-courtyard-tens",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "School Courtyard Flag Lines",
+    "focus": "Add whole tens by counting bundles of 10 flags.",
+    "missions": [
+      {
+        "left": 10,
+        "right": 20
+      },
+      {
+        "left": 20,
+        "right": 20
+      },
+      {
+        "left": 30,
+        "right": 20
+      },
+      {
+        "left": 40,
+        "right": 20
+      }
+    ],
+    "quiz": [
+      {
+        "left": 20,
+        "right": 10,
+        "context": "One school flag line has 20 flags and another line has 10 flags; how many flags are on both lines altogether?"
+      },
+      {
+        "left": 30,
+        "right": 30,
+        "context": "Pupils hang 30 flags in the courtyard and then hang 30 more flags; how many flags do they hang altogether?"
+      },
+      {
+        "left": 40,
+        "right": 30,
+        "context": "There are 40 flags along a path, and pupils add 30 more flags; how many flags are along the path now?"
+      }
+    ]
+  },
+  {
+    "key": "p1-bookshop-place-value",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Neighbourhood Bookshop Delivery",
+    "focus": "Add tens to tens and ones to ones when neither column needs regrouping.",
+    "missions": [
+      {
+        "left": 21,
+        "right": 13
+      },
+      {
+        "left": 32,
+        "right": 14
+      },
+      {
+        "left": 41,
+        "right": 16
+      },
+      {
+        "left": 52,
+        "right": 17
+      }
+    ],
+    "quiz": [
+      {
+        "left": 23,
+        "right": 14,
+        "context": "A bookshop has 23 exercise books and receives 14 more exercise books; how many exercise books does it have now?"
+      },
+      {
+        "left": 34,
+        "right": 22,
+        "context": "A bookshop has 34 pencils and receives 22 more pencils; how many pencils does it have now?"
+      },
+      {
+        "left": 51,
+        "right": 28,
+        "context": "A bookshop has 51 erasers and receives 28 more erasers; how many erasers does it have now?"
+      }
+    ]
+  },
+  {
+    "key": "p1-garden-add-ones",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "School Garden Plant Markers",
+    "focus": "Keep the tens unchanged while adding a one-digit number without regrouping.",
+    "missions": [
+      {
+        "left": 24,
+        "right": 3
+      },
+      {
+        "left": 35,
+        "right": 4
+      },
+      {
+        "left": 61,
+        "right": 6
+      },
+      {
+        "left": 72,
+        "right": 5
+      }
+    ],
+    "quiz": [
+      {
+        "left": 43,
+        "right": 5,
+        "context": "There are 43 plant markers in a school garden, and pupils add 5 more markers; how many markers are in the garden now?"
+      },
+      {
+        "left": 62,
+        "right": 4,
+        "context": "Pupils have labelled 62 pots and then label 4 more pots; how many pots have they labelled altogether?"
+      },
+      {
+        "left": 81,
+        "right": 7,
+        "context": "There are 81 seed packets in a box, and pupils add 7 more packets; how many seed packets are in the box now?"
+      }
+    ]
+  },
+  {
+    "key": "p1-kuih-regroup",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Kuih Tray Number Bridge",
+    "focus": "Make the next ten when adding ones, then count the remaining ones.",
+    "missions": [
+      {
+        "left": 17,
+        "right": 5
+      },
+      {
+        "left": 26,
+        "right": 8
+      },
+      {
+        "left": 38,
+        "right": 6
+      },
+      {
+        "left": 49,
+        "right": 7
+      }
+    ],
+    "quiz": [
+      {
+        "left": 18,
+        "right": 5,
+        "context": "A stall has 18 pieces of kuih on a tray and adds 5 more pieces; how many pieces of kuih are on the tray now?"
+      },
+      {
+        "left": 27,
+        "right": 6,
+        "context": "A baker puts 27 paper cases in a box and adds 6 more cases; how many paper cases are in the box now?"
+      },
+      {
+        "left": 36,
+        "right": 7,
+        "context": "A stall has 36 small plates and receives 7 more plates; how many plates does the stall have now?"
+      }
+    ]
+  },
+  {
+    "key": "p1-classroom-take-away",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Classroom Toy Tidy-Up",
+    "focus": "Remove objects from a group and count how many remain within 10.",
+    "missions": [
+      {
+        "left": 5,
+        "right": 1
+      },
+      {
+        "left": 7,
+        "right": 2
+      },
+      {
+        "left": 8,
+        "right": 1
+      },
+      {
+        "left": 10,
+        "right": 2
+      }
+    ],
+    "quiz": [
+      {
+        "left": 6,
+        "right": 2,
+        "context": "There are 6 toy cars on a mat, and pupils put 2 cars in a box; how many toy cars remain on the mat?"
+      },
+      {
+        "left": 8,
+        "right": 3,
+        "context": "There are 8 blocks on a table, and pupils put 3 blocks away; how many blocks remain on the table?"
+      },
+      {
+        "left": 9,
+        "right": 2,
+        "context": "There are 9 toy animals on a shelf, and pupils move 2 animals to a basket; how many toy animals remain on the shelf?"
+      }
+    ]
+  },
+  {
+    "key": "p1-badminton-count-back",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Badminton Equipment Trail",
+    "focus": "Count back one step for each item removed to subtract within 10.",
+    "missions": [
+      {
+        "left": 6,
+        "right": 3
+      },
+      {
+        "left": 7,
+        "right": 5
+      },
+      {
+        "left": 9,
+        "right": 3
+      },
+      {
+        "left": 10,
+        "right": 1
+      }
+    ],
+    "quiz": [
+      {
+        "left": 8,
+        "right": 2,
+        "context": "A badminton club has 8 rackets on a rack, and players take 2 rackets; how many rackets remain on the rack?"
+      },
+      {
+        "left": 9,
+        "right": 5,
+        "context": "There are 9 shuttlecocks in a basket, and players take 5 shuttlecocks; how many shuttlecocks remain in the basket?"
+      },
+      {
+        "left": 10,
+        "right": 3,
+        "context": "There are 10 training cones in a bag, and a coach takes out 3 cones; how many cones remain in the bag?"
+      }
+    ]
+  },
+  {
+    "key": "p1-reading-compare",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Reading Corner Compare Quest",
+    "focus": "Subtract the smaller count from the larger count to find how many more.",
+    "missions": [
+      {
+        "left": 12,
+        "right": 2
+      },
+      {
+        "left": 15,
+        "right": 4
+      },
+      {
+        "left": 17,
+        "right": 5
+      },
+      {
+        "left": 19,
+        "right": 6
+      }
+    ],
+    "quiz": [
+      {
+        "left": 13,
+        "right": 3,
+        "context": "The reading corner has 13 storybooks and 3 picture dictionaries; how many more storybooks than picture dictionaries are there?"
+      },
+      {
+        "left": 16,
+        "right": 5,
+        "context": "One shelf has 16 books and another shelf has 5 books; how many more books are on the first shelf?"
+      },
+      {
+        "left": 18,
+        "right": 7,
+        "context": "A class has 18 bookmarks and 7 book stands; how many more bookmarks than book stands does it have?"
+      }
+    ]
+  },
+  {
+    "key": "p1-lantern-remove-ten",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Community Hall Lantern Pack",
+    "focus": "Remove one group of 10 from a teen number to see the ones that remain.",
+    "missions": [
+      {
+        "left": 13,
+        "right": 10
+      },
+      {
+        "left": 15,
+        "right": 10
+      },
+      {
+        "left": 17,
+        "right": 10
+      },
+      {
+        "left": 19,
+        "right": 10
+      }
+    ],
+    "quiz": [
+      {
+        "left": 12,
+        "right": 10,
+        "context": "There are 12 paper lanterns in a box, and volunteers hang 10 lanterns; how many paper lanterns remain in the box?"
+      },
+      {
+        "left": 16,
+        "right": 10,
+        "context": "There are 16 ribbon strips on a table, and volunteers use 10 strips; how many ribbon strips remain on the table?"
+      },
+      {
+        "left": 18,
+        "right": 10,
+        "context": "There are 18 paper flowers in a basket, and volunteers display 10 flowers; how many paper flowers remain in the basket?"
+      }
+    ]
+  },
+  {
+    "key": "p1-bus-tens",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "School Bus Tens Route",
+    "focus": "Subtract whole tens by removing groups of 10 from the starting count.",
+    "missions": [
+      {
+        "left": 40,
+        "right": 10
+      },
+      {
+        "left": 60,
+        "right": 20
+      },
+      {
+        "left": 70,
+        "right": 20
+      },
+      {
+        "left": 90,
+        "right": 30
+      }
+    ],
+    "quiz": [
+      {
+        "left": 50,
+        "right": 20,
+        "context": "There are 50 bus tickets in a folder, and a teacher hands out 20 tickets; how many tickets remain in the folder?"
+      },
+      {
+        "left": 70,
+        "right": 30,
+        "context": "There are 70 route cards in a box, and a teacher takes 30 cards; how many route cards remain in the box?"
+      },
+      {
+        "left": 80,
+        "right": 20,
+        "context": "There are 80 seat labels in a packet, and staff use 20 labels; how many seat labels remain in the packet?"
+      }
+    ]
+  },
+  {
+    "key": "p1-art-place-value",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Art Room Supply Sort",
+    "focus": "Subtract ones from ones and tens from tens when no regrouping is needed.",
+    "missions": [
+      {
+        "left": 35,
+        "right": 12
+      },
+      {
+        "left": 48,
+        "right": 15
+      },
+      {
+        "left": 67,
+        "right": 24
+      },
+      {
+        "left": 89,
+        "right": 35
+      }
+    ],
+    "quiz": [
+      {
+        "left": 46,
+        "right": 23,
+        "context": "An art room has 46 sheets of coloured paper, and pupils use 23 sheets; how many sheets remain?"
+      },
+      {
+        "left": 58,
+        "right": 24,
+        "context": "There are 58 crayons in a box, and pupils take 24 crayons; how many crayons remain in the box?"
+      },
+      {
+        "left": 79,
+        "right": 36,
+        "context": "There are 79 craft sticks in a jar, and pupils use 36 sticks; how many craft sticks remain in the jar?"
+      }
+    ]
+  },
+  {
+    "key": "p1-beach-subtract-ones",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Beach Clean-Up Count",
+    "focus": "Keep the tens unchanged while subtracting a one-digit number from the ones.",
+    "missions": [
+      {
+        "left": 38,
+        "right": 5
+      },
+      {
+        "left": 49,
+        "right": 6
+      },
+      {
+        "left": 67,
+        "right": 4
+      },
+      {
+        "left": 98,
+        "right": 7
+      }
+    ],
+    "quiz": [
+      {
+        "left": 47,
+        "right": 3,
+        "context": "Volunteers have 47 gloves in a supply box and take out 3 gloves; how many gloves remain in the box?"
+      },
+      {
+        "left": 68,
+        "right": 5,
+        "context": "Volunteers have 68 collection bags and hand out 5 bags; how many collection bags remain?"
+      },
+      {
+        "left": 89,
+        "right": 7,
+        "context": "There are 89 sorting labels in a packet, and volunteers use 7 labels; how many labels remain in the packet?"
+      }
+    ]
+  },
+  {
+    "key": "p1-kite-regroup",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Kite Workshop Ten Exchange",
+    "focus": "Exchange one ten for 10 ones when there are too few ones to subtract.",
+    "missions": [
+      {
+        "left": 22,
+        "right": 5
+      },
+      {
+        "left": 31,
+        "right": 4
+      },
+      {
+        "left": 43,
+        "right": 6
+      },
+      {
+        "left": 54,
+        "right": 8
+      }
+    ],
+    "quiz": [
+      {
+        "left": 23,
+        "right": 6,
+        "context": "A kite workshop has 23 paper sheets, and pupils use 6 sheets; how many paper sheets remain?"
+      },
+      {
+        "left": 32,
+        "right": 5,
+        "context": "There are 32 ribbon strips in a tray, and pupils use 5 strips; how many ribbon strips remain in the tray?"
+      },
+      {
+        "left": 41,
+        "right": 7,
+        "context": "There are 41 bamboo sticks in a bundle, and pupils take 7 sticks; how many bamboo sticks remain in the bundle?"
+      }
+    ]
+  },
+  {
+    "key": "p1-shoe-pairs",
+    "grade": 1,
+    "operation": "MULTIPLY",
+    "title": "School Shoe Pair Parade",
+    "focus": "Count equal groups of 2 by skip-counting in twos.",
+    "missions": [
+      {
+        "left": 2,
+        "right": 2
+      },
+      {
+        "left": 3,
+        "right": 2
+      },
+      {
+        "left": 4,
+        "right": 2
+      },
+      {
+        "left": 5,
+        "right": 2
+      }
+    ],
+    "quiz": [
+      {
+        "left": 3,
+        "right": 2,
+        "context": "There are 3 pairs of shoes on a rack, with 2 shoes in each pair; how many shoes are on the rack altogether?"
+      },
+      {
+        "left": 6,
+        "right": 2,
+        "context": "There are 6 pairs of slippers, with 2 slippers in each pair; how many slippers are there altogether?"
+      },
+      {
+        "left": 4,
+        "right": 2,
+        "context": "There are 4 pairs of sports shoes, with 2 shoes in each pair; how many sports shoes are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-flower-groups-five",
+    "grade": 1,
+    "operation": "MULTIPLY",
+    "title": "Paper Flower Display",
+    "focus": "Connect repeated addition of 5 to equal groups and skip-counting in fives.",
+    "missions": [
+      {
+        "left": 1,
+        "right": 5
+      },
+      {
+        "left": 2,
+        "right": 5
+      },
+      {
+        "left": 3,
+        "right": 5
+      },
+      {
+        "left": 4,
+        "right": 5
+      }
+    ],
+    "quiz": [
+      {
+        "left": 2,
+        "right": 5,
+        "context": "Pupils make 2 paper flowers with 5 petals on each flower; how many petals do the flowers have altogether?"
+      },
+      {
+        "left": 3,
+        "right": 5,
+        "context": "There are 3 display cards with 5 paper flowers on each card; how many paper flowers are displayed altogether?"
+      },
+      {
+        "left": 4,
+        "right": 5,
+        "context": "Pupils fill 4 trays with 5 paper leaves in each tray; how many paper leaves are in the trays altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-pencil-share-two",
+    "grade": 1,
+    "operation": "DIVIDE",
+    "title": "Pencil Sharing Partners",
+    "focus": "Share objects one at a time between 2 equal groups and count each group.",
+    "missions": [
+      {
+        "left": 4,
+        "right": 2
+      },
+      {
+        "left": 8,
+        "right": 2
+      },
+      {
+        "left": 12,
+        "right": 2
+      },
+      {
+        "left": 18,
+        "right": 2
+      }
+    ],
+    "quiz": [
+      {
+        "left": 6,
+        "right": 2,
+        "context": "A teacher shares 6 pencils equally between 2 pupils; how many pencils does each pupil receive?"
+      },
+      {
+        "left": 10,
+        "right": 2,
+        "context": "A teacher shares 10 erasers equally between 2 pupils; how many erasers does each pupil receive?"
+      },
+      {
+        "left": 16,
+        "right": 2,
+        "context": "A teacher shares 16 crayons equally between 2 pupils; how many crayons does each pupil receive?"
+      }
+    ]
+  },
+  {
+    "key": "p1-seed-share-five",
+    "grade": 1,
+    "operation": "DIVIDE",
+    "title": "Garden Club Sharing Circle",
+    "focus": "Share a total equally among 5 groups and check that every group has the same count.",
+    "missions": [
+      {
+        "left": 5,
+        "right": 5
+      },
+      {
+        "left": 10,
+        "right": 5
+      },
+      {
+        "left": 15,
+        "right": 5
+      },
+      {
+        "left": 20,
+        "right": 5
+      }
+    ],
+    "quiz": [
+      {
+        "left": 10,
+        "right": 5,
+        "context": "Garden club pupils share 10 seeds equally among 5 pots; how many seeds go in each pot?"
+      },
+      {
+        "left": 15,
+        "right": 5,
+        "context": "Garden club pupils share 15 plant markers equally among 5 trays; how many plant markers go in each tray?"
+      },
+      {
+        "left": 20,
+        "right": 5,
+        "context": "Garden club pupils share 20 seed packets equally among 5 teams; how many seed packets does each team receive?"
+      }
+    ]
+  }
+]

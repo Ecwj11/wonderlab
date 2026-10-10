@@ -1,0 +1,506 @@
+[
+  {
+    "key": "p1-extra-doubles-garden",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Hibiscus Doubles Garden",
+    "focus": "Add two equal small groups to practise doubles with totals up to 20.",
+    "missions": [
+      {
+        "left": 2,
+        "right": 2
+      },
+      {
+        "left": 3,
+        "right": 3
+      },
+      {
+        "left": 4,
+        "right": 4
+      },
+      {
+        "left": 5,
+        "right": 5
+      }
+    ],
+    "quiz": [
+      {
+        "left": 6,
+        "right": 6,
+        "context": "At a school garden in Melaka, Aina has 6 flower stickers and receives 6 more. How many flower stickers does Aina have altogether?"
+      },
+      {
+        "left": 7,
+        "right": 7,
+        "context": "At a school garden in Melaka, Wei Jie has 7 flower stickers and receives 7 more. How many flower stickers does Wei Jie have altogether?"
+      },
+      {
+        "left": 8,
+        "right": 8,
+        "context": "At a school garden in Melaka, Arun has 8 flower stickers and receives 8 more. How many flower stickers does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-near-doubles",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Kite Festival Near Doubles",
+    "focus": "Use a known double and add one more to solve near doubles within 20.",
+    "missions": [
+      {
+        "left": 3,
+        "right": 4
+      },
+      {
+        "left": 4,
+        "right": 5
+      },
+      {
+        "left": 5,
+        "right": 6
+      },
+      {
+        "left": 6,
+        "right": 7
+      }
+    ],
+    "quiz": [
+      {
+        "left": 2,
+        "right": 3,
+        "context": "At a kite craft workshop in Kelantan, Aina has 2 paper shapes and receives 3 more. How many paper shapes does Aina have altogether?"
+      },
+      {
+        "left": 7,
+        "right": 8,
+        "context": "At a kite craft workshop in Kelantan, Wei Jie has 7 paper shapes and receives 8 more. How many paper shapes does Wei Jie have altogether?"
+      },
+      {
+        "left": 8,
+        "right": 9,
+        "context": "At a kite craft workshop in Kelantan, Arun has 8 paper shapes and receives 9 more. How many paper shapes does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-whole-tens",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Pasar Pagi Tens Trail",
+    "focus": "Add multiples of ten with totals no greater than 100.",
+    "missions": [
+      {
+        "left": 20,
+        "right": 30
+      },
+      {
+        "left": 10,
+        "right": 50
+      },
+      {
+        "left": 30,
+        "right": 40
+      },
+      {
+        "left": 40,
+        "right": 50
+      }
+    ],
+    "quiz": [
+      {
+        "left": 10,
+        "right": 30,
+        "context": "At a morning market in Ipoh, Aina has 10 bananas and receives 30 more. How many bananas does Aina have altogether?"
+      },
+      {
+        "left": 20,
+        "right": 60,
+        "context": "At a morning market in Ipoh, Wei Jie has 20 bananas and receives 60 more. How many bananas does Wei Jie have altogether?"
+      },
+      {
+        "left": 50,
+        "right": 50,
+        "context": "At a morning market in Ipoh, Arun has 50 bananas and receives 50 more. How many bananas does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-two-digit-combine",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Classroom Colour Blocks",
+    "focus": "Combine tens and ones in two-digit addition without regrouping.",
+    "missions": [
+      {
+        "left": 12,
+        "right": 23
+      },
+      {
+        "left": 21,
+        "right": 32
+      },
+      {
+        "left": 34,
+        "right": 15
+      },
+      {
+        "left": 43,
+        "right": 26
+      }
+    ],
+    "quiz": [
+      {
+        "left": 22,
+        "right": 14,
+        "context": "At a classroom in Johor Bahru, Aina has 22 colouring pencils and receives 14 more. How many colouring pencils does Aina have altogether?"
+      },
+      {
+        "left": 31,
+        "right": 27,
+        "context": "At a classroom in Johor Bahru, Wei Jie has 31 colouring pencils and receives 27 more. How many colouring pencils does Wei Jie have altogether?"
+      },
+      {
+        "left": 42,
+        "right": 36,
+        "context": "At a classroom in Johor Bahru, Arun has 42 colouring pencils and receives 36 more. How many colouring pencils does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-make-ten-again",
+    "grade": 1,
+    "operation": "ADD",
+    "title": "Taman Picnic Make Ten",
+    "focus": "Make ten first, then add the remaining ones to find totals within 20.",
+    "missions": [
+      {
+        "left": 8,
+        "right": 7
+      },
+      {
+        "left": 9,
+        "right": 8
+      },
+      {
+        "left": 6,
+        "right": 8
+      },
+      {
+        "left": 7,
+        "right": 9
+      }
+    ],
+    "quiz": [
+      {
+        "left": 9,
+        "right": 6,
+        "context": "At a family picnic in Putrajaya, Aina has 9 snack packets and receives 6 more. How many snack packets does Aina have altogether?"
+      },
+      {
+        "left": 8,
+        "right": 8,
+        "context": "At a family picnic in Putrajaya, Wei Jie has 8 snack packets and receives 8 more. How many snack packets does Wei Jie have altogether?"
+      },
+      {
+        "left": 7,
+        "right": 6,
+        "context": "At a family picnic in Putrajaya, Arun has 7 snack packets and receives 6 more. How many snack packets does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-zero-and-all",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Sticker Box Zero Heroes",
+    "focus": "Notice that subtracting zero leaves an amount unchanged and subtracting the whole amount leaves zero.",
+    "missions": [
+      {
+        "left": 4,
+        "right": 0
+      },
+      {
+        "left": 7,
+        "right": 0
+      },
+      {
+        "left": 9,
+        "right": 0
+      },
+      {
+        "left": 6,
+        "right": 6
+      }
+    ],
+    "quiz": [
+      {
+        "left": 5,
+        "right": 0,
+        "context": "At a reading club in Penang, Aina has 5 stickers and gives away 0. How many stickers are left?"
+      },
+      {
+        "left": 8,
+        "right": 8,
+        "context": "At a reading club in Penang, Wei Jie has 8 stickers and gives away 8. How many stickers are left?"
+      },
+      {
+        "left": 10,
+        "right": 0,
+        "context": "At a reading club in Penang, Arun has 10 stickers and gives away 0. How many stickers are left?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-teen-takeaway",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Aquarium Ticket Takeaway",
+    "focus": "Subtract ones from teen numbers while keeping the ten intact.",
+    "missions": [
+      {
+        "left": 14,
+        "right": 2
+      },
+      {
+        "left": 17,
+        "right": 4
+      },
+      {
+        "left": 18,
+        "right": 3
+      },
+      {
+        "left": 19,
+        "right": 2
+      }
+    ],
+    "quiz": [
+      {
+        "left": 16,
+        "right": 3,
+        "context": "At a school outing in Kuala Lumpur, Aina has 16 entry tickets and gives away 3. How many entry tickets are left?"
+      },
+      {
+        "left": 18,
+        "right": 6,
+        "context": "At a school outing in Kuala Lumpur, Wei Jie has 18 entry tickets and gives away 6. How many entry tickets are left?"
+      },
+      {
+        "left": 15,
+        "right": 1,
+        "context": "At a school outing in Kuala Lumpur, Arun has 15 entry tickets and gives away 1. How many entry tickets are left?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-from-twenty",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Twenty Treasure Tokens",
+    "focus": "Take away different amounts from twenty and check by adding back.",
+    "missions": [
+      {
+        "left": 20,
+        "right": 4
+      },
+      {
+        "left": 20,
+        "right": 7
+      },
+      {
+        "left": 20,
+        "right": 9
+      },
+      {
+        "left": 20,
+        "right": 8
+      }
+    ],
+    "quiz": [
+      {
+        "left": 20,
+        "right": 3,
+        "context": "At a school fun day in Seremban, Aina has 20 game tokens and gives away 3. How many game tokens are left?"
+      },
+      {
+        "left": 20,
+        "right": 6,
+        "context": "At a school fun day in Seremban, Wei Jie has 20 game tokens and gives away 6. How many game tokens are left?"
+      },
+      {
+        "left": 20,
+        "right": 10,
+        "context": "At a school fun day in Seremban, Arun has 20 game tokens and gives away 10. How many game tokens are left?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-ones-count-back",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Playground Count Back",
+    "focus": "Count back a few ones from a two-digit number without crossing a ten.",
+    "missions": [
+      {
+        "left": 36,
+        "right": 4
+      },
+      {
+        "left": 47,
+        "right": 5
+      },
+      {
+        "left": 68,
+        "right": 6
+      },
+      {
+        "left": 89,
+        "right": 7
+      }
+    ],
+    "quiz": [
+      {
+        "left": 58,
+        "right": 3,
+        "context": "At a sports club in Shah Alam, Aina has 58 score counters and gives away 3. How many score counters are left?"
+      },
+      {
+        "left": 74,
+        "right": 2,
+        "context": "At a sports club in Shah Alam, Wei Jie has 74 score counters and gives away 2. How many score counters are left?"
+      },
+      {
+        "left": 97,
+        "right": 5,
+        "context": "At a sports club in Shah Alam, Arun has 97 score counters and gives away 5. How many score counters are left?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-cross-a-ten",
+    "grade": 1,
+    "operation": "SUBTRACT",
+    "title": "Fruit Basket Ten Exchange",
+    "focus": "Exchange one ten for ten ones when subtracting a one-digit number.",
+    "missions": [
+      {
+        "left": 23,
+        "right": 7
+      },
+      {
+        "left": 34,
+        "right": 8
+      },
+      {
+        "left": 45,
+        "right": 9
+      },
+      {
+        "left": 52,
+        "right": 6
+      }
+    ],
+    "quiz": [
+      {
+        "left": 31,
+        "right": 4,
+        "context": "At a fruit stall in Kuantan, Aina has 31 oranges and gives away 4. How many oranges are left?"
+      },
+      {
+        "left": 42,
+        "right": 5,
+        "context": "At a fruit stall in Kuantan, Wei Jie has 42 oranges and gives away 5. How many oranges are left?"
+      },
+      {
+        "left": 63,
+        "right": 7,
+        "context": "At a fruit stall in Kuantan, Arun has 63 oranges and gives away 7. How many oranges are left?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-equal-groups",
+    "grade": 1,
+    "operation": "MULTIPLY",
+    "title": "School Canteen Equal Groups",
+    "focus": "Explore multiplication as equal groups of two or three objects.",
+    "missions": [
+      {
+        "left": 2,
+        "right": 3
+      },
+      {
+        "left": 3,
+        "right": 3
+      },
+      {
+        "left": 4,
+        "right": 3
+      },
+      {
+        "left": 5,
+        "right": 3
+      }
+    ],
+    "quiz": [
+      {
+        "left": 2,
+        "right": 2,
+        "context": "At a school canteen in Alor Setar, Aina prepares 2 bags with 2 rice crackers in each bag. How many rice crackers are there altogether?"
+      },
+      {
+        "left": 3,
+        "right": 2,
+        "context": "At a school canteen in Alor Setar, Wei Jie prepares 3 bags with 2 rice crackers in each bag. How many rice crackers are there altogether?"
+      },
+      {
+        "left": 4,
+        "right": 2,
+        "context": "At a school canteen in Alor Setar, Arun prepares 4 bags with 2 rice crackers in each bag. How many rice crackers are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p1-extra-sharing-pairs",
+    "grade": 1,
+    "operation": "DIVIDE",
+    "title": "Two Friends Sharing Trail",
+    "focus": "Divide small even amounts into two equal groups with nothing left over.",
+    "missions": [
+      {
+        "left": 6,
+        "right": 2
+      },
+      {
+        "left": 8,
+        "right": 2
+      },
+      {
+        "left": 10,
+        "right": 2
+      },
+      {
+        "left": 12,
+        "right": 2
+      }
+    ],
+    "quiz": [
+      {
+        "left": 4,
+        "right": 2,
+        "context": "At a craft club in Kuching, Aina shares 4 wooden beads equally among 2 bags. How many wooden beads go in each bag?"
+      },
+      {
+        "left": 14,
+        "right": 2,
+        "context": "At a craft club in Kuching, Wei Jie shares 14 wooden beads equally among 2 bags. How many wooden beads go in each bag?"
+      },
+      {
+        "left": 16,
+        "right": 2,
+        "context": "At a craft club in Kuching, Arun shares 16 wooden beads equally among 2 bags. How many wooden beads go in each bag?"
+      }
+    ]
+  }
+]

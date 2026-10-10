@@ -1,0 +1,72 @@
+.portal-tabs {
+  display: flex;
+  gap: 7px;
+  margin-bottom: 32px;
+  background: #f0f4fa;
+  padding: 5px;
+  border-radius: 15px;
+}
+.portal-tabs a {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 12px 8px;
+  border-radius: 11px;
+  color: #53667d;
+  font-weight: 800;
+  font-size: 13px;
+}
+.portal-tabs a[aria-current='page'] {
+  background: white;
+  color: #355fba;
+  box-shadow: 0 2px 8px #203c5712;
+}
+.portal-login .login-world-copy h1 {
+  font-family: Nunito, sans-serif;
+  max-width: 550px;
+}
+.portal-parent .login-world {
+  background: #e4f2ed;
+}
+.portal-admin .login-world {
+  background: #e7eef8;
+}
+.portal-child .login-world {
+  background: #fff0c5;
+}
+.portal-legacy {
+  display: block;
+  text-align: center;
+  font-size: 12px;
+  color: #53667d;
+  margin-top: 24px;
+}
+.family-code-input {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.family-learning-gate {
+  margin: 28px auto;
+  max-width: 560px;
+  text-align: center;
+  background: #fff;
+  padding: 40px 30px;
+  border-radius: 28px;
+  border: 2px solid #e2edf1;
+}
+.family-learning-gate > svg {
+  color: #e59b35;
+  margin-bottom: 16px;
+}
+.family-learning-gate h2 {
+  font-family: Nunito, sans-serif;
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+.family-learning-gate p {
+  color: #607089;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}

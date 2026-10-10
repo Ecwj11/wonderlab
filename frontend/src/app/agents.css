@@ -1,0 +1,149 @@
+.admin-shell .generation-agent-inspector {
+  margin: 8px 0 26px;
+}
+.admin-shell .agent-inspector-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 18px;
+}
+.admin-shell .agent-inspector-heading h3 {
+  font-size: 17px;
+  color: #3a435b;
+  margin: 0;
+}
+.admin-shell .agent-inspector-heading > span {
+  color: #79839a;
+  font-size: 12px;
+  background: #f2f4f9;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.admin-shell .agent-job-progress {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  color: #586c82;
+  font-size: 13px;
+}
+.admin-shell .agent-job-progress strong {
+  color: #7254bf;
+}
+.admin-shell .agent-inspector-note {
+  margin: 14px 0 18px;
+  color: #728097;
+  font-size: 12px;
+  line-height: 1.7;
+}
+.admin-shell .agent-task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.admin-shell .agent-task {
+  border: 1px solid #e3e8f1;
+  padding: 16px;
+  border-radius: 12px;
+  background: #fafbff;
+}
+.admin-shell .agent-task.processing {
+  border-color: #cfc0ec;
+  background: #f8f5ff;
+}
+.admin-shell .agent-task.failed {
+  border-color: #efd0d4;
+  background: #fff9fa;
+}
+.admin-shell .agent-task.completed {
+  border-color: #d7e9dc;
+}
+.admin-shell .agent-task-heading {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.admin-shell .agent-role-icon {
+  display: grid;
+  place-items: center;
+  width: 34px;
+  height: 34px;
+  color: #8c69c3;
+  background: #eee7fa;
+  border-radius: 9px;
+  flex-shrink: 0;
+}
+.admin-shell .agent-task-heading > div {
+  flex: 1;
+  min-width: 0;
+}
+.admin-shell .agent-task-heading strong {
+  color: #43536b;
+  font-size: 13px;
+  display: block;
+}
+.admin-shell .agent-task-heading small {
+  color: #7a869b;
+  font-size: 11px;
+  display: block;
+  margin-top: 4px;
+  overflow-wrap: anywhere;
+}
+.admin-shell .agent-task-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 11px;
+  color: #7d879a;
+  flex-shrink: 0;
+}
+.admin-shell .agent-task-status.completed {
+  color: #3c8863;
+}
+.admin-shell .agent-task-status.processing {
+  color: #7d56b2;
+}
+.admin-shell .agent-task-status.failed {
+  color: #b1556c;
+}
+.admin-shell .agent-task > p {
+  color: #79869a;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 12px 0 10px;
+}
+.admin-shell .agent-task .progress-track {
+  height: 5px;
+}
+.admin-shell .agent-task-usage {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 12px;
+  color: #8490a3;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.admin-shell .agent-empty {
+  padding: 20px;
+  background: #f7f9fc;
+  border-radius: 10px;
+  color: #7c8a9e;
+  font-size: 13px;
+  line-height: 1.7;
+}
+@media (max-width: 600px) {
+  .admin-shell .agent-task {
+    padding: 13px;
+  }
+  .admin-shell .agent-task-heading {
+    flex-wrap: wrap;
+  }
+  .admin-shell .agent-task-status {
+    margin-left: 44px;
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "lessonSchemaVersion": 1,
+  "title": "小雨的种子：3D有声故事",
+  "subject": "GENERAL",
+  "language": "Chinese",
+  "objectives": [
+    "听懂故事，找出人物、地点和物品。",
+    "按故事线索完成行动，理解先后顺序。",
+    "理解“一同”的意思，学习与朋友合作。"
+  ],
+  "scenes": [
+    {
+      "id": "garden-story",
+      "type": "INTERACTIVE_STORY",
+      "title": "小雨的种子",
+      "explanation": "一个发生在马来西亚学校花园的原创故事。跟着小雨和阿明种下种子，一边听故事，一边完成小任务。",
+      "instructions": "先听旁白，再点选人物、地点或物品。遇到问题时，选出你的答案。答对后，故事会继续；也可以重听这一页。",
+      "world": "SCHOOL_GARDEN",
+      "steps": [
+        {
+          "id": "meet-xiaoyu",
+          "title": "一、小雨的计划",
+          "text": "早晨，学校花园暖暖的。小雨站在教室门前，向你挥挥手。她说：“今天，我们种一颗种子吧！等它长大，就能给花园添一点绿色。”你想听听她的计划。",
+          "narrationSrc": "/audio/stories/garden/meet-xiaoyu.mp3",
+          "task": {
+            "type": "MEET",
+            "prompt": "请点一下小雨，和她打招呼。",
+            "choices": [
+              { "id": "xiaoyu", "label": "小雨", "target": "XIAOYU" },
+              { "id": "amin", "label": "阿明", "target": "AMIN" },
+              { "id": "teacher", "label": "老师", "target": "TEACHER" }
+            ],
+            "correctChoiceId": "xiaoyu",
+            "successText": "小雨笑着说：“你好！我们一起出发吧。”",
+            "retryText": "小雨正在向你挥手。再找找她吧！"
+          }
+        },
+        {
+          "id": "walk-to-garden",
+          "title": "二、去花坛",
+          "text": "小雨指着花坛说：“那里的泥土松松的，最适合种种子。”池塘边有小鱼，教室里有书，可今天的目的地是花坛。你沿着小路，和小雨慢慢走过去。",
+          "narrationSrc": "/audio/stories/garden/walk-to-garden.mp3",
+          "task": {
+            "type": "MOVE",
+            "prompt": "我们要去哪里种种子？请走到那个地方。",
+            "choices": [
+              { "id": "pond", "label": "池塘", "target": "POND" },
+              { "id": "garden", "label": "花坛", "target": "GARDEN" },
+              { "id": "classroom", "label": "教室", "target": "CLASSROOM" }
+            ],
+            "correctChoiceId": "garden",
+            "successText": "到了！花坛里的泥土已经准备好了。",
+            "retryText": "小雨说要去泥土松松的花坛。再试一次吧。"
+          }
+        },
+        {
+          "id": "find-seeds",
+          "title": "三、黄色的小袋子",
+          "text": "花坛旁放着一本书、一个球，还有一袋种子。种子装在黄色的小袋子里。小雨说：“请帮我找到种子。”你找到袋子，和她把一颗种子轻轻放进土里，再盖上薄薄的泥土。",
+          "narrationSrc": "/audio/stories/garden/find-seeds.mp3",
+          "task": {
+            "type": "FIND",
+            "prompt": "请找出黄色袋子里的种子。",
+            "choices": [
+              { "id": "ball", "label": "球", "target": "BALL" },
+              { "id": "seeds", "label": "种子", "target": "SEEDS" },
+              { "id": "book", "label": "书", "target": "BOOK" }
+            ],
+            "correctChoiceId": "seeds",
+            "successText": "找到了种子！你们把它种进泥土，盖好小被子。",
+            "retryText": "要找的是黄色小袋子里的种子，看看旁边吧。"
+          }
+        },
+        {
+          "id": "find-watering-can",
+          "title": "四、给种子喝水",
+          "text": "种子住进了泥土里。小雨说：“现在，给它喝一点水吧。”旁边有书、铲子和装着水的浇水壶。你拿起浇水壶，轻轻地浇水，让泥土湿润，不让水流把种子冲走。",
+          "narrationSrc": "/audio/stories/garden/find-watering-can.mp3",
+          "task": {
+            "type": "FIND",
+            "prompt": "哪件工具可以浇水？请找出来。",
+            "choices": [
+              { "id": "shovel", "label": "铲子", "target": "SHOVEL" },
+              { "id": "book", "label": "书", "target": "BOOK" },
+              { "id": "watering-can", "label": "浇水壶", "target": "WATERING_CAN" }
+            ],
+            "correctChoiceId": "watering-can",
+            "successText": "小水滴落下来，泥土湿润了。浇水壶真有用！",
+            "retryText": "铲子用来挖土。装着水、可以洒水的工具是什么？"
+          }
+        },
+        {
+          "id": "seedling-needs-sun",
+          "title": "五、小苗喜欢阳光",
+          "text": "老师走来，看看你们的花坛。她说：“种子发芽以后，小苗除了水，也需要阳光，才能慢慢长大。”小雨抬头看看明亮的天空，把这句话记在心里。你也记住了吗？",
+          "narrationSrc": "/audio/stories/garden/seedling-needs-sun.mp3",
+          "task": {
+            "type": "QUESTION",
+            "prompt": "小苗除了水，还需要什么才能长大？",
+            "choices": [
+              { "id": "toy", "label": "玩具" },
+              { "id": "sunlight", "label": "阳光" },
+              { "id": "candy", "label": "糖果" }
+            ],
+            "correctChoiceId": "sunlight",
+            "successText": "对，小苗需要水，也需要阳光。",
+            "retryText": "再听听老师的话：小苗还需要天空中暖暖的什么？"
+          }
+        },
+        {
+          "id": "help-amin",
+          "title": "六、阿明需要帮助",
+          "text": "这时，阿明提着另一壶水走来了。水壶有点重，他停下来，说：“谁能帮帮我？”小雨向他招招手。你走过去，和阿明一起把水壶放好。阿明笑着说：“谢谢你！”",
+          "narrationSrc": "/audio/stories/garden/help-amin.mp3",
+          "task": {
+            "type": "MEET",
+            "prompt": "谁需要帮忙？请走近他，和他说话。",
+            "choices": [
+              { "id": "teacher", "label": "老师", "target": "TEACHER" },
+              { "id": "xiaoyu", "label": "小雨", "target": "XIAOYU" },
+              { "id": "amin", "label": "阿明", "target": "AMIN" }
+            ],
+            "correctChoiceId": "amin",
+            "successText": "阿明说：“有你帮忙，轻松多了！”",
+            "retryText": "刚才提着重水壶、开口求助的是阿明。再找找他吧。"
+          }
+        },
+        {
+          "id": "meaning-together",
+          "title": "七、一同照顾",
+          "text": "小雨对阿明说：“明天，我们一同来看看种子吧！”阿明点点头：“好！我们一起浇水，一起看小苗长大。”你听出来了，小雨说的“一同”，就是大家一起做一件事。",
+          "narrationSrc": "/audio/stories/garden/meaning-together.mp3",
+          "task": {
+            "type": "QUESTION",
+            "prompt": "故事里的“一同”是什么意思？",
+            "choices": [
+              { "id": "together", "label": "一起" },
+              { "id": "alone", "label": "独自" },
+              { "id": "immediately", "label": "马上" }
+            ],
+            "correctChoiceId": "together",
+            "successText": "答对了！“一同”和“一起”的意思相近。",
+            "retryText": "小雨和阿明要两个人一起做事。哪个词最合适？"
+          }
+        },
+        {
+          "id": "remember-first-step",
+          "title": "八、绿色的约定",
+          "text": "几天后，小小的嫩芽钻出了泥土。小雨和阿明开心地笑了。他们先种下种子，再轻轻浇水，后来每天来照顾。老师说：“小苗慢慢长大，你们的耐心和友爱也在长大。”",
+          "narrationSrc": "/audio/stories/garden/remember-first-step.mp3",
+          "task": {
+            "type": "QUESTION",
+            "prompt": "回想故事，他们最先做的是哪一件事？",
+            "choices": [
+              { "id": "pick-flower", "label": "摘花" },
+              { "id": "plant-seed", "label": "种下种子" },
+              { "id": "put-away-toys", "label": "收玩具" }
+            ],
+            "correctChoiceId": "plant-seed",
+            "successText": "对！先种下种子，再浇水和照顾。你完成了这次花园故事！",
+            "retryText": "嫩芽长出来之前，要先把什么放进泥土里呢？"
+          }
+        }
+      ]
+    }
+  ]
+}

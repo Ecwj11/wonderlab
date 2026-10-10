@@ -1,0 +1,4 @@
+ALTER TABLE scene_progress ADD COLUMN elapsed_seconds INT UNSIGNED NOT NULL DEFAULT 0;
+INSERT IGNORE INTO roles(id,name) VALUES('STUDENT','STUDENT'),('PARENT','PARENT'),('TEACHER','TEACHER'),('ADMIN','ADMIN'),('SUPER_ADMIN','SUPER_ADMIN');
+INSERT IGNORE INTO subjects(id,name,color) VALUES('MATHEMATICS','Mathematics','coral'),('SCIENCE','Science','mint'),('HISTORY','History','peach'),('GEOGRAPHY','Geography','blue'),('GENERAL','General','violet');
+INSERT IGNORE INTO achievements(id,name,description,icon,threshold) VALUES('first-lesson','First discovery','Complete your first lesson','compass',1),('five-lessons','Curious explorer','Complete five lessons','rocket',5),('perfect-quiz','Quiz whiz','Get a perfect quiz score','star',100),('three-days','On a roll','Learn for three days in a row','flame',3),('thousand-xp','Bright spark','Earn 1,000 XP','zap',1000);

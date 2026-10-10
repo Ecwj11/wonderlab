@@ -1,0 +1,506 @@
+[
+  {
+    "key": "p2-extra-hundreds-no-carry",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Rainforest Hundreds Camp",
+    "focus": "Add three-digit numbers within 1000 by combining hundreds, tens and ones without regrouping.",
+    "missions": [
+      {
+        "left": 123,
+        "right": 214
+      },
+      {
+        "left": 231,
+        "right": 142
+      },
+      {
+        "left": 342,
+        "right": 125
+      },
+      {
+        "left": 413,
+        "right": 236
+      }
+    ],
+    "quiz": [
+      {
+        "left": 152,
+        "right": 223,
+        "context": "At a nature club in Sarawak, Aina has 152 seed packets and receives 223 more. How many seed packets does Aina have altogether?"
+      },
+      {
+        "left": 314,
+        "right": 162,
+        "context": "At a nature club in Sarawak, Wei Jie has 314 seed packets and receives 162 more. How many seed packets does Wei Jie have altogether?"
+      },
+      {
+        "left": 421,
+        "right": 257,
+        "context": "At a nature club in Sarawak, Arun has 421 seed packets and receives 257 more. How many seed packets does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-ones-regroup",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Merdeka Ribbon Carry",
+    "focus": "Regroup ten ones into one ten when adding three-digit numbers within 1000.",
+    "missions": [
+      {
+        "left": 126,
+        "right": 237
+      },
+      {
+        "left": 248,
+        "right": 135
+      },
+      {
+        "left": 357,
+        "right": 226
+      },
+      {
+        "left": 469,
+        "right": 318
+      }
+    ],
+    "quiz": [
+      {
+        "left": 157,
+        "right": 226,
+        "context": "At a Merdeka craft workshop in Melaka, Aina has 157 ribbon pieces and receives 226 more. How many ribbon pieces does Aina have altogether?"
+      },
+      {
+        "left": 268,
+        "right": 315,
+        "context": "At a Merdeka craft workshop in Melaka, Wei Jie has 268 ribbon pieces and receives 315 more. How many ribbon pieces does Wei Jie have altogether?"
+      },
+      {
+        "left": 376,
+        "right": 217,
+        "context": "At a Merdeka craft workshop in Melaka, Arun has 376 ribbon pieces and receives 217 more. How many ribbon pieces does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-tens-regroup",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Batik Hundreds Bridge",
+    "focus": "Regroup ten tens into one hundred when adding multiples of ten within 1000.",
+    "missions": [
+      {
+        "left": 170,
+        "right": 260
+      },
+      {
+        "left": 280,
+        "right": 350
+      },
+      {
+        "left": 390,
+        "right": 470
+      },
+      {
+        "left": 460,
+        "right": 380
+      }
+    ],
+    "quiz": [
+      {
+        "left": 190,
+        "right": 240,
+        "context": "At a batik class in Terengganu, Aina has 190 pattern cards and receives 240 more. How many pattern cards does Aina have altogether?"
+      },
+      {
+        "left": 270,
+        "right": 460,
+        "context": "At a batik class in Terengganu, Wei Jie has 270 pattern cards and receives 460 more. How many pattern cards does Wei Jie have altogether?"
+      },
+      {
+        "left": 380,
+        "right": 590,
+        "context": "At a batik class in Terengganu, Arun has 380 pattern cards and receives 590 more. How many pattern cards does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-next-hundred",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Library Next Hundred",
+    "focus": "Bridge the next hundred when adding a two-digit amount.",
+    "missions": [
+      {
+        "left": 95,
+        "right": 18
+      },
+      {
+        "left": 186,
+        "right": 27
+      },
+      {
+        "left": 278,
+        "right": 35
+      },
+      {
+        "left": 369,
+        "right": 44
+      }
+    ],
+    "quiz": [
+      {
+        "left": 97,
+        "right": 16,
+        "context": "At a library activity in Ipoh, Aina has 97 reading tokens and receives 16 more. How many reading tokens does Aina have altogether?"
+      },
+      {
+        "left": 188,
+        "right": 25,
+        "context": "At a library activity in Ipoh, Wei Jie has 188 reading tokens and receives 25 more. How many reading tokens does Wei Jie have altogether?"
+      },
+      {
+        "left": 279,
+        "right": 34,
+        "context": "At a library activity in Ipoh, Arun has 279 reading tokens and receives 34 more. How many reading tokens does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-double-hundreds",
+    "grade": 2,
+    "operation": "ADD",
+    "title": "Sports Day Double Delivery",
+    "focus": "Double three-digit numbers and regroup where needed, keeping totals within 1000.",
+    "missions": [
+      {
+        "left": 125,
+        "right": 125
+      },
+      {
+        "left": 215,
+        "right": 215
+      },
+      {
+        "left": 325,
+        "right": 325
+      },
+      {
+        "left": 445,
+        "right": 445
+      }
+    ],
+    "quiz": [
+      {
+        "left": 135,
+        "right": 135,
+        "context": "At a sports day in Johor Bahru, Aina has 135 team stickers and receives 135 more. How many team stickers does Aina have altogether?"
+      },
+      {
+        "left": 225,
+        "right": 225,
+        "context": "At a sports day in Johor Bahru, Wei Jie has 225 team stickers and receives 225 more. How many team stickers does Wei Jie have altogether?"
+      },
+      {
+        "left": 355,
+        "right": 355,
+        "context": "At a sports day in Johor Bahru, Arun has 355 team stickers and receives 355 more. How many team stickers does Arun have altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-hundreds-no-exchange",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Orchard Place Value Patrol",
+    "focus": "Subtract three-digit numbers without exchanging, lining up hundreds, tens and ones.",
+    "missions": [
+      {
+        "left": 456,
+        "right": 123
+      },
+      {
+        "left": 578,
+        "right": 234
+      },
+      {
+        "left": 689,
+        "right": 352
+      },
+      {
+        "left": 798,
+        "right": 456
+      }
+    ],
+    "quiz": [
+      {
+        "left": 567,
+        "right": 234,
+        "context": "At a community orchard in Perak, Aina has 567 fruit labels and gives away 234. How many fruit labels are left?"
+      },
+      {
+        "left": 678,
+        "right": 245,
+        "context": "At a community orchard in Perak, Wei Jie has 678 fruit labels and gives away 245. How many fruit labels are left?"
+      },
+      {
+        "left": 896,
+        "right": 352,
+        "context": "At a community orchard in Perak, Arun has 896 fruit labels and gives away 352. How many fruit labels are left?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-ones-exchange",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "School Shop Exchange Quest",
+    "focus": "Exchange one ten for ten ones in three-digit subtraction within 1000.",
+    "missions": [
+      {
+        "left": 342,
+        "right": 126
+      },
+      {
+        "left": 453,
+        "right": 218
+      },
+      {
+        "left": 564,
+        "right": 326
+      },
+      {
+        "left": 675,
+        "right": 428
+      }
+    ],
+    "quiz": [
+      {
+        "left": 431,
+        "right": 215,
+        "context": "At a school stationery shop in Selangor, Aina has 431 erasers and gives away 215. How many erasers are left?"
+      },
+      {
+        "left": 562,
+        "right": 327,
+        "context": "At a school stationery shop in Selangor, Wei Jie has 562 erasers and gives away 327. How many erasers are left?"
+      },
+      {
+        "left": 783,
+        "right": 428,
+        "context": "At a school stationery shop in Selangor, Arun has 783 erasers and gives away 428. How many erasers are left?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-across-zero",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Empty Tens Rescue",
+    "focus": "Exchange across zero tens when subtracting from a whole hundred.",
+    "missions": [
+      {
+        "left": 400,
+        "right": 125
+      },
+      {
+        "left": 500,
+        "right": 236
+      },
+      {
+        "left": 600,
+        "right": 347
+      },
+      {
+        "left": 700,
+        "right": 458
+      }
+    ],
+    "quiz": [
+      {
+        "left": 300,
+        "right": 128,
+        "context": "At a recycling drive in Kota Kinabalu, Aina has 300 recycling tokens and gives away 128. How many recycling tokens are left?"
+      },
+      {
+        "left": 800,
+        "right": 456,
+        "context": "At a recycling drive in Kota Kinabalu, Wei Jie has 800 recycling tokens and gives away 456. How many recycling tokens are left?"
+      },
+      {
+        "left": 900,
+        "right": 567,
+        "context": "At a recycling drive in Kota Kinabalu, Arun has 900 recycling tokens and gives away 567. How many recycling tokens are left?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-small-differences",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Bus Stop Difference Detective",
+    "focus": "Find a small difference by counting up from the smaller number across a hundred.",
+    "missions": [
+      {
+        "left": 302,
+        "right": 298
+      },
+      {
+        "left": 405,
+        "right": 398
+      },
+      {
+        "left": 509,
+        "right": 499
+      },
+      {
+        "left": 612,
+        "right": 599
+      }
+    ],
+    "quiz": [
+      {
+        "left": 204,
+        "right": 199,
+        "context": "At a transport-themed school fair in Penang, Aina has 204 bus stickers and gives away 199. How many bus stickers are left?"
+      },
+      {
+        "left": 507,
+        "right": 498,
+        "context": "At a transport-themed school fair in Penang, Wei Jie has 507 bus stickers and gives away 498. How many bus stickers are left?"
+      },
+      {
+        "left": 810,
+        "right": 799,
+        "context": "At a transport-themed school fair in Penang, Arun has 810 bus stickers and gives away 799. How many bus stickers are left?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-subtract-tens",
+    "grade": 2,
+    "operation": "SUBTRACT",
+    "title": "Pasar Malam Tens Challenge",
+    "focus": "Subtract multiples of ten by working with tens and hundreds.",
+    "missions": [
+      {
+        "left": 360,
+        "right": 120
+      },
+      {
+        "left": 470,
+        "right": 210
+      },
+      {
+        "left": 580,
+        "right": 250
+      },
+      {
+        "left": 690,
+        "right": 320
+      }
+    ],
+    "quiz": [
+      {
+        "left": 450,
+        "right": 120,
+        "context": "At a night market craft stall in Kedah, Aina has 450 paper bags and gives away 120. How many paper bags are left?"
+      },
+      {
+        "left": 670,
+        "right": 240,
+        "context": "At a night market craft stall in Kedah, Wei Jie has 670 paper bags and gives away 240. How many paper bags are left?"
+      },
+      {
+        "left": 890,
+        "right": 360,
+        "context": "At a night market craft stall in Kedah, Arun has 890 paper bags and gives away 360. How many paper bags are left?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-fives-and-tens",
+    "grade": 2,
+    "operation": "MULTIPLY",
+    "title": "Festival Packs Five and Ten",
+    "focus": "Use the five and ten times tables to count equal groups efficiently.",
+    "missions": [
+      {
+        "left": 3,
+        "right": 5
+      },
+      {
+        "left": 4,
+        "right": 5
+      },
+      {
+        "left": 3,
+        "right": 10
+      },
+      {
+        "left": 4,
+        "right": 10
+      }
+    ],
+    "quiz": [
+      {
+        "left": 6,
+        "right": 5,
+        "context": "At a community festival in Kuala Lumpur, Aina prepares 6 bags with 5 paper flags in each bag. How many paper flags are there altogether?"
+      },
+      {
+        "left": 7,
+        "right": 5,
+        "context": "At a community festival in Kuala Lumpur, Wei Jie prepares 7 bags with 5 paper flags in each bag. How many paper flags are there altogether?"
+      },
+      {
+        "left": 6,
+        "right": 10,
+        "context": "At a community festival in Kuala Lumpur, Arun prepares 6 bags with 10 paper flags in each bag. How many paper flags are there altogether?"
+      }
+    ]
+  },
+  {
+    "key": "p2-extra-thirds-sharing",
+    "grade": 2,
+    "operation": "DIVIDE",
+    "title": "Three Teams Sharing Mission",
+    "focus": "Use the three times table to divide exact amounts into three equal groups.",
+    "missions": [
+      {
+        "left": 15,
+        "right": 3
+      },
+      {
+        "left": 24,
+        "right": 3
+      },
+      {
+        "left": 27,
+        "right": 3
+      },
+      {
+        "left": 30,
+        "right": 3
+      }
+    ],
+    "quiz": [
+      {
+        "left": 18,
+        "right": 3,
+        "context": "At a school team activity in Putrajaya, Aina shares 18 activity cards equally among 3 bags. How many activity cards go in each bag?"
+      },
+      {
+        "left": 21,
+        "right": 3,
+        "context": "At a school team activity in Putrajaya, Wei Jie shares 21 activity cards equally among 3 bags. How many activity cards go in each bag?"
+      },
+      {
+        "left": 12,
+        "right": 3,
+        "context": "At a school team activity in Putrajaya, Arun shares 12 activity cards equally among 3 bags. How many activity cards go in each bag?"
+      }
+    ]
+  }
+]

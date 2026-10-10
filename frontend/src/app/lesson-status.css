@@ -1,0 +1,255 @@
+.app-shell .lesson-status-card {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  border-radius: 23px;
+  background: #fff;
+  border: 2px solid #d8e6ed;
+  box-shadow: 0 5px #e0eaf0;
+}
+.app-shell .lesson-status-card .lesson-status-head {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 84px;
+  padding: 18px 22px;
+  border-radius: 21px 21px 0 0;
+  border-bottom: 2px solid #e0eaf0;
+  background: #f3f8ff;
+}
+.app-shell .lesson-status-card .lesson-state {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 36px;
+  padding: 8px 11px;
+  border-radius: 13px;
+  background: #ffffffb8;
+  border: 1px solid #ffffff;
+  color: #386786;
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 1.3;
+  max-width: calc(100% - 28px);
+}
+.app-shell .lesson-status-card .lesson-state > svg {
+  flex-shrink: 0;
+}
+.app-shell .lesson-status-card.status-ready .lesson-status-head {
+  background: #e4f8ec;
+  border-bottom-color: #bae5c7;
+}
+.app-shell .lesson-status-card.status-ready .lesson-state {
+  color: #297348;
+}
+.app-shell .lesson-status-card.status-preparing .lesson-status-head {
+  background: #fff4d7;
+  border-bottom-color: #efdeb0;
+}
+.app-shell .lesson-status-card.status-preparing .lesson-state {
+  color: #967029;
+}
+.app-shell .lesson-status-card.status-progress .lesson-status-head {
+  background: #e1f2ff;
+  border-bottom-color: #bcdeee;
+}
+.app-shell .lesson-status-card.status-progress .lesson-state {
+  color: #347da4;
+}
+.app-shell .lesson-status-card.status-completed .lesson-status-head {
+  background: #eee5ff;
+  border-bottom-color: #d4bff3;
+}
+.app-shell .lesson-status-card.status-completed .lesson-state {
+  color: #8054ad;
+}
+.app-shell .lesson-status-card.status-failed .lesson-status-head {
+  background: #ffe9e3;
+  border-bottom-color: #f0c6b9;
+}
+.app-shell .lesson-status-card.status-failed .lesson-state {
+  color: #a8583e;
+}
+.app-shell .lesson-status-card .card-menu-wrap {
+  position: absolute;
+  top: 24px;
+  right: 15px;
+  z-index: 4;
+}
+.app-shell .lesson-status-card .card-menu-button {
+  width: 33px;
+  height: 33px;
+  background: #ffffffbf;
+  border: 1px solid #ffffff;
+  color: #587081;
+  border-radius: 10px;
+}
+.app-shell .lesson-status-card .card-menu {
+  min-width: 192px;
+  border: 2px solid #d8e4ed;
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 9px 20px #25324d1c;
+}
+.app-shell .lesson-status-card .lesson-card-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 21px 22px 22px;
+}
+.app-shell .lesson-status-card .card-subject-row {
+  margin-bottom: 11px;
+}
+.app-shell .lesson-status-card .lesson-card-body h3 {
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 1.35;
+  min-height: 0;
+  margin: 0 0 12px;
+  overflow-wrap: anywhere;
+}
+.app-shell .lesson-status-card .lesson-status-message {
+  margin: 0 0 18px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #5d7383;
+  line-height: 1.6;
+}
+.app-shell .lesson-status-card .card-progress {
+  margin: 0 0 18px;
+}
+.app-shell .lesson-status-card .card-progress-label {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  color: #6b7d91;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.app-shell .lesson-status-card .card-progress-label strong {
+  font-size: 14px;
+  font-weight: 900;
+  color: #6972a6;
+}
+.app-shell .lesson-status-card .card-best-score {
+  display: inline-block;
+  font-size: 11px;
+  color: #8591a0;
+  margin-top: 8px;
+}
+.app-shell .lesson-status-card .lesson-details-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 11px;
+  font-size: 12px;
+  color: #718396;
+  margin-top: auto;
+}
+.app-shell .lesson-status-card .lesson-details-row > span:not(:last-child)::after {
+  content: '·';
+  padding-left: 11px;
+  color: #a8b7c2;
+}
+.app-shell .lesson-status-card .lesson-created {
+  font-size: 11px;
+  color: #7a8a9d;
+  margin-top: 9px;
+}
+.app-shell .lesson-status-card .lesson-action-footer {
+  display: block;
+  padding-top: 18px;
+  margin-top: 17px;
+  border-top: 1px solid #e9eef3;
+}
+.app-shell .lesson-status-card .lesson-card-action {
+  width: 100%;
+  min-height: 48px;
+  height: auto;
+  border-radius: 14px;
+  font-size: 14px;
+  justify-content: center;
+  padding: 10px 15px;
+}
+.app-shell .lesson-status-card.status-ready .lesson-card-action {
+  background: #439e6b;
+  border-color: #37835a;
+  box-shadow: 0 4px #31764e;
+}
+.app-shell .lesson-status-card.status-ready .lesson-card-action:hover {
+  background: #4ca775;
+}
+.app-shell .lesson-status-card.status-preparing .lesson-card-action {
+  background: #eab84c;
+  color: #634619;
+  border-color: #d6a841;
+  box-shadow: 0 4px #c7942f;
+}
+.app-shell .lesson-status-card.status-progress .lesson-card-action {
+  background: #4899c6;
+  border-color: #3786b3;
+  box-shadow: 0 4px #2e709b;
+}
+.app-shell .lesson-status-card.status-completed .lesson-card-action {
+  background: #9970cb;
+  border-color: #8860b6;
+  box-shadow: 0 4px #74509c;
+}
+.app-shell .lesson-status-card.status-failed .lesson-card-action {
+  background: #fff2eb;
+  color: #a85d44;
+  border-color: #e7c0ad;
+  box-shadow: 0 4px #ddb5a1;
+}
+.app-shell .lesson-status-card .lesson-card-action:focus-visible {
+  outline: 3px solid #7555b4;
+  outline-offset: 4px;
+}
+.app-shell[data-ui-language='en-zh'] .lesson-status-card .lesson-status-head {
+  min-height: 96px;
+}
+.app-shell[data-ui-language='en-zh'] .lesson-status-card .lesson-state {
+  font-size: 17px;
+}
+.app-shell[data-ui-language='en-zh'] .lesson-status-card .lesson-card-action {
+  min-height: 59px;
+}
+@media (max-width: 600px) {
+  .app-shell .collection-controls {
+    flex-wrap: wrap;
+    min-width: 0;
+  }
+  .app-shell .collection-controls .collection-search,
+  .app-shell .collection-controls select {
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    flex: 1 1 100%;
+  }
+  .app-shell .collection-search input {
+    width: 100%;
+    min-width: 0;
+  }
+  .app-shell .lesson-status-card .lesson-status-head {
+    padding: 17px 20px;
+  }
+  .app-shell .lesson-status-card .lesson-card-body {
+    padding: 20px;
+  }
+  .app-shell .lesson-status-card .lesson-card-body h3 {
+    font-size: 23px;
+  }
+  .app-shell .lesson-status-card .lesson-state {
+    font-size: 19px;
+  }
+  .app-shell .lesson-status-card .lesson-card-action {
+    font-size: 15px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .app-shell .lesson-status-card .lesson-state .spin {
+    animation: none;
+  }
+}

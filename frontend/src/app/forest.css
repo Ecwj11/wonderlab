@@ -1,0 +1,1147 @@
+/* Number Forest: hand-painted scenery, bright toy blocks and wooden trail signs. */
+.forest-game {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  width: 100%;
+  border: 5px solid #765337;
+  border-radius: 24px;
+  background: #1c594e;
+  font-family: var(--font-nunito), Nunito, sans-serif;
+  box-shadow:
+    0 8px 0 #d9c4a1,
+    0 18px 38px #1e483e1c;
+  color: #fff6dc;
+  outline: none;
+}
+.forest-game:focus-visible {
+  outline: 4px solid #27adf2;
+  outline-offset: 5px;
+}
+.forest-game button {
+  font: inherit;
+  cursor: pointer;
+  touch-action: manipulation;
+}
+.forest-game button:focus-visible {
+  outline: 3px solid #fff;
+  outline-offset: 3px;
+  box-shadow: 0 0 0 6px #1678bd;
+}
+.forest-game button:disabled {
+  cursor: default;
+  opacity: 0.48;
+}
+.forest-hud {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 13px 17px;
+  background: linear-gradient(180deg, #255f50, #194a40);
+  border-bottom: 3px solid #123e35;
+  flex-wrap: wrap;
+}
+.forest-name {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 23px;
+  font-weight: 900;
+  letter-spacing: -0.7px;
+  padding: 8px 17px;
+  background: linear-gradient(#ad7a48, #87522f);
+  border: 2px solid #e2ac6b;
+  border-radius: 7px;
+  box-shadow:
+    inset 0 2px #e7b57c,
+    0 3px #103e30;
+  white-space: nowrap;
+  text-shadow: 0 2px #673c24;
+}
+.forest-name svg {
+  color: #a7e658;
+  fill: #538f30;
+  filter: drop-shadow(0 1px #4a3423);
+}
+.forest-level {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 11px;
+  border-radius: 18px;
+  background: #0c6670;
+  border: 2px solid #68b9b4;
+  font-size: 13px;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.forest-stats {
+  display: flex;
+  gap: 14px;
+  margin-left: auto;
+  font-weight: 900;
+  white-space: nowrap;
+}
+.forest-stats > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #fff5d3;
+}
+.forest-stats svg {
+  color: #ffd43e;
+}
+.forest-tools {
+  display: flex;
+  gap: 7px;
+}
+.forest-tools button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  min-width: 39px;
+  min-height: 39px;
+  border: 2px solid #76cfff;
+  border-radius: 12px;
+  background: linear-gradient(#47b8f3, #127bc6);
+  box-shadow:
+    inset 0 2px #b3e9ff,
+    0 3px #0b3547;
+  color: white;
+  font-weight: 900;
+  padding: 7px 9px;
+  font-size: 13px;
+}
+.forest-tools button:hover:not(:disabled) {
+  background: linear-gradient(#65caff, #248dde);
+}
+.forest-world {
+  position: relative;
+  overflow: hidden;
+  height: clamp(430px, 46vw, 610px);
+  background: #1c5145;
+  container-type: inline-size;
+}
+.forest-landscape {
+  display: block;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  pointer-events: auto;
+}
+.forest-equation-board {
+  position: absolute;
+  left: 22px;
+  top: 24px;
+  width: 285px;
+  background: #996237;
+  border: 6px solid #88522e;
+  border-radius: 10px;
+  box-shadow:
+    0 5px 0 #5e3f29,
+    0 7px 15px #15372640;
+  transform: rotate(-1deg);
+}
+.forest-equation-board:before,
+.forest-equation-board:after {
+  content: '';
+  position: absolute;
+  top: -12px;
+  width: 8px;
+  height: 23px;
+  background: #6e713b;
+  border: 2px solid #b2a272;
+  border-radius: 4px;
+  left: 21px;
+}
+.forest-equation-board:after {
+  left: auto;
+  right: 21px;
+}
+.forest-equation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  background: linear-gradient(100deg, #fff7dc, #f5e4bc);
+  border: 3px solid #d3a974;
+  border-radius: 4px;
+  padding: 12px 8px;
+  color: #69452f;
+  font-size: 43px;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: 0 1px #fff;
+}
+.forest-equation strong.blue {
+  color: #0a89e7;
+  -webkit-text-stroke: 1px #0068b7;
+  text-shadow: 0 3px #afdfff;
+}
+.forest-equation strong.gold {
+  color: #fbb628;
+  -webkit-text-stroke: 1px #af650a;
+  text-shadow: 0 3px #ffdc7b;
+}
+.forest-equation .unknown {
+  border: 2px dashed #b69775;
+  border-radius: 7px;
+  padding: 4px 10px;
+  color: #a38775;
+}
+.forest-equation .solved {
+  color: #478d42;
+}
+.forest-objective {
+  padding: 10px 14px 4px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.35;
+  font-weight: 900;
+  color: #fff1d0;
+  text-shadow: 0 1px #794627;
+}
+.forest-group-counts {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  padding: 7px 10px 11px;
+  font-weight: 900;
+}
+.forest-group-counts > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.forest-group-counts i {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #d1f5ff;
+  background: #058be8;
+  box-shadow: 2px -2px #42d0ff;
+  display: inline-block;
+  border-radius: 2px;
+}
+.forest-group-counts i.gold {
+  background: #f7b508;
+  border-color: #fff6a2;
+  box-shadow: 2px -2px #ffe048;
+}
+.forest-waypoint {
+  position: absolute;
+  top: 28px;
+  right: 23px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 13px;
+  border: 2px solid #e3b176;
+  border-radius: 6px;
+  box-shadow: 0 3px #6a452b;
+  background: #a16e42;
+  color: #fff4d7;
+  font-size: 13px;
+  font-weight: 900;
+  transform: rotate(2deg);
+}
+.forest-bottom {
+  position: absolute;
+  bottom: 19px;
+  left: 20px;
+  right: 20px;
+  z-index: 2;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 15px;
+  pointer-events: none;
+}
+.forest-bottom button,
+.forest-inventory {
+  pointer-events: auto;
+}
+.forest-move-controls {
+  display: flex;
+  gap: 12px;
+}
+.forest-control {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  background: #164f6bd9;
+  border: 3px solid #c3e9eb;
+  box-shadow:
+    inset 0 2px 8px #8cd5db60,
+    0 5px #153f4850;
+  color: #e8fcff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  touch-action: none !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.forest-control svg {
+  width: 43px;
+  height: 43px;
+  stroke-width: 3;
+  filter: drop-shadow(0 2px 1px #082e45);
+}
+.forest-control:active:not(:disabled) {
+  background: #278db3;
+  transform: translateY(2px);
+}
+.forest-jump {
+  flex-direction: column;
+  width: 78px;
+  height: 78px;
+}
+.forest-jump svg {
+  width: 38px;
+  height: 38px;
+}
+.forest-jump > span {
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1.1;
+}
+.forest-inventory {
+  width: min(350px, 44%);
+  padding: 8px 12px 10px;
+  background: linear-gradient(#a67343, #714323);
+  border: 3px solid #d9a66a;
+  border-radius: 16px;
+  box-shadow:
+    0 4px #573621,
+    inset 0 2px #eed0a1;
+  color: #fff0d1;
+}
+.forest-inventory-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 900;
+  padding-bottom: 5px;
+  text-shadow: 0 2px #684023;
+}
+.forest-inventory-heading strong {
+  padding: 1px 12px;
+  border-radius: 20px;
+  background: #734426;
+}
+.forest-inventory-slots {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.forest-slot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 28px;
+  height: 29px;
+  border: 2px dashed #d6b184;
+  border-radius: 5px;
+  color: transparent;
+  background: #583b2760;
+  font-size: 25px;
+  line-height: 1;
+}
+.forest-slot.blue {
+  background: linear-gradient(140deg, #43d2ff, #027ce8);
+  color: #c9f5ff;
+  border: 2px solid #b8f1ff;
+  text-shadow: 0 1px #006abd;
+  box-shadow: 0 2px #184a73;
+}
+.forest-slot.value-slot {
+  flex-basis: 42px;
+  font-size: 13px;
+  font-weight: 900;
+}
+.forest-slot.gold {
+  background: linear-gradient(140deg, #ffe962, #f5a200);
+  color: #fff6b9;
+  border: 2px solid #fff0a0;
+  text-shadow: 0 1px #a76c00;
+  box-shadow: 0 2px #815126;
+}
+.forest-slot.removed {
+  opacity: 0.25;
+  text-decoration: line-through;
+  position: relative;
+}
+.forest-slot.removed:after {
+  content: '';
+  position: absolute;
+  inset: 3px;
+  transform: rotate(-40deg);
+  border-top: 3px solid #fff;
+}
+.forest-build-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 34px;
+  width: 100%;
+  border: 2px solid #d8f7a8;
+  border-radius: 8px;
+  background: linear-gradient(#96c84d, #4c8c38);
+  box-shadow: 0 2px #345b25;
+  color: #fff;
+  line-height: 1.2;
+  font-weight: 900;
+  font-size: 13px;
+  padding: 5px 7px;
+}
+.forest-build-button:disabled {
+  background: #735338;
+  opacity: 0.8;
+  color: #d7c3a2;
+  border-color: #a98c69;
+}
+.forest-built-label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  color: #ddffb0;
+  font-size: 13px;
+  font-weight: 900;
+  padding: 5px;
+}
+.forest-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+  background: #123b3b70;
+  padding: 20px;
+  backdrop-filter: blur(3px);
+}
+.forest-welcome {
+  background: #153e3240;
+  backdrop-filter: none;
+}
+.forest-welcome .forest-modal {
+  margin-top: 45px;
+}
+.forest-modal {
+  position: relative;
+  width: min(460px, 100%);
+  padding: 28px 30px;
+  background: linear-gradient(120deg, #fff8df, #fae8bd);
+  border: 7px solid #976339;
+  border-radius: 19px;
+  box-shadow:
+    inset 0 0 0 2px #edc892,
+    0 6px #613d26,
+    0 15px 40px #183a4060;
+  text-align: center;
+  color: #62462d;
+}
+.forest-modal h3 {
+  font-size: 29px;
+  line-height: 1.15;
+  font-weight: 900;
+  letter-spacing: -0.7px;
+  margin: 6px 0 12px;
+}
+.forest-modal p {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 10px 0 18px;
+  color: #72553e;
+}
+.forest-modal-leaf {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: #e1eeaf;
+  border: 2px solid #adc36e;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+  color: #50833c;
+  margin-top: -7px;
+}
+.forest-modal-icon {
+  color: #d8a023;
+  display: block;
+  margin: 0 auto 13px;
+}
+.forest-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  min-height: 49px;
+  width: 100%;
+  border: 2px solid #f6d37a;
+  border-radius: 12px;
+  background: linear-gradient(#efb336, #dd8d1d);
+  box-shadow:
+    inset 0 2px #ffdf91,
+    0 4px #946026;
+  color: #4c361d;
+  font-weight: 900;
+  font-size: 18px;
+  padding: 11px 14px;
+}
+.forest-primary:hover:not(:disabled) {
+  background: linear-gradient(#ffc747, #efa128);
+}
+.forest-modal-close {
+  position: absolute;
+  right: 9px;
+  top: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 3px;
+  background: #ead3a8;
+  border: 1px solid #c09c6d;
+  border-radius: 50%;
+  color: #755234;
+}
+.forest-start-keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  font-size: 12px;
+  margin-top: 19px;
+  color: #876646;
+}
+.forest-game kbd {
+  display: inline-block;
+  border: 1px solid #b9d4cd;
+  border-bottom-width: 2px;
+  border-radius: 4px;
+  background: #ecfaf4;
+  color: #466857;
+  font:
+    700 11px Nunito,
+    sans-serif;
+  min-width: 20px;
+  padding: 2px 4px;
+  text-align: center;
+}
+.forest-answer-panel {
+  position: absolute;
+  z-index: 4;
+  bottom: 155px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 310px;
+  max-width: 90%;
+  padding: 20px 17px 10px;
+  border: 5px solid #926039;
+  border-radius: 15px;
+  background: #fff0c9;
+  box-shadow:
+    0 4px #563b26,
+    0 12px 26px #173d3540;
+  color: #68482f;
+  text-align: center;
+}
+.forest-answer-panel > p {
+  font-size: 17px;
+  font-weight: 900;
+  margin: 0 10px 14px;
+  line-height: 1.3;
+}
+.forest-answer-options {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+.forest-answer-options button {
+  width: 66px;
+  height: 61px;
+  border: 2px solid #77c2d9;
+  border-bottom-width: 5px;
+  border-radius: 10px;
+  background: linear-gradient(#defaff, #b8e8f5);
+  font-size: 31px;
+  font-weight: 900;
+  color: #116783;
+}
+.forest-answer-options button:hover {
+  background: #f5db65;
+  border-color: #c39a31;
+  color: #6d4a15;
+}
+.forest-answer-feedback {
+  min-height: 35px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 800;
+  color: #a74327;
+  line-height: 1.3;
+}
+.forest-win-star {
+  color: #d99617;
+  filter: drop-shadow(0 3px #e5bc58);
+}
+.forest-earned {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  font-size: 21px;
+  font-weight: 900;
+  color: #956621;
+  margin: 15px 0 23px;
+}
+.forest-earned svg {
+  color: #d8a129;
+}
+.forest-earned .localized-pair {
+  font-size: 13px;
+}
+.forest-modal .forest-xp {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.forest-victory h3 {
+  font-size: 28px;
+}
+.forest-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  flex-wrap: wrap;
+  padding: 10px 14px;
+  color: #c9e7d9;
+  background: #1c5145;
+  font-size: 11px;
+  font-weight: 800;
+}
+.forest-footer > span {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.forest-footer > span:last-child {
+  color: #b0d1bf;
+}
+.forest-fullscreen-message {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 9px;
+  background: #fff3ca;
+  color: #714e2b;
+  font-size: 13px;
+}
+.forest-fullscreen-message button {
+  display: flex;
+  border: 0;
+  background: none;
+  color: inherit;
+}
+.forest-game .localized-pair {
+  gap: 1px;
+}
+.forest-game .localized-zh {
+  font-size: 0.8em;
+  line-height: 1.15;
+}
+.forest-equation-board .localized-zh {
+  color: #ebd7b6;
+}
+.forest-tools .localized-zh {
+  color: #d3f1ff;
+}
+.forest-modal .localized-zh {
+  color: #927252;
+}
+.forest-primary .localized-zh {
+  color: #775321;
+}
+.forest-footer .localized-zh {
+  color: #a6cab8;
+}
+.forest-game:fullscreen {
+  display: flex;
+  flex-direction: column;
+  max-width: none;
+  border-radius: 0;
+  width: 100vw;
+  height: 100dvh;
+  border: 0;
+}
+.forest-game:fullscreen .forest-world {
+  flex: 1;
+  height: auto;
+  min-height: 0;
+}
+.forest-game:fullscreen .forest-hud {
+  flex-shrink: 0;
+}
+.forest-game:fullscreen .forest-footer {
+  flex-shrink: 0;
+}
+@media (min-width: 1200px) {
+  .forest-control {
+    width: 84px;
+    height: 84px;
+  }
+  .forest-jump {
+    width: 91px;
+    height: 91px;
+  }
+  .forest-bottom {
+    bottom: 23px;
+    left: 27px;
+    right: 27px;
+  }
+  .forest-equation-board {
+    width: 303px;
+    left: 27px;
+    top: 29px;
+  }
+}
+@media (max-width: 900px) {
+  .forest-hud {
+    gap: 8px;
+    padding: 10px 12px;
+  }
+  .forest-name {
+    font-size: 20px;
+    padding: 7px 12px;
+  }
+  .forest-name svg {
+    width: 19px;
+  }
+  .forest-tools button {
+    padding: 6px;
+    min-width: 35px;
+    min-height: 35px;
+  }
+  .forest-tools button > span {
+    display: none;
+  }
+  .forest-level {
+    font-size: 11px;
+    padding: 7px 9px;
+  }
+  .forest-stats {
+    gap: 8px;
+    font-size: 13px;
+  }
+  .forest-stats svg {
+    width: 18px;
+  }
+  .forest-equation-board {
+    width: 240px;
+    left: 17px;
+    top: 20px;
+  }
+  .forest-equation {
+    font-size: 34px;
+    padding: 9px 7px;
+  }
+  .forest-objective {
+    font-size: 12px;
+  }
+  .forest-waypoint {
+    font-size: 11px;
+    right: 17px;
+    top: 24px;
+  }
+  .forest-world {
+    height: 460px;
+  }
+  .forest-control {
+    width: 60px;
+    height: 60px;
+  }
+  .forest-jump {
+    width: 66px;
+    height: 66px;
+  }
+  .forest-control svg {
+    width: 34px;
+    height: 34px;
+  }
+  .forest-inventory {
+    width: 310px;
+    max-width: 44%;
+  }
+  .forest-move-controls {
+    gap: 8px;
+  }
+  .forest-footer {
+    gap: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .forest-game {
+    border-width: 3px;
+    border-radius: 15px;
+  }
+  .forest-hud {
+    gap: 7px;
+    padding: 8px;
+  }
+  .forest-name {
+    font-size: 17px;
+    padding: 5px 8px;
+    letter-spacing: -0.4px;
+    gap: 5px;
+  }
+  .forest-name svg {
+    width: 16px;
+  }
+  .forest-level {
+    font-size: 10px;
+    padding: 5px 7px;
+  }
+  .forest-stats {
+    margin-left: auto;
+    gap: 6px;
+    font-size: 11px;
+  }
+  .forest-stats svg {
+    width: 15px;
+  }
+  .forest-tools {
+    margin-left: auto;
+    gap: 5px;
+  }
+  .forest-tools button {
+    min-width: 32px;
+    min-height: 31px;
+    padding: 5px;
+    border-radius: 8px;
+  }
+  .forest-tools svg {
+    width: 16px;
+    height: 16px;
+  }
+  .forest-world {
+    height: 450px;
+  }
+  .forest-equation-board {
+    left: 12px;
+    top: 15px;
+    width: 200px;
+    border-width: 4px;
+  }
+  .forest-equation {
+    font-size: 30px;
+    gap: 6px;
+    padding: 7px;
+  }
+  .forest-equation .unknown {
+    padding: 3px 8px;
+  }
+  .forest-objective {
+    font-size: 11px;
+    padding: 7px 8px 0;
+  }
+  .forest-group-counts {
+    font-size: 12px;
+    padding: 6px 8px 7px;
+  }
+  .forest-waypoint {
+    top: 20px;
+    right: 11px;
+    width: 99px;
+    font-size: 10px;
+    gap: 3px;
+    padding: 7px 6px;
+    line-height: 1.15;
+  }
+  .forest-waypoint > svg {
+    width: 12px;
+    flex-shrink: 0;
+  }
+  .forest-waypoint > svg:first-child {
+    display: none;
+  }
+  .forest-bottom {
+    left: 10px;
+    right: 10px;
+    bottom: 12px;
+    gap: 6px;
+  }
+  .forest-move-controls {
+    gap: 5px;
+  }
+  .forest-control {
+    width: 45px;
+    height: 48px;
+    border-width: 2px;
+  }
+  .forest-control svg {
+    width: 29px;
+    height: 29px;
+  }
+  .forest-jump {
+    width: 50px;
+    height: 55px;
+    flex-shrink: 0;
+  }
+  .forest-jump > span {
+    font-size: 9px;
+  }
+  .forest-jump svg {
+    width: 26px;
+    height: 26px;
+  }
+  .forest-inventory {
+    max-width: none;
+    width: calc(100% - 163px);
+    min-width: 132px;
+    border-width: 2px;
+    border-radius: 10px;
+    padding: 6px 6px 7px;
+  }
+  .forest-inventory-heading {
+    font-size: 11px;
+    gap: 4px;
+    padding-bottom: 5px;
+  }
+  .forest-inventory-heading strong {
+    padding: 1px 7px;
+  }
+  .forest-inventory-slots {
+    gap: 3px;
+    margin-bottom: 5px;
+  }
+  .forest-slot {
+    flex-basis: 21px;
+    height: 22px;
+    font-size: 18px;
+    border-width: 1px;
+  }
+  .forest-slot.blue,
+  .forest-slot.gold {
+    border-width: 1px;
+  }
+  .forest-build-button {
+    min-height: 28px;
+    font-size: 10px;
+    gap: 3px;
+    padding: 4px;
+  }
+  .forest-build-button svg {
+    width: 12px;
+    flex-shrink: 0;
+  }
+  .forest-built-label {
+    font-size: 10px;
+    padding: 3px;
+  }
+  .forest-answer-panel {
+    bottom: 147px;
+    width: 275px;
+  }
+  .forest-footer {
+    font-size: 10px;
+    gap: 12px;
+    padding: 8px;
+  }
+  .forest-footer > span:last-child {
+    display: none;
+  }
+  .forest-game kbd {
+    font-size: 9px;
+    min-width: 15px;
+    padding: 1px 3px;
+  }
+  .forest-modal {
+    padding: 23px 21px;
+    border-width: 5px;
+  }
+  .forest-modal h3 {
+    font-size: 25px;
+  }
+  .forest-modal p {
+    font-size: 13px;
+    margin: 8px 0 15px;
+  }
+  .forest-primary {
+    font-size: 17px;
+    min-height: 45px;
+  }
+  .forest-overlay {
+    padding: 13px;
+  }
+  .forest-welcome .forest-modal {
+    margin-top: 75px;
+  }
+  .forest-start-keys {
+    font-size: 10px;
+    margin-top: 17px;
+    gap: 5px;
+  }
+  .forest-earned {
+    font-size: 18px;
+    margin: 13px 0 18px;
+  }
+  .forest-game:fullscreen .forest-world {
+    min-height: 320px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .forest-game * {
+    scroll-behavior: auto;
+    animation: none !important;
+    transition: none !important;
+  }
+}
+@media (max-height: 600px) and (orientation: landscape) {
+  .forest-game:fullscreen .forest-hud {
+    padding: 6px 10px;
+  }
+  .forest-game:fullscreen .forest-footer {
+    display: none;
+  }
+  .forest-game:fullscreen .forest-world {
+    min-height: 0;
+  }
+  .forest-game:fullscreen .forest-equation-board {
+    top: 12px;
+    width: 210px;
+  }
+  .forest-game:fullscreen .forest-equation {
+    font-size: 29px;
+    padding: 6px;
+  }
+  .forest-game:fullscreen .forest-objective {
+    font-size: 11px;
+  }
+  .forest-game:fullscreen .forest-waypoint {
+    top: 15px;
+  }
+  .forest-game:fullscreen .forest-bottom {
+    bottom: 9px;
+  }
+  .forest-game:fullscreen .forest-modal {
+    padding: 13px 23px;
+    max-width: 470px;
+  }
+  .forest-game:fullscreen .forest-modal p {
+    margin: 7px 0;
+    font-size: 12px;
+  }
+  .forest-game:fullscreen .forest-modal h3 {
+    font-size: 23px;
+  }
+  .forest-game:fullscreen .forest-modal-icon,
+  .forest-game:fullscreen .forest-modal-leaf {
+    display: none;
+  }
+  .forest-game:fullscreen .forest-primary {
+    min-height: 37px;
+    padding: 6px 10px;
+    font-size: 15px;
+  }
+  .forest-game:fullscreen .forest-start-keys {
+    margin-top: 9px;
+  }
+}
+/* Give the playable world the full lesson width; notes belong below the game. */
+.app-shell .forest-lesson .player-layout {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 22px;
+}
+.app-shell .forest-lesson .player-main {
+  border: 0;
+  background: transparent;
+  overflow: visible;
+  box-shadow: none;
+  border-radius: 0;
+}
+.app-shell .forest-lesson .interactive-stage {
+  padding: 0;
+  background: transparent;
+  min-height: 0;
+}
+.app-shell .forest-lesson .stage-toolbar,
+.app-shell .forest-lesson .stage-bottom {
+  display: none;
+}
+.app-shell .forest-learning-notes {
+  border: 1px solid #d4e3d2;
+  border-radius: 13px;
+  background: #f5f9f1;
+  overflow: hidden;
+  color: #385b44;
+}
+.app-shell .forest-learning-notes > summary {
+  cursor: pointer;
+  padding: 15px 20px;
+  font-size: 15px;
+  font-weight: 900;
+  list-style-position: inside;
+}
+.app-shell .forest-learning-notes > summary::marker {
+  color: #65905d;
+}
+.app-shell .forest-learning-notes > summary:focus-visible {
+  outline: 3px solid #319ddd;
+  outline-offset: -3px;
+}
+.app-shell .forest-learning-notes[open] > summary {
+  border-bottom: 1px solid #d4e3d2;
+}
+.app-shell .forest-learning-notes .player-aside {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  padding: 18px;
+}
+.app-shell .forest-learning-notes .panel {
+  margin: 0;
+  background: white;
+  border-color: #e1e8d9;
+  box-shadow: none;
+}
+@media (max-width: 700px) {
+  .app-shell .forest-learning-notes .player-aside {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 12px;
+  }
+}
+
+/* Keep the counting tray outside the world so it never hides the explorer. */
+.forest-inventory.forest-top-inventory {
+  display: block;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: none;
+  min-width: 0;
+  border-radius: 0;
+  border-width: 0 0 2px;
+  box-shadow: none;
+  padding: 8px 12px;
+}
+.forest-top-inventory .forest-inventory-heading {
+  font-size: 12px;
+}
+.forest-top-inventory .forest-build-button {
+  width: min(240px, 100%);
+  margin-inline: auto;
+  min-height: 32px;
+  font-size: 11px;
+}

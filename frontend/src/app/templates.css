@@ -1,0 +1,735 @@
+/* Known template IDs select trusted presentation. No CSS arrives from the API. */
+.app-shell[data-template] {
+  --portal-bg: #f3faff;
+  --portal-title: #203c65;
+  --portal-copy: #536d8a;
+  --portal-line: #d7e7f2;
+  --portal-primary: #278ee7;
+  --portal-primary-dark: #156eb9;
+  --portal-shadow: #d6e8f2;
+  --portal-radius: 24px;
+}
+.app-shell[data-template='space'] {
+  --portal-bg: #f3f2ff;
+  --portal-title: #251e58;
+  --portal-copy: #626087;
+  --portal-line: #e0dcf4;
+  --portal-primary: #8354db;
+  --portal-primary-dark: #6033ad;
+  --portal-shadow: #e0dcf1;
+  --portal-radius: 22px;
+  --ink: #29264d;
+  --purple: #8354db;
+  --line: #e0dcf4;
+}
+.app-shell[data-template='clay'] {
+  --portal-bg: #fffaf2;
+  --portal-title: #503327;
+  --portal-copy: #7c685d;
+  --portal-line: #eddfd1;
+  --portal-primary: #e7634d;
+  --portal-primary-dark: #bc493b;
+  --portal-shadow: #eddfd1;
+  --portal-radius: 29px;
+  --ink: #503327;
+  --purple: #d65c47;
+  --line: #eddfd1;
+  --lavender: #e6ddfa;
+  --mint: #d4edc9;
+  --coral: #ffdfcd;
+  --blue: #d8eaf9;
+}
+.app-shell[data-template] .main-shell {
+  background: var(--portal-bg);
+}
+.app-shell[data-template]
+  :is(
+    .topbar,
+    .lesson-card,
+    .create-form,
+    .player-main,
+    .explanation-panel,
+    .objectives-panel,
+    .panel,
+    .badge-card
+  ) {
+  border-color: var(--portal-line);
+}
+.app-shell[data-template]
+  :is(
+    .lesson-card,
+    .create-form,
+    .player-main,
+    .explanation-panel,
+    .objectives-panel,
+    .panel,
+    .badge-card
+  ) {
+  border-radius: var(--portal-radius);
+}
+.app-shell[data-template]
+  :is(.page-heading h1, .section-heading h2, .lesson-card h3, .player-heading h1) {
+  color: var(--portal-title);
+}
+.app-shell[data-template] :is(.page-heading p, .section-heading p, .app-footer, .greeting) {
+  color: var(--portal-copy);
+}
+.app-shell[data-template] .button.primary {
+  background: var(--portal-primary);
+  border-color: var(--portal-primary-dark);
+  box-shadow: 0 4px var(--portal-primary-dark);
+}
+.app-shell[data-template] .button.primary:hover {
+  background: var(--portal-primary-dark);
+}
+.app-shell[data-template] .lesson-card {
+  box-shadow: 0 6px var(--portal-shadow);
+}
+.app-shell[data-template] :is(.card-play, .card-reuse) {
+  background: var(--portal-primary);
+  box-shadow: 0 4px var(--portal-primary-dark);
+}
+.app-shell[data-template] .progress-track > div {
+  background: var(--portal-primary);
+}
+.app-shell[data-template] .subject-world {
+  border-radius: var(--portal-radius);
+}
+.app-shell[data-template] .template-hero-art {
+  width: 100%;
+  height: 100%;
+  max-height: 400px;
+  object-fit: contain;
+}
+.app-shell[data-template] .playground-picture {
+  padding: 6px 12px 31px;
+}
+.app-shell[data-template] .kids-hero .hero-copy p {
+  max-width: 430px;
+}
+.app-shell[data-template] .template-preview-notice {
+  background: #fff5cc;
+  border: 1px solid #e8d98e;
+  border-radius: 12px;
+  color: #6d5324;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 24px;
+  font-size: 14px;
+}
+.app-shell[data-template] .template-preview-notice a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-weight: 800;
+  color: #574a98;
+  white-space: nowrap;
+}
+/* Playground: saturated learning worlds on a bright sky. */
+.app-shell[data-template='playground'] .subject-world[data-subject='MATHEMATICS'] {
+  background: #d7efff;
+  border-color: #abdafe;
+  box-shadow: 0 6px #abdafe;
+  color: #18639f;
+}
+.app-shell[data-template='playground'] .subject-world[data-subject='SCIENCE'] {
+  background: #d9f5df;
+  border-color: #afe3bd;
+  box-shadow: 0 6px #afe3bd;
+  color: #217447;
+}
+.app-shell[data-template='playground'] .subject-world[data-subject='HISTORY'] {
+  background: #ffe1e6;
+  border-color: #f6b8c7;
+  box-shadow: 0 6px #f6b8c7;
+  color: #a34b64;
+}
+.app-shell[data-template='playground'] .subject-world[data-subject='GEOGRAPHY'] {
+  background: #eee0ff;
+  border-color: #d5bafa;
+  box-shadow: 0 6px #d5bafa;
+  color: #694ba0;
+}
+.app-shell[data-template='playground'] .subject-world[data-subject='GENERAL'] {
+  background: #fff1b9;
+  border-color: #f3d976;
+  box-shadow: 0 6px #f3d976;
+  color: #826315;
+}
+.app-shell[data-template='playground'] .subject-world :is(strong, small) {
+  color: inherit;
+}
+.app-shell[data-template='playground'] .world-icon {
+  background: #ffffff8c;
+  color: inherit;
+  box-shadow: 0 3px #ffffff6b;
+}
+/* Space: cosmic chrome, a bright learning canvas, one dramatic mission stage. */
+.app-shell[data-template='space'] .sidebar {
+  background: #211e4a;
+  border-color: #352f66;
+  background-image: radial-gradient(circle at 22% 72%, #4c387c 0, transparent 29%);
+}
+.app-shell[data-template='space']
+  .sidebar
+  :is(.brand, .nav-item, .subject-nav a, .profile-mini strong) {
+  color: #eeeaff;
+}
+.app-shell[data-template='space']
+  .sidebar
+  :is(.workspace-label, .profile-mini > div > span, .subject-nav) {
+  color: #b6acd8;
+}
+.app-shell[data-template='space'] .sidebar .brand-dot {
+  color: #49e1f3;
+}
+.app-shell[data-template='space'] .sidebar .brand-symbol {
+  background: #6050ac;
+  box-shadow: 0 4px #171232;
+}
+.app-shell[data-template='space'] .sidebar .nav-item > svg {
+  color: #c7b9ef;
+}
+.app-shell[data-template='space'] .sidebar .nav-item.active {
+  background: #51439a;
+  box-shadow: inset 0 -3px #7460b9;
+  color: white;
+}
+.app-shell[data-template='space'] .sidebar .nav-item.active > svg {
+  color: #76edfa;
+}
+.app-shell[data-template='space'] .sidebar .nav-item:hover {
+  background: #393065;
+}
+.app-shell[data-template='space'] .sidebar .curiosity-card {
+  background: #393066;
+  border-color: #574684;
+}
+.app-shell[data-template='space'] .sidebar .curiosity-card :is(strong, a) {
+  color: #f3eaff;
+}
+.app-shell[data-template='space'] :is(.sidebar-divider, .profile-mini) {
+  border-color: #4b416e;
+}
+.app-shell[data-template='space'] .sidebar .mobile-close {
+  color: #e8dffb;
+}
+.app-shell[data-template='space'] .topbar {
+  background: #fcfbff;
+}
+.app-shell[data-template='space'] .kids-hero {
+  background: radial-gradient(ellipse at 73% 40%, #44307c, transparent 47%), #18183e;
+  border-color: #373260;
+  box-shadow: 0 6px #d8d3eb;
+  overflow: hidden;
+}
+.app-shell[data-template='space'] .kids-hero::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle at 65% 19%, #e4dcff 0 1px, transparent 2px),
+    radial-gradient(circle at 81% 82%, #ffda6a 0 2px, transparent 3px),
+    radial-gradient(circle at 91% 30%, #bcefff 0 1px, transparent 2px),
+    radial-gradient(circle at 58% 64%, #bcefff 0 1px, transparent 2px);
+  background-size:
+    140px 150px,
+    190px 180px,
+    160px 210px,
+    220px 190px;
+}
+.app-shell[data-template='space'] .kids-hero .hero-copy {
+  position: relative;
+  z-index: 1;
+}
+.app-shell[data-template='space'] .kids-hero h2 {
+  color: white;
+}
+.app-shell[data-template='space'] .kids-hero :is(.hero-copy p, .hero-footnote, .hero-library-link) {
+  color: #d9d3f5;
+}
+.app-shell[data-template='space'] .kids-hero .club-badge {
+  background: #ffffff17;
+  color: #83e9f4;
+  border: 1px solid #8ed8f542;
+}
+.app-shell[data-template='space'] .kids-hero .hero-button {
+  background: #49e1f3;
+  border-color: #1eb4c9;
+  color: #183854;
+  box-shadow: 0 5px #218a9c;
+}
+.app-shell[data-template='space'] .kids-hero .hero-button:hover {
+  background: #83edfa;
+}
+.app-shell[data-template='space'] .mascot-speech {
+  background: #383163;
+  border-color: #6b59a1;
+  color: #ece3ff;
+  box-shadow: 0 3px #110f2e;
+}
+.app-shell[data-template='space'] .world-icon {
+  background: #ffffff94;
+  border-radius: 50%;
+  box-shadow:
+    0 4px #00000010,
+    inset 0 2px white;
+}
+.app-shell[data-template='space'] .subject-world {
+  border-width: 1px;
+  box-shadow: 0 5px #dcd8f1;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='MATHEMATICS'] {
+  background: #d6eaff;
+  border-color: #b6d3f8;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='SCIENCE'] {
+  background: #d1f2e9;
+  border-color: #a9ddd1;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='HISTORY'] {
+  background: #ffe3cb;
+  border-color: #f1cdb1;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='GEOGRAPHY'] {
+  background: #d3edf2;
+  border-color: #abd4df;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='GENERAL'] {
+  background: #e5d7ff;
+  border-color: #cbb3f0;
+}
+.app-shell[data-template='space'] .create-wonder-note {
+  background: #eee7fc;
+  border-color: #d7c7f1;
+}
+.app-shell[data-template='space'] .input-modes {
+  background: #edeafa;
+}
+.app-shell[data-template='space'] .player-scene-nav .active {
+  background: #e6ddff;
+  border-color: #cabbf2;
+  color: #50368d;
+}
+.app-shell[data-template='space'] :is(.stage-toolbar, .library-tabs) {
+  background: #eae7f8;
+}
+/* Clay: warm discovery studio, gentle clay colors and soft tactile surfaces. */
+.app-shell[data-template='clay'] .sidebar {
+  background: #fffdf8;
+  border-color: #eddfcf;
+}
+.app-shell[data-template='clay'] .sidebar .brand {
+  color: #654737;
+}
+.app-shell[data-template='clay'] .brand-symbol {
+  background: #ec8b5c;
+  box-shadow: 0 4px #c96e44;
+}
+.app-shell[data-template='clay'] .workspace-label {
+  color: #94705b;
+}
+.app-shell[data-template='clay'] .nav-item {
+  color: #765c4b;
+}
+.app-shell[data-template='clay'] .nav-item.active {
+  background: #ffe8da;
+  color: #a95336;
+  box-shadow: inset 0 -3px #f7c7ae;
+}
+.app-shell[data-template='clay'] .nav-item.active > svg {
+  color: #c56f4d;
+}
+.app-shell[data-template='clay'] .nav-item:hover {
+  background: #fff0e5;
+}
+.app-shell[data-template='clay'] .subject-nav a {
+  color: #866a56;
+}
+.app-shell[data-template='clay'] .curiosity-card {
+  background: #fff0dc;
+  border-color: #f4d9b8;
+}
+.app-shell[data-template='clay'] .topbar {
+  background: #fffdf8;
+}
+.app-shell[data-template='clay'] .top-search {
+  background: #fbf1e5;
+  border-color: #eedfce;
+}
+.app-shell[data-template='clay'] .kids-hero {
+  background: #ffe391;
+  border-color: #f5d480;
+  box-shadow: 0 6px #f1dfb2;
+  border-radius: 31px;
+}
+.app-shell[data-template='clay'] .kids-hero h2 {
+  color: #553326;
+}
+.app-shell[data-template='clay'] .kids-hero :is(.hero-copy p, .hero-library-link, .hero-footnote) {
+  color: #805d3b;
+}
+.app-shell[data-template='clay'] .kids-hero .club-badge {
+  background: #fff7d7;
+  color: #946b30;
+}
+.app-shell[data-template='clay'] .kids-hero .hero-button {
+  background: #ed765a;
+  border-color: #d45e46;
+  color: white;
+  box-shadow: 0 5px #c85640;
+}
+.app-shell[data-template='clay'] .kids-hero .hero-button:hover {
+  background: #d96047;
+}
+.app-shell[data-template='clay'] .mascot-speech {
+  color: #876647;
+  border-color: #e6cda5;
+  box-shadow: 0 3px #dcbc8c;
+  background: #fff9df;
+}
+.app-shell[data-template='clay'] .stat-card {
+  border-width: 1px;
+  box-shadow: 0 5px 15px #8b5d2d08;
+}
+.app-shell[data-template='clay'] .stat-card:nth-child(1) {
+  background: #ffe3d4;
+  border-color: #f1cabb;
+}
+.app-shell[data-template='clay'] .stat-card:nth-child(2) {
+  background: #e1efcf;
+  border-color: #c4d9ae;
+}
+.app-shell[data-template='clay'] .subject-world {
+  border-width: 1px;
+  box-shadow: 0 5px 14px #74503310;
+}
+.app-shell[data-template='clay'] .subject-world[data-subject='MATHEMATICS'] {
+  background: #ffdfd1;
+  border-color: #efc4b6;
+  color: #924d3c;
+}
+.app-shell[data-template='clay'] .subject-world[data-subject='SCIENCE'] {
+  background: #d7ecc9;
+  border-color: #bbd6aa;
+  color: #4d7440;
+}
+.app-shell[data-template='clay'] .subject-world[data-subject='HISTORY'] {
+  background: #e9ddf6;
+  border-color: #d4bfe5;
+  color: #6f548b;
+}
+.app-shell[data-template='clay'] .subject-world[data-subject='GEOGRAPHY'] {
+  background: #d9eaf9;
+  border-color: #bbd4e9;
+  color: #466f91;
+}
+.app-shell[data-template='clay'] .subject-world[data-subject='GENERAL'] {
+  background: #fff0bb;
+  border-color: #e9d394;
+  color: #86702e;
+}
+.app-shell[data-template='clay'] .subject-world :is(strong, small) {
+  color: inherit;
+}
+.app-shell[data-template='clay'] .world-icon {
+  background: #ffffff80;
+  color: inherit;
+  border-radius: 19px;
+  box-shadow:
+    0 4px 7px #704e3014,
+    inset 0 2px 2px #ffffffc2;
+}
+.app-shell[data-template='clay'] :is(.world-icon > svg, .stat-icon > svg) {
+  filter: drop-shadow(0 2px 0 #ffffffb0);
+}
+.app-shell[data-template='clay'] .continue-card {
+  background: #f3e8d1;
+  border-color: #e8d6b5;
+  box-shadow: 0 5px #eadab9;
+}
+.app-shell[data-template='clay'] .continue-copy h3 {
+  color: #75603d;
+}
+.app-shell[data-template='clay'] .daily-card {
+  background: #f8edc9;
+  border-color: #ead8a4;
+}
+.app-shell[data-template='clay'] .lesson-card {
+  box-shadow: 0 6px 20px #8159340b;
+}
+.app-shell[data-template='clay'] .create-wonder-note {
+  background: #e6edd5;
+  border-color: #ccd9b3;
+}
+.app-shell[data-template='clay'] .input-modes {
+  background: #fff1df;
+}
+.app-shell[data-template='clay'] .input-modes button.active {
+  color: #9c6742;
+  box-shadow: inset 0 -3px #eacfaa;
+}
+.app-shell[data-template='clay'] :is(input, textarea, select) {
+  border-color: #eadcce;
+  background: #fffefa;
+}
+.app-shell[data-template='clay'] .stage-toolbar {
+  background: #f3eadc;
+  color: #876846;
+}
+.app-shell[data-template='clay'] .interactive-stage.pizza-stage {
+  background: #fff4d9;
+}
+.app-shell[data-template='clay'] .player-scene-nav .active {
+  background: #fff0d9;
+  border-color: #e7cdab;
+  color: #a06c42;
+}
+.app-shell[data-template='clay'] .player-scene-nav .active > span {
+  background: #cc9b6c;
+}
+.app-shell[data-template='clay'] .instruction-note {
+  background: #f6ede0;
+}
+.app-shell[data-template='clay'] :is(.panel-kicker, .explanation-panel h3) {
+  color: #926a4e;
+}
+.app-shell[data-template='clay'] :is(.explanation-panel > p, .instruction-note p) {
+  color: #786553;
+}
+.app-shell[data-template='clay'] .objectives-panel {
+  background: #fcf9f1;
+}
+/* Admin keeps its professional UI; template previews are a focused settings panel. */
+.admin-shell .admin-appearance {
+  margin-bottom: 26px;
+  padding: 25px;
+}
+.admin-shell .appearance-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+  margin-bottom: 25px;
+}
+.admin-shell .appearance-heading h2 {
+  color: #38445c;
+  font-size: 18px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 0;
+}
+.admin-shell .appearance-heading h2 svg {
+  color: #7153dd;
+}
+.admin-shell .appearance-heading p {
+  color: #68748a;
+  margin: 8px 0 0;
+  line-height: 1.6;
+  font-size: 13px;
+}
+.admin-shell .appearance-active {
+  color: #536e60;
+  background: #edf8f1;
+  border: 1px solid #dcebe1;
+  padding: 9px 13px;
+  border-radius: 8px;
+  font-size: 12px;
+  white-space: nowrap;
+}
+.admin-shell .admin-appearance fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.admin-shell .admin-appearance legend {
+  color: #4c5970;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 13px;
+}
+.admin-shell .template-options {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
+}
+.admin-shell .template-option {
+  min-width: 0;
+  border: 2px solid #e5e9f0;
+  border-radius: 13px;
+  background: white;
+  overflow: hidden;
+}
+.admin-shell .template-option.selected {
+  border-color: #8b70e1;
+  box-shadow: 0 0 0 3px #eee9fc;
+}
+.admin-shell .template-choice {
+  cursor: pointer;
+  display: block;
+}
+.admin-shell .template-choice > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1.6;
+  object-fit: cover;
+  border-bottom: 1px solid #e8ebf3;
+}
+.admin-shell .template-choice-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 18px 15px 7px;
+}
+.admin-shell .template-choice input {
+  accent-color: #7357e8;
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  margin: 0;
+}
+.admin-shell .template-choice-title strong {
+  color: #3a445e;
+  font-size: 14px;
+  font-weight: 700;
+}
+.admin-shell .template-applied {
+  margin-left: auto;
+  color: #427255;
+  background: #edf7ee;
+  font-size: 10px;
+  border-radius: 5px;
+  padding: 4px 7px;
+}
+.admin-shell .template-description {
+  display: block;
+  color: #6e7b90;
+  padding: 0 15px;
+  line-height: 1.65;
+  font-size: 12px;
+  min-height: 44px;
+}
+.admin-shell .template-swatches {
+  display: flex;
+  gap: 6px;
+  padding: 13px 15px 16px;
+}
+.admin-shell .template-swatches i {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid #00000013;
+}
+.admin-shell .template-preview-link {
+  margin: 0 15px 15px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #7153bc;
+  font-size: 12px;
+  font-weight: 600;
+}
+.admin-shell .template-preview-link > svg:last-child {
+  margin-left: auto;
+}
+.admin-shell .appearance-scope {
+  color: #69778c;
+  font-size: 12px;
+  line-height: 1.7;
+  margin: 20px 0;
+}
+.admin-shell .appearance-actions {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.admin-shell .admin-appearance :is(button, a, input):focus-visible {
+  outline: 3px solid #7357e8;
+  outline-offset: 4px;
+}
+@media (max-width: 1250px) {
+  .admin-shell .template-choice-title {
+    flex-wrap: wrap;
+  }
+  .admin-shell .template-applied {
+    margin-left: 26px;
+  }
+}
+@media (max-width: 1000px) {
+  .app-shell[data-template] .playground-picture {
+    padding: 0 7px 27px;
+  }
+  .app-shell[data-template] .mascot-speech {
+    font-size: 11px;
+    white-space: normal;
+    text-align: center;
+    min-width: 130px;
+  }
+  .app-shell[data-template] .template-preview-notice {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .admin-shell .template-options {
+    grid-template-columns: 1fr;
+  }
+  .admin-shell .template-option {
+    max-width: 650px;
+  }
+  .admin-shell .template-choice-title {
+    flex-wrap: nowrap;
+  }
+  .admin-shell .template-applied {
+    margin-left: auto;
+  }
+}
+@media (max-width: 760px) {
+  .admin-shell .admin-appearance {
+    padding: 18px;
+  }
+  .admin-shell .appearance-heading {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
+@media (max-width: 600px) {
+  .app-shell[data-template] .playground-picture {
+    padding: 0 5px 25px;
+  }
+  .app-shell[data-template] .template-hero-art {
+    max-height: 235px;
+  }
+  .app-shell[data-template] .kids-hero .hero-copy p {
+    max-width: 100%;
+  }
+  .app-shell[data-template] .mascot-speech {
+    min-width: 190px;
+    font-size: 12px;
+    bottom: 3px;
+  }
+}
+
+.app-shell[data-template='space'] .subject-world[data-subject='MATHEMATICS'] {
+  color: #276998;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='SCIENCE'] {
+  color: #22745f;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='HISTORY'] {
+  color: #996039;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='GEOGRAPHY'] {
+  color: #246c7a;
+}
+.app-shell[data-template='space'] .subject-world[data-subject='GENERAL'] {
+  color: #64419d;
+}
+.app-shell[data-template='space'] .subject-world :is(strong, small) {
+  color: inherit;
+}
